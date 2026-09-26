@@ -1,4 +1,4 @@
-# Semaforo
+# Semáforo
 
 ![Imagen cabecera semaforo](./imagenes/EchidnaSemaforo.png)
 
@@ -19,8 +19,6 @@ Usaremos los 3 LEDes que vienen en la parte central de la Echidna.
 
 ![LEDes en EchidnaBlack](https://github.com/EchidnaEducacion/manual/raw/main/docs/assets/images/Lupa_Ledes.png)
 
-
-
 # 2. Programación
 
 La programación se basa en una secuencia cíclica donde cada LED permanece encendido durante un tiempo específico y luego pasa al siguiente estado de forma automática.
@@ -35,8 +33,9 @@ La programación se basa en una secuencia cíclica donde cada LED permanece ence
 Luego, el ciclo vuelve a comenzar con la luz verde y se repite de forma indefinida.
 
 # 3. Mejóralo
-Prueba a realizar algunas de las siguientes modificaciones al proyecto.
+
+Prueba a realizar algunas de las siguientes modificaciones al proyecto:
 
 1. Crea una animación en Scratch del semáforo de modo que tengamos un semáforo real y uno virtual.
 2. Haz que el led naranja se vuelva intermitente.
-3. Añade el zumbador para que avise que el semáforo cambia a rojo
+3. Añade el zumbador para que avise que el semáforo cambia a rojo.
