@@ -6,7 +6,7 @@
 
 Vamos a realizar un sistema que controle el encendido de un LED en función d la cantidad de luz que reciba el sensor de luz. Con alta luminosidad el LED está apagado y con baja intensidad se enciende.
 
---> GIF o video del funcionamiento?
+--> Video del funcionamiento
 
 ### 1.1 Qué vamos a aprender
 - A programar un sistema automático que controle el encendido de un LED según la luz
@@ -14,13 +14,13 @@ Vamos a realizar un sistema que controle el encendido de un LED en función d la
 
 ### 1.2 Qué componentes vamos a usar
 
-Usaremos la LDR, seonsor de luz, y un LED.
+Usaremos la LDR, que es un sensor de luz, y un LED.
 
-![LEDes en EchidnaBlack](https://github.com/EchidnaEducacion/manual/raw/main/docs/assets/images/Lupa_Ledes.png)
+IMAGEN LUPA LDR
 
 # 2. Programación
 
-Este ejemplo muestra cómo controlar automáticamente el encendido de un LED en función de la intensidad de la luz ambiental detectada por la LDR.
+Revisamos continuamente el valor del sensor de luz, en caso de que sea menor que un cierto umbral encendemos el LED, en caso contrario lo apagamos.
 
 ![Bloques programación interruptor crepuscular](https://github.com/EchidnaEducacion/manual/raw/main/docs/assets/images/Ejemplo_sensor_luz.png)
 
