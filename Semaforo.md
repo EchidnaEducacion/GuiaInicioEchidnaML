@@ -4,18 +4,21 @@
 
 ## 1. Qué vamos a hacer
 
-Vamos a realizar un semaforo en el que el LED Verde se enciende 5 segundos, luego se enciende el LED amarillo durante 2s y finalmente el LED Rojo durante 5s. El ciclo se repite por siempre.
+Vamos a realizar un semaforo en el que el LED Verde se enciende 5 segundos, luego se enciende el LED naranja durante 2s y finalmente el LED Rojo durante 5s. El ciclo se repite por siempre.
+
 
 --> GIF o video del funcionamiento?
 
 ### 1.1 Qué vamos a aprender
-- A programar un semáforo
-- A usar los LEDs digitalmente
-- A realizar una programación cíclica
+* A diseñar **secuencias temporizadas** (eventos que ocurren en un orden y tiempo exactos).
+* A controlar múltiples componentes digitales (LEDs) de forma coordinada.
+* A estructurar un ciclo de estados infinito (**programación cíclica**).
 
 ### 1.2 Qué componentes vamos a usar
 
-Usaremos los 3 LEDes que vienen en la parte central de la Echidna.
+* **LED Verde:** Fase de paso.
+* **LED Naranja:** Fase de precaución.
+* **LED Rojo:** Fase de detención.
 
 ![LEDes en EchidnaBlack](https://github.com/EchidnaEducacion/manual/raw/main/docs/assets/images/Lupa_Ledes.png)
 
@@ -34,8 +37,10 @@ Luego, el ciclo vuelve a comenzar con la luz verde y se repite de forma indefini
 
 ## 3. Mejóralo
 
-Prueba a realizar algunas de las siguientes modificaciones al proyecto:
+Prueba a perfeccionar tu semáforo con algunas de estas tres mejoras que te proponemos:
 
-1. Crea una animación en Scratch del semáforo de modo que tengamos un semáforo real y uno virtual.
-2. Haz que el led naranja se vuelva intermitente.
-3. Añade el zumbador para que avise que el semáforo cambia a rojo.
+1. 🚦 **Semáforo Virtual en Pantalla:** Diseña un objeto "Semáforo" en EchidnaML con tres disfraces (Verde, Naranja, Rojo). Programa el personaje para que cambie de disfraz en la pantalla al mismo tiempo que cambian los LEDs en la placa real.
+2. ⚠️ **Naranja Intermitente:** Modifica la fase intermedia para que el LED Naranja no se quede fijo, sino que **parpadee 3 veces rápidas** (encendido 0.3s / apagado 0.3s) antes de pasar al Rojo.
+3. 🔊 **Semáforo Sonoro Adaptado:** Añade el **Zumbador** de la placa para avisar a personas con discapacidad visual:
+   * **Fase Verde:** Sonido intermitente lento.
+   * **Fase Rojo:** Sonido continuo o apagado.

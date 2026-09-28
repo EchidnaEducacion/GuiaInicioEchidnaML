@@ -4,17 +4,21 @@
 
 ## 1. Qué vamos a hacer
 
-Vamos a realizar un sistema que controle el encendido de un LED en función d la cantidad de luz que reciba el sensor de luz. Con alta luminosidad el LED está apagado y con baja intensidad se enciende.
+Vamos a programar un sistema automático similar al de las farolas de la calle: el **LED verde** se encenderá automáticamente cuando la luz ambiental baje (de noche) y se apagará cuando haya suficiente luz (de día).
 
 --> Video del funcionamiento
 
 ### 1.1 Qué vamos a aprender
-- A programar un sistema automático que controle el encendido de un LED según la luz
-- A usar bloques condicionales
+
+* A programar un **sistema automático** que reaccione al entorno.
+* A utilizar el **sensor de luz (LDR)** para medir la iluminación ambiental.
+* A tomar decisiones en el programa mediante el bloque condicional **`si ... si no`**.
+* A trabajar con **umbrales numéricos** para definir estados (día/noche).
 
 ### 1.2 Qué componentes vamos a usar
 
-Usaremos la LDR, que es un sensor de luz, y un LED.
+* **Sensor de luz (LDR):** Mide la cantidad de luz que recibe. Cuanto más oscuro esté el entorno, menor será el valor registrado.
+* **LED Verde:** Funcionará como nuestra luz automática.
 
 IMAGEN LUPA LDR
 
@@ -40,6 +44,8 @@ El valor 200 actúa como el umbral que define cuándo debe encenderse o apagarse
 
 ## 3. Mejóralo
 
-Prueba a realizar algunas de las siguientes modificaciones al proyecto:
+Prueba a realizar algunas de estas mejoras en tu proyecto de forma autónoma:
 
-1. Crea dos fondos uno de noche y otro de dia que cambien con la luz ambiental. 
+1. 🎯 **Calibra tu aula:** Averigua qué valor lee el sensor de luz en tu mesa y ajusta el umbral exacto para que la luz se encienda solo cuando tapes el sensor con la mano.
+2. 🌄 **Fondo de Día y Noche:** Añade dos fondos al escenario de EchidnaML (uno soleado y otro nocturno). Haz que el fondo cambie en la pantalla al mismo tiempo que se enciende o apaga el LED en la placa.
+3. 🚨 **Luz de emergencia RGB:** En lugar de usar el LED verde, haz que si hay mucha luz el LED RGB se ponga **Verde**, y si hay oscuridad se encienda en **Rojo** para avisar de un peligro.
