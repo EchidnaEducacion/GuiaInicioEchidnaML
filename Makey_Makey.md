@@ -30,5 +30,5 @@ En este caso sonará la nota 60 del piano durante 0,25 s cada vez que se activa 
 
 Prueba a realizar algunas de las siguientes modificaciones al proyecto:
 
-1. Crea una animación en Scratch en la que el salga una nota cada vez que se toca la conexión MkMk.
+1. Crea una animación en Scratch en la que el salga en la pantalla una nota cada vez que se toca la conexión MkMk.
 2. Prueba a conectar otro cable y programar otra nota.

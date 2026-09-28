@@ -25,6 +25,7 @@ Revisamos continuamente el valor del sensor de luz, en caso de que sea menor que
 ![Bloques programación interruptor crepuscular](https://github.com/EchidnaEducacion/manual/raw/main/docs/assets/images/Ejemplo_sensor_luz.png)
 
 **Lógica de programación**:
+
 El programa revisa continuamente:
 
 ```
@@ -41,4 +42,4 @@ El valor 200 actúa como el umbral que define cuándo debe encenderse o apagarse
 
 Prueba a realizar algunas de las siguientes modificaciones al proyecto:
 
-1. Crea dos fondos uno de noche y otro de dia que cambien con la luz. 
+1. Crea dos fondos uno de noche y otro de dia que cambien con la luz ambiental. 

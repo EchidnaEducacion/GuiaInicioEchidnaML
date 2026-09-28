@@ -10,7 +10,7 @@ Este ejemplo muestra cómo controlar el zumbador (actuador de sonido) utilizando
 
 ### 1.1 Qué vamos a aprender
 - A controlar un zumbador mediante un pulsador.
-- Concepto de entrada y salida.
+- El concepto de entrada y salida.
 
 ### 1.2 Qué componentes vamos a usar
 
@@ -41,5 +41,5 @@ De esta forma, el zumbador solo se activa mientras el pulsador se mantiene presi
 
 Prueba a realizar algunas de las siguientes modificaciones al proyecto:
 
-1. Crea una animación en Scratch del zumbador. 
+1. Crea una animación en Scratch del zumbador en la que este vibre cuando se acciona. 
 2. Haz que al presionar el zumbador suene de manera intermitente.

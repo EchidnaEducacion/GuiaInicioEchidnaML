@@ -9,6 +9,7 @@ En este ejemplo hacemos parpadear un LED.
 --> GIF o video del funcionamiento?
 
 ### 1.1 Qué vamos a aprender
+
 - A realizar nuestro primer programa.
 - A realizar una programación cíclica.
 
@@ -22,7 +23,7 @@ IMAGEN LUPA LED ROJO
 
 Este programa utiliza un bucle continuo para ejecutar la siguiente secuencia lógica, creando un parpadeo constante en el LED Rojo.
 
-![Bloques programación semáforo](https://github.com/EchidnaEducacion/manual/blob/main/docs/assets/images/HolaMundo.png?raw=true)
+![Bloques programación Hola Mundo](https://github.com/EchidnaEducacion/manual/blob/main/docs/assets/images/HolaMundo.png?raw=true)
 
 **Lógica de programación**:
 
@@ -39,5 +40,5 @@ El programa realiza el ciclo:
 Prueba a realizar algunas de las siguientes modificaciones al proyecto:
 
 1. Prueba a cambiar los tiempos de parpadeo. 
-2. Crea una animación en Scratch en la que el LED se encienda y apague.
+2. Crea una animación en Scratch en la que un LED virtual se encienda y se apague.
  
