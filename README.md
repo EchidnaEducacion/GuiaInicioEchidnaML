@@ -8,9 +8,8 @@ Guia para iniciarse con EchidnaML basada en ejemplos.
 2. [Semáforo](./Semaforo.md)
 4. [Zumbador](Zumbador.md)
 4. [Pulsadores](./Pulsadores.md)
-4b Pulsador con memoria?
 5. [Interruptor crepuscular](./Interruptor_crepuscular.md)
-6. Makey Makey
+6. [Makey Makey](./Makey_Makey.md)
 
 ## Estructura de los documentos
 

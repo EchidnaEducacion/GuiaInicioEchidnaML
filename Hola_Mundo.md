@@ -16,7 +16,7 @@ En este ejemplo hacemos parpadear un LED.
 
 Usaremos el LED rojo.
 
-IMAGEN LUPA led ROJO
+IMAGEN LUPA LED ROJO
 
 # 2. Programación
 

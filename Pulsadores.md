@@ -22,7 +22,7 @@ IMAGEN LUPA PULSADORES
 
 La programación se basa en una secuencia cíclica donde cada LED permanece encendido durante un tiempo específico y luego pasa al siguiente estado de forma automática.
 
-![Bloques programación semáforo](https://github.com/EchidnaEducacion/manual/raw/main/docs/assets/images/Ejemplo_encender_apagar_led_pulsadores.png)
+![Bloques programación pulsadores](https://github.com/EchidnaEducacion/manual/raw/main/docs/assets/images/Ejemplo_encender_apagar_led_pulsadores.png)
 
 **Lógica de programación**:
 
@@ -37,10 +37,13 @@ SI NO (es decir, si SR no está presionado el programa comprueba la segunda cond
         --> Apaga el LED Rojo
 ```
 
-
 # 3. Mejóralo
 
 Prueba a realizar algunas de las siguientes modificaciones al proyecto:
 
 1. Crea una animación en Scratch en la que el LED se encienda y apague.
-2. Haz que hayas dos estados. LED rojo encencdifdo- verde apagado, LED rojo apagado-verde encendido.
+2. Haz que hayas dos estados. LED rojo encendido- verde apagado, LED rojo apagado-verde encendido.
+3. Prueba a programar un pulsador con Memoria, que al presionar encienda el LED y se mantenga encendido hasta que se vuelva a presionar.
+
+![Bloques programación pulsador con memoria](https://github.com/EchidnaEducacion/manual/blob/main/docs/assets/images/Ejemplo_pulsador_memoria.png?raw=true)
+
