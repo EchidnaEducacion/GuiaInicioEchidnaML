@@ -1,8 +1,8 @@
 # Guia de Inicio EchidnaML
 
-Guia para iniciarse con EchidnaML basada en ejemplos.
+Guia para iniciarse con EchidnaML basada en proyectos sencillos.
 
-## Ejemplos a desarrollar
+## Proyectos
 
 1. [Hola Mundo](./Hola_Mundo.md)
 2. [Semáforo](./Semaforo.md)
