@@ -1,13 +1,13 @@
 # Guia de Inicio EchidnaML
 
-Guia para iniciarse con EChidnaML basada en ejemplos.
+Guia para iniciarse con EchidnaML basada en ejemplos.
 
 ## Ejemplos a desarrollar
 
-1. Hola Mundo
+1. [Hola Mundo](./Hola_Mundo.md)
 2. [Semáforo](./Semaforo.md)
 4. [Zumbador](Zumbador.md)
-4. [Pulsadores](Pulsadores.md)
+4. [Pulsadores](./Pulsadores.md)
 4b Pulsador con memoria?
 5. [Interruptor crepuscular](./Interruptor_crepuscular.md)
 6. Makey Makey
