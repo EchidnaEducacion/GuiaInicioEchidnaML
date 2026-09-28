@@ -6,8 +6,9 @@ Guia para iniciarse con EChidnaML basada en ejemplos.
 
 1. Hola Mundo
 2. [Semáforo](./Semaforo.md)
-3. Pulsadores
-4. Zumbador
+4. [Zumbador](Zumbador.md)
+4. [Pulsadores](Pulsadores.md)
+4b Pulsador con memoria?
 5. [Interruptor crepuscular](./Interruptor_crepuscular.md)
 6. Makey Makey
 
@@ -18,6 +19,8 @@ Guia para iniciarse con EChidnaML basada en ejemplos.
 #### 1.1 Qué vamos a aprender
 
 #### 1.2 Qué componentes vamos a usar
+
+Añadimos bloque de programación?
 
 ### 2. Programación
 
