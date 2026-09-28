@@ -42,5 +42,5 @@ SI NO (es decir, si SR no está presionado el programa comprueba la segunda cond
 
 Prueba a realizar algunas de las siguientes modificaciones al proyecto:
 
-1. Crea una animación en Scratch del semáforo de modo que tengamos un semáforo real y uno virtual.
+1. Crea una animación en Scratch en la que el LED se encienda y apague.
 2. Haz que hayas dos estados. LED rojo encencdifdo- verde apagado, LED rojo apagado-verde encendido.

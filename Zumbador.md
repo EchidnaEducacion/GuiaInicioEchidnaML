@@ -10,7 +10,7 @@ Este ejemplo muestra cómo controlar el zumbador (actuador de sonido) utilizando
 
 ### 1.1 Qué vamos a aprender
 - A controlar un zumbador mediante un pulsador.
-- Concepto de entrada y Salida
+- Concepto de entrada y salida.
 
 ### 1.2 Qué componentes vamos a usar
 
