@@ -19,7 +19,7 @@ Usaremos los 3 LEDes que vienen en la parte central de la Echidna.
 
 ![LEDes en EchidnaBlack](https://github.com/EchidnaEducacion/manual/raw/main/docs/assets/images/Lupa_Ledes.png)
 
-# 2. Programación
+## 2. Programación
 
 La programación se basa en una secuencia cíclica donde cada LED permanece encendido durante un tiempo específico y luego pasa al siguiente estado de forma automática.
 
@@ -32,7 +32,7 @@ La programación se basa en una secuencia cíclica donde cada LED permanece ence
 
 Luego, el ciclo vuelve a comenzar con la luz verde y se repite de forma indefinida.
 
-# 3. Mejóralo
+## 3. Mejóralo
 
 Prueba a realizar algunas de las siguientes modificaciones al proyecto:
 

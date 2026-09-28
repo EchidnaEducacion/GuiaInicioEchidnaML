@@ -18,7 +18,7 @@ Usaremos la LDR, que es un sensor de luz, y un LED.
 
 IMAGEN LUPA LDR
 
-# 2. Programación
+## 2. Programación
 
 Revisamos continuamente el valor del sensor de luz, en caso de que sea menor que un cierto umbral encendemos el LED, en caso contrario lo apagamos.
 
@@ -38,7 +38,7 @@ SI NO (si registra valores mayores):
 
 El valor 200 actúa como el umbral que define cuándo debe encenderse o apagarse la luz.
 
-# 3. Mejóralo
+## 3. Mejóralo
 
 Prueba a realizar algunas de las siguientes modificaciones al proyecto:
 

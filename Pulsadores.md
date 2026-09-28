@@ -19,7 +19,7 @@ Usaremos los 2 pulsadores SL y SR y el LED rojo.
 
 IMAGEN LUPA PULSADORES
 
-# 2. Programación
+## 2. Programación
 
 El programa comprueba que el pulsaro derecho está presionado, en ese caso enciende el LED rojo, si no está presionado y presionamos el pulsador izquiero el LED se apaga.
 
@@ -38,7 +38,7 @@ SI NO (es decir, si SR no está presionado el programa comprueba la segunda cond
         --> Apaga el LED Rojo
 ```
 
-# 3. Mejóralo
+## 3. Mejóralo
 
 Prueba a realizar algunas de las siguientes modificaciones al proyecto:
 

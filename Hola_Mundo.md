@@ -19,7 +19,7 @@ Usaremos el LED rojo.
 
 IMAGEN LUPA LED ROJO
 
-# 2. Programación
+## 2. Programación
 
 Este programa utiliza un bucle continuo para ejecutar la siguiente secuencia lógica, creando un parpadeo constante en el LED Rojo.
 
@@ -35,7 +35,7 @@ El programa realiza el ciclo:
 4. Espera: Se detiene la ejecución del programa durante un segundo antes de volver a empezar el ciclo.
 
 
-# 3. Mejóralo
+## 3. Mejóralo
 
 Prueba a realizar algunas de las siguientes modificaciones al proyecto:
 

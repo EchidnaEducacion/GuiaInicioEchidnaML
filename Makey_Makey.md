@@ -19,14 +19,14 @@ Usaremos la conexión MkMk A0.
 
 ![IMAGEN CONEXION MKMK](https://github.com/EchidnaEducacion/manual/blob/main/docs/assets/images/mkmk_conexion.png?raw=true)
 
-# 2. Programación
+## 2. Programación
 
 En este caso sonará la nota 60 del piano durante 0,25 s cada vez que se activa la entrada MkMk A0.
 
 ![Bloques programación MkMk](https://github.com/EchidnaEducacion/manual/blob/main/docs/assets/images/Ejemplo_MkMk_piano.png?raw=true)
 
 
-# 3. Mejóralo
+## 3. Mejóralo
 
 Prueba a realizar algunas de las siguientes modificaciones al proyecto:
 

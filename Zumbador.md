@@ -18,7 +18,7 @@ Usaremos un pulsador y un Zumbador.
 
 IMAGEN LUPA ZUMBADOR
 
-# 2. Programación
+## 2. Programación
 
 La programación se basa en revisar continuamente si el pulsador SL está presionado, si lo está se activa el pulsador y si no se apaga.
 
@@ -37,7 +37,7 @@ SI el pulsador es liberado (o soltado):
 ```
 De esta forma, el zumbador solo se activa mientras el pulsador se mantiene presionado.
 
-# 3. Mejóralo
+## 3. Mejóralo
 
 Prueba a realizar algunas de las siguientes modificaciones al proyecto:
 
