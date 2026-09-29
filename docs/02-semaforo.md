@@ -4,23 +4,23 @@
 
 ## 1. Qué vamos a hacer
 
-Vamos a realizar un semáforo en el que el LED verde se enciende durante 5 segundos, luego se enciende el LED naranja durante 2s y finalmente el LED Rojo durante 5s. El ciclo se repite continuamente.
-
+Vamos a realizar un semáforo en el que el LED verde se enciende durante 5 segundos, luego se enciende el LED naranja durante 2 segundos y finalmente el LED rojo durante 5 segundos. El ciclo se repite continuamente.
 
 --> GIF del funcionamiento?
 
 ### 1.1 Qué vamos a aprender
+
 * A diseñar **secuencias temporizadas** (eventos que ocurren en un orden y tiempo exactos).
-* A controlar múltiples componentes digitales (LEDs) de forma coordinada.
+* A controlar múltiples componentes digitales (LED) de forma coordinada.
 * A estructurar un ciclo de estados infinito (**programación cíclica**).
 
 ### 1.2 Qué componentes vamos a usar
 
-* **LED Verde:** Fase de paso.
-* **LED Naranja:** Fase de precaución.
-* **LED Rojo:** Fase de detención.
+* **LED verde:** Fase de paso.
+* **LED naranja:** Fase de precaución.
+* **LED rojo:** Fase de detención.
 
-![LEDes en EchidnaBlack](assets/images/Lupa_Ledes.png "LEDes en EchidnaBlack")
+![LED en EchidnaBlack2](assets/images/Lupa_Ledes.png "LED en EchidnaBlack2")
 
 ## 2. Programación
 
@@ -28,7 +28,7 @@ La programación se basa en una secuencia cíclica donde cada LED permanece ence
 
 ![Bloques programación semáforo](assets/images/Semaforo.png "Bloques programación semáforo")
 
-**Estados**:
+**Lógica de programación**:
 
 1. El LED verde se enciende durante 5 segundos. Al finalizar este tiempo, se apaga.
 2. El LED naranja se enciende durante 2 segundos, y luego se apaga.
@@ -40,8 +40,8 @@ Luego, el ciclo vuelve a comenzar con la luz verde y se repite de forma indefini
 
 Prueba a perfeccionar tu semáforo con algunas de estas tres mejoras que te proponemos:
 
-1. **Semáforo Virtual en Pantalla:** Diseña un objeto "Semáforo" en EchidnaML con tres disfraces (Verde, Naranja, Rojo). Programa el personaje para que cambie de disfraz en la pantalla al mismo tiempo que cambian los LEDs en la placa real.
-2. **Naranja Intermitente:** Modifica la fase intermedia para que el LED Naranja no se quede fijo, sino que **parpadee 3 veces rápidas** (encendido 0.3s / apagado 0.3s) antes de pasar al Rojo.
-3. **Semáforo Sonoro Adaptado:** Añade el **Zumbador** de la placa para avisar a personas con discapacidad visual:
-    * **Fase Verde:** Sonido intermitente lento.
-    * **Fase Rojo:** Sonido continuo o apagado.
+1. **Semáforo virtual en pantalla:** Diseña un objeto "Semáforo" en EchidnaML con tres disfraces (Verde, Naranja, Rojo). Programa el objeto para que cambie de disfraz en la pantalla al mismo tiempo que cambian los LED en la placa real.
+2. **Naranja intermitente:** Modifica la fase intermedia para que el LED naranja no se quede fijo, sino que **parpadee 3 veces rápidas** (encendido `0.3` segundos / apagado `0.3` segundos) antes de pasar al rojo.
+3. **Semáforo sonoro adaptado:** Añade el **zumbador** de la placa para avisar a personas con discapacidad visual:
+    * **Fase verde:** Sonido intermitente lento.
+    * **Fase roja:** Sonido continuo o apagado.

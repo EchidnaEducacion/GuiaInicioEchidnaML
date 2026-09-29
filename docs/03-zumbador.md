@@ -13,6 +13,7 @@ Vamos a programar un timbre eléctrico: el **zumbador** emitirá un tono sonoro 
     * **Entrada (SL):** Detecta la orden del usuario.
     * **Salida (Zumbador):** Produce la respuesta (sonido).
 * A evaluar estados en tiempo real (`presionado` vs `liberado`).
+* A tomar decisiones en el programa mediante el bloque condicional **`si ... si no`**: si se cumple la condición se ejecuta una parte del programa y, si no, la otra.
 
 ### 1.2 Qué componentes vamos a usar
 
@@ -23,7 +24,7 @@ IMAGEN LUPA ZUMBADOR
 
 ## 2. Programación
 
-La programación se basa en revisar continuamente si el pulsador SL está presionado, si lo está se activa el pulsador y si no se apaga.
+La programación se basa en revisar continuamente si el pulsador SL está presionado, si lo está se activa el zumbador y, si no, se apaga.
 
 ![Bloques programación zumbador](assets/images/Ejemplo_pulsador-zumbador.png "Bloques programación zumbador")
 
@@ -32,18 +33,19 @@ La programación se basa en revisar continuamente si el pulsador SL está presio
 El programa revisa continuamente:
 
 ```
-SI el pulsador es presionado (o activado):
+SI el pulsador SL está presionado:
     --> El zumbador suena.
 
-SI el pulsador es liberado (o soltado):
+SI NO (es decir, si SL está liberado):
     --> El zumbador deja de sonar.
 ```
+
 De esta forma, el zumbador solo se activa mientras el pulsador se mantiene presionado.
 
 ## 3. Mejóralo
 
 Prueba a realizar alguna de estas mejoras en tu proyecto:
 
-1. **Efecto visual de altavoz (Vibración en pantalla):** Crea o selecciona un personaje en EchidnaML con forma de altavoz o campana. Haz que el personaje cambie de tamaño ligeramente o gire de un lado a otro (simulando vibración) mientras el zumbador esté sonando.
-2. **Alarma Intermitente:** Modifica el programa para que, al mantener pulsado **SL**, el sonido no sea continuo, sino que emita pitidos intermitentes tipo alarma (sonido 0.1s ➔ silencio 0.1s).
-3. **Emisor de Código Morse:** Programa el pulsador **SR** para emitir un tono más agudo que el pulsador **SL**. ¡Intenta combinar pulsaciones cortas y largas para enviar mensajes secretos en código Morse a tus compañeros!
+1. **Efecto visual de altavoz (vibración en pantalla):** Crea o selecciona un objeto en EchidnaML con forma de altavoz o campana. Haz que el objeto cambie de tamaño ligeramente o gire de un lado a otro (simulando vibración) mientras el zumbador esté sonando.
+2. **Alarma intermitente:** Modifica el programa para que, al mantener pulsado **SL**, el sonido no sea continuo, sino que emita pitidos intermitentes tipo alarma (sonido `0.1` segundos, silencio `0.1` segundos).
+3. **Emisor de código Morse:** Programa el pulsador **SR** para emitir un tono más agudo que el pulsador **SL**. ¡Intenta combinar pulsaciones cortas y largas para enviar mensajes secretos en código Morse a tus compañeros!

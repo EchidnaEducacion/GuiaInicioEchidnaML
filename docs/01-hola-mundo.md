@@ -4,7 +4,7 @@
 
 ## 1. Qué vamos a hacer
 
-En este primer proyecto haremos que el **LED rojo** de la placa EchidnaBlack2 se encienda y se apague de forma continua (parpadeo). 
+En este primer proyecto haremos que el **LED rojo** de la placa EchidnaBlack2 se encienda y se apague de forma continua (parpadeo).
 
 --> GIF FUNCIONAMIENTO
 
@@ -22,7 +22,7 @@ IMAGEN LUPA LED ROJO
 
 ## 2. Programación
 
-Este programa utiliza un bucle continuo para ejecutar la siguiente secuencia lógica, creando un parpadeo constante en el LED Rojo.
+Este programa utiliza un bucle continuo para ejecutar la siguiente secuencia lógica, creando un parpadeo constante en el LED rojo.
 
 Construye el siguiente código arrastrando los bloques a tu área de trabajo:
 
@@ -32,19 +32,19 @@ VIDEO DE PROCESO DE PROGRAMACIÓN
 
 **Lógica de programación**:
 
+El programa empieza con el bloque **`al hacer clic en`** (bandera verde): todo lo que coloquemos debajo se ejecutará cuando pulsemos la bandera verde en EchidnaML.
+
 El bloque **`por siempre`** crea un ciclo infinito que ejecuta los pasos en orden, de arriba a abajo:
 
-1. **`fijar LED Rojo a ENCENDIDO`**: Envía la señal para encender el LED.
+1. **`encender LED rojo`**: Envía la señal para encender el LED.
 2. **`esperar 1 segundos`**: Mantiene el LED encendido durante un segundo.
-3. **`fijar LED Rojo a APAGADO`**: Envía la señal para apagar el LED.
+3. **`apagar LED rojo`**: Envía la señal para apagar el LED.
 4. **`esperar 1 segundos`**: Mantiene el LED apagado durante un segundo antes de volver al paso 1.
-
 
 ## 3. Mejóralo
 
-Una vez que consigas hacer parpadear el LED, prueba a realizar estas modificaciones por ti mismo:
+Una vez que consigas hacer parpadear el LED, prueba a realizar estas modificaciones por tu cuenta:
 
-1. **Ritmo rápido:** Cambia el tiempo de espera a `0.2` segundos. ¿Qué le ocurre al parpadeo? ¿Que ocurre si sigues bajando el tiempo de espera?
+1. **Ritmo rápido:** Cambia el tiempo de espera a `0.2` segundos. ¿Qué le ocurre al parpadeo? ¿Qué ocurre si sigues bajando el tiempo de espera?
 2. **Sombra de señal:** Intenta que el LED esté encendido mucho tiempo (`2` segundos) y apagado muy poco tiempo (`0.1` segundos).
-3. **Efecto espejo en pantalla:** Crea un personaje (objeto) en EchidnaML que cambie de disfraz para simular en la pantalla el mismo parpadeo que ocurre en la placa real.
- 
+3. **Efecto espejo en pantalla:** Crea un objeto en EchidnaML que cambie de disfraz para simular en la pantalla el mismo parpadeo que ocurre en la placa real.
