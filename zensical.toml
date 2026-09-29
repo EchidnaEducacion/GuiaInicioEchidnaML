@@ -1,0 +1,60 @@
+[project]
+site_name = "Guía de inicio EchidnaML"
+site_description = "Guía para iniciarse con EchidnaML y la placa EchidnaBlack2 basada en proyectos sencillos"
+site_author = "Echidna Educación"
+site_url = "https://echidnaeducacion.github.io/GuiaInicioEchidnaML/"
+copyright = "Contenido bajo licencia CC BY-SA 4.0"
+docs_dir = "docs"
+site_dir = "site"
+extra_css = ["assets/stylesheets/extra.css"]
+nav = [
+  {"Inicio" = "index.md"},
+  {"1. Hola Mundo" = "01-hola-mundo.md"},
+  {"2. Semáforo" = "02-semaforo.md"},
+  {"3. Zumbador" = "03-zumbador.md"},
+  {"4. Pulsadores" = "04-pulsadores.md"},
+  {"5. Interruptor crepuscular" = "05-interruptor-crepuscular.md"},
+  {"6. Makey Makey" = "06-makey-makey.md"}
+]
+
+[project.theme]
+language = "es"
+variant = "modern"
+logo = "assets/images/favicon.png"
+favicon = "assets/images/favicon.png"
+features = [
+  "navigation.sections",
+  "navigation.indexes",
+  "navigation.path",
+  "navigation.top",
+  "navigation.footer",
+  "toc.follow",
+  "content.code.copy"
+]
+
+[project.theme.font]
+text = "Open Sans"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "deep orange"
+accent = "light blue"
+
+[project.theme.palette.toggle]
+icon = "material/weather-night"
+name = "Cambiar a modo oscuro"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "deep orange"
+accent = "light blue"
+
+[project.theme.palette.toggle]
+icon = "material/weather-sunny"
+name = "Cambiar a modo claro"
+
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.md_in_html]
+[project.markdown_extensions.fenced_code]

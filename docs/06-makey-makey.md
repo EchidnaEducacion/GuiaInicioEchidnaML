@@ -1,6 +1,6 @@
 # Makey Makey
 
-![Imagen cabecera MkMk](./imagenes/MkMk.png)
+![Imagen cabecera MkMk](assets/images/MkMk.png "Imagen cabecera MkMk")
 
 ## 1. Qué vamos a hacer
 
@@ -21,19 +21,19 @@ Vamos a convertir la entrada **MkMk A0** de nuestra placa en una tecla de piano 
 
 **¡ATENCIÓN!** Para que funcione el modo MkMk debemos poner el selector del modo de funcionamiento hacia la derecha, y se nos encenderá el LED testigo en la parte inferior.
 
-![IMAGEN CONEXION MKMK](https://github.com/EchidnaEducacion/manual/blob/main/docs/assets/images/mkmk_conexion.png?raw=true)
+![IMAGEN CONEXION MKMK](assets/images/mkmk_conexion.png "IMAGEN CONEXION MKMK")
 
 ## 2. Programación
 
 Revisamos continuamente el valor del sensor tipo MkMk, **cuando la entrada MkMk A0 detecta contacto**, se ejecuta el bloque de sonido reproduciendo la **Nota 60** (que corresponde a la nota *Do central* del piano) durante **0,25 segundos**.
 
-![Bloques programación MkMk](https://github.com/EchidnaEducacion/manual/blob/main/docs/assets/images/Ejemplo_MkMk_piano.png?raw=true)
+![Bloques programación MkMk](assets/images/Ejemplo_MkMk_piano.png "Bloques programación MkMk")
 
 
 ## 3. Mejóralo
 
 Prueba a realizar algunas de las siguientes modificaciones al proyecto:
 
-1. 🎨 **Animación en pantalla:** Añade un personaje en EchidnaML (un instrumento o una nota musical) que cambie de disfraz, baile o salte en la pantalla cada vez que suene la nota.
-2. 💡 **Luz y Sonido:** Haz que el **LED RGB** se ilumine de un color distinto cada vez que toques una tecla de tu piano MkMk.
-3. 🎹 **Escala Musical:** Utiliza los otros conectores disponibles (**A1, A2, A3**) con otros cables para programar diferentes notas (por ejemplo: Do=60, Re=62, Mi=64, Fa=65) y crea un mini teclado completo.
+1. **Animación en pantalla:** Añade un personaje en EchidnaML (un instrumento o una nota musical) que cambie de disfraz, baile o salte en la pantalla cada vez que suene la nota.
+2. **Luz y Sonido:** Haz que el **LED RGB** se ilumine de un color distinto cada vez que toques una tecla de tu piano MkMk.
+3. **Escala Musical:** Utiliza los otros conectores disponibles (**A1, A2, A3**) con otros cables para programar diferentes notas (por ejemplo: Do=60, Re=62, Mi=64, Fa=65) y crea un mini teclado completo.

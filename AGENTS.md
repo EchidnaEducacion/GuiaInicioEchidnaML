@@ -1,0 +1,81 @@
+# AGENTS.md
+
+Instrucciones para agentes de IA (Claude Code y similares) que trabajen en este repositorio.
+
+## Qué es este proyecto
+
+Guía de inicio de **EchidnaML** y la placa **EchidnaBlack2** basada en
+proyectos sencillos, publicada con [Zensical](https://zensical.org/) como
+sitio estático y como PDF. Sigue la misma estrategia (configuración,
+scripts y estilos) que el manual de Echidna
+(<https://github.com/EchidnaEducacion/manual>); si cambias algo de la
+maquetación, comprueba si conviene hacer lo mismo allí.
+
+No es un proyecto de software: es contenido editorial dirigido a docentes y
+alumnado que empiezan con la placa.
+
+## Convenciones editoriales
+
+- **Idioma**: español, registro cercano (tuteo al alumnado), términos clave
+  en **negrita**.
+- **Estructura fija de cada proyecto**: `# Título`, imagen de cabecera,
+  `## 1. Qué vamos a hacer`, `### 1.1 Qué vamos a aprender`,
+  `### 1.2 Qué componentes vamos a usar`, `## 2. Programación` (con
+  **Lógica de programación** cuando aplica) y `## 3. Mejóralo` (tres
+  propuestas numeradas). Mantén este patrón al añadir un proyecto.
+- **Navegación**: `nav` en `zensical.toml` es la fuente de verdad del orden.
+  Si añades, eliminas o reordenas un proyecto, actualiza a la vez `nav`, la
+  lista de `docs/index.md` y la del `README.md`. Los ficheros se nombran
+  `NN-nombre.md`.
+- **Sin emojis**: WeasyPrint no los coloca bien en el PDF (aparecen como un
+  punto suelto en el margen superior). No los reintroduzcas.
+- **Markdown estricto (Python-Markdown)**: las listas necesitan una línea en
+  blanco antes y las listas anidadas 4 espacios de sangría; con 2 o 3
+  espacios, o sin línea en blanco, GitHub las muestra bien pero la web y el
+  PDF no.
+- **Imágenes**: viven en `docs/assets/images/` (sin subcarpetas), siempre en
+  local (no enlaces a GitHub), referenciadas con ruta relativa y el `title`
+  repitiendo el `alt`:
+  `![Descripción](assets/images/Nombre.png "Descripción")`. Ancho explícito
+  opcional con `{ width="N" }`. En el PDF, `print.css` limita la altura de
+  las imágenes a 95 mm. Están disponibles las clases `.img-row` e
+  `.img-text-row` (ver `extra.css`/`print.css`) para poner imágenes en fila.
+- **Pseudocódigo** (`SI ... / SI NO ...` y `-->`): siempre en bloque de
+  código con ``` ``` ```, 4 espacios por nivel.
+- Los marcadores provisionales en mayúsculas (`IMAGEN LUPA ...`,
+  `--> GIF ...`, `VIDEO ...`) son contenido pendiente del autor: no los
+  elimines ni los inventes.
+
+## Estructura del repositorio
+
+- `zensical.toml`: configuración del sitio y navegación (`nav`).
+- `docs/`: contenido Markdown (`index.md` es la página de inicio web y no
+  entra en el PDF).
+- `docs/assets/images/`, `docs/assets/fonts/` (Exo y Open Sans para el PDF),
+  `docs/assets/stylesheets/extra.css` (identidad visual de la web).
+- `scripts/guia_nav.py`: recorrido común del `nav`.
+- `scripts/build_pdf.py` + `scripts/print.css`: generan
+  `site/guia-inicio-echidnaml.pdf` uniendo todas las páginas ya construidas
+  en un único documento (portada maquetada en HTML, índice con página real,
+  un salto de página por proyecto). Requiere `zensical build --clean` previo.
+- `.github/workflows/docs.yml`: publicación en GitHub Pages (web + PDF) al
+  hacer push a `main`. `.gitlab-ci.yml`: GitLab Pages (sin PDF).
+
+## Cómo comprobar los cambios
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+zensical build --clean
+python scripts/build_pdf.py
+```
+
+Revisa la web (`zensical serve`) y el PDF: imágenes visibles, listas bien
+formadas y posición correcta en la navegación.
+
+## Licencia
+
+Contenido bajo
+[Creative Commons Reconocimiento-CompartirIgual 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+Cualquier contenido nuevo debe ser compatible con esta licencia.

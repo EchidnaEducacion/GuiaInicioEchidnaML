@@ -1,6 +1,6 @@
 # Hola Mundo
 
-![Imagen cabecera Hola Mundo](./imagenes/Hola_Mundo.png)
+![Imagen cabecera Hola Mundo](assets/images/Hola_Mundo.png "Imagen cabecera Hola Mundo")
 
 ## 1. Qué vamos a hacer
 
@@ -26,7 +26,7 @@ Este programa utiliza un bucle continuo para ejecutar la siguiente secuencia ló
 
 Construye el siguiente código arrastrando los bloques a tu área de trabajo:
 
-![Bloques programación Hola Mundo](https://github.com/EchidnaEducacion/manual/blob/main/docs/assets/images/HolaMundo.png?raw=true)
+![Bloques programación Hola Mundo](assets/images/HolaMundo.png "Bloques programación Hola Mundo")
 
 VIDEO DE PROCESO DE PROGRAMACIÓN
 
@@ -44,7 +44,7 @@ El bloque **`por siempre`** crea un ciclo infinito que ejecuta los pasos en orde
 
 Una vez que consigas hacer parpadear el LED, prueba a realizar estas modificaciones por ti mismo:
 
-1. ⏱️ **Ritmo rápido:** Cambia el tiempo de espera a `0.2` segundos. ¿Qué le ocurre al parpadeo? ¿Que ocurre si sigues bajando el tiempo de espera?
-2. 🚦 **Sombra de señal:** Intenta que el LED esté encendido mucho tiempo (`2` segundos) y apagado muy poco tiempo (`0.1` segundos).
-3. 🖥️ **Efecto espejo en pantalla:** Crea un personaje (objeto) en EchidnaML que cambie de disfraz para simular en la pantalla el mismo parpadeo que ocurre en la placa real.
+1. **Ritmo rápido:** Cambia el tiempo de espera a `0.2` segundos. ¿Qué le ocurre al parpadeo? ¿Que ocurre si sigues bajando el tiempo de espera?
+2. **Sombra de señal:** Intenta que el LED esté encendido mucho tiempo (`2` segundos) y apagado muy poco tiempo (`0.1` segundos).
+3. **Efecto espejo en pantalla:** Crea un personaje (objeto) en EchidnaML que cambie de disfraz para simular en la pantalla el mismo parpadeo que ocurre en la placa real.
  
