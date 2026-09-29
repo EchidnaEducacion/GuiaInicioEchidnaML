@@ -46,6 +46,6 @@ El valor 200 actúa como el umbral que define cuándo debe encenderse o apagarse
 
 Prueba a realizar algunas de estas mejoras en tu proyecto de forma autónoma:
 
-1. 🎯 **Calibra tu aula:** Averigua qué valor lee el sensor de luz en tu mesa y ajusta el umbral exacto para que la luz se encienda solo cuando tapes el sensor con la mano.
+1. 🎯 **Calibra tu aula:** Averigua qué valor lee el sensor de luz en tu mesa y ajusta el umbral exacto para que la luz se encienda solo cuando tapes el sensor con la mano. Para leer el valor del sensor de luz marca el tick al lado del bloque.
 2. 🌄 **Fondo de Día y Noche:** Añade dos fondos al escenario de EchidnaML (uno soleado y otro nocturno). Haz que el fondo cambie en la pantalla al mismo tiempo que se enciende o apaga el LED en la placa.
-3. 🚨 **Luz de emergencia RGB:** En lugar de usar el LED verde, haz que si hay mucha luz el LED RGB se ponga **Verde**, y si hay oscuridad se encienda en **Rojo** para avisar de un peligro.
+3. 🚨 **Luz de emergencia RGB:** En lugar de usar el LED verde, haz que si hay mucha luz el LED RGB se ponga **Verde**, y si hay oscuridad se encienda en **Rojo**.

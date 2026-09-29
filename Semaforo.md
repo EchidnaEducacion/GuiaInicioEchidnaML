@@ -4,10 +4,10 @@
 
 ## 1. Qué vamos a hacer
 
-Vamos a realizar un semaforo en el que el LED Verde se enciende 5 segundos, luego se enciende el LED naranja durante 2s y finalmente el LED Rojo durante 5s. El ciclo se repite por siempre.
+Vamos a realizar un semáforo en el que el LED verde se enciende durante 5 segundos, luego se enciende el LED naranja durante 2s y finalmente el LED Rojo durante 5s. El ciclo se repite continuamente.
 
 
---> GIF o video del funcionamiento?
+--> GIF del funcionamiento?
 
 ### 1.1 Qué vamos a aprender
 * A diseñar **secuencias temporizadas** (eventos que ocurren en un orden y tiempo exactos).

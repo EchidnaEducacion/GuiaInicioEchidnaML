@@ -8,13 +8,11 @@ Vamos a programar un sistema de encendido y apagado manual con dos botones:
 * Al presionar el **pulsador derecho (SR)**, el **LED rojo** se encenderá.
 * Al presionar el **pulsador izquierdo (SL)**, el **LED rojo** se apagará.
 
---> GIF o video del funcionamiento?
-
 ### 1.1 Qué vamos a aprender
 
 * A leer **entradas digitales** (saber si un botón está presionado o no).
-* A utilizar **condicionales anidados** (`si ... si no` dentro de otro `si`).
-* A controlar el estado de un actuador (LED) mediante eventos físicos.
+* A utilizar **condicionales anidados** (`si ... si no` y dentro otro `si`).
+* A controlar el estado de un actuador (LED) mediante eventos físicos, pulsación.
 
 ### 1.2 Qué componentes vamos a usar
 
@@ -51,7 +49,7 @@ Prueba a realizar algunas de las siguientes modificaciones al proyecto:
 2. 🚦 **Luz cruzada (Bi-estable):** Añade el **LED verde** al programa para que funcionen de forma alterna:
    * Al pulsar **SR**: LED Rojo ENCENDIDO y LED Verde APAGADO.
    * Al pulsar **SL**: LED Rojo APAGADO y LED Verde ENCENDIDO.
-3. 🧠 **Pulsador con memoria (Conmutador):** Programa un solo pulsador (por ejemplo, **SR**) para que funcione como el interruptor de la luz de tu habitación: la primera vez que lo pulsas enciende el LED, y al volverlo a pulsar lo apaga.
+3. 🧠 **Pulsador con memoria (Conmutador):** Programa un solo pulsador (por ejemplo, **SL**) para que funcione como el interruptor de la luz de tu habitación: la primera vez que lo pulsas enciende el LED, y al volverlo a pulsar lo apaga.
 
 ![Bloques programación pulsador con memoria](https://github.com/EchidnaEducacion/manual/blob/main/docs/assets/images/Ejemplo_pulsador_memoria.png?raw=true)
 

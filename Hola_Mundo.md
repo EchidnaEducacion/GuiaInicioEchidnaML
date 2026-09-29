@@ -6,7 +6,7 @@
 
 En este primer proyecto haremos que el **LED rojo** de la placa EchidnaBlack2 se encienda y se apague de forma continua (parpadeo). 
 
---> GIF o video del funcionamiento?
+--> GIF FUNCIONAMIENTO
 
 ### 1.1 Qué vamos a aprender
 
@@ -27,6 +27,8 @@ Este programa utiliza un bucle continuo para ejecutar la siguiente secuencia ló
 Construye el siguiente código arrastrando los bloques a tu área de trabajo:
 
 ![Bloques programación Hola Mundo](https://github.com/EchidnaEducacion/manual/blob/main/docs/assets/images/HolaMundo.png?raw=true)
+
+VIDEO DE PROCESO DE PROGRAMACIÓN
 
 **Lógica de programación**:
 

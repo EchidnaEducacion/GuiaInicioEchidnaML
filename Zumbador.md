@@ -6,8 +6,6 @@
 
 Vamos a programar un timbre eléctrico: el **zumbador** emitirá un tono sonoro únicamente mientras mantengamos presionado el **pulsador izquierdo (SL)**, y se apagará inmediatamente al soltarlo.
 
---> GIF o video del funcionamiento?
-
 ### 1.1 Qué vamos a aprender
 
 * A controlar un actuador de sonido (**zumbador**) mediante un botón de entrada.
@@ -43,7 +41,7 @@ De esta forma, el zumbador solo se activa mientras el pulsador se mantiene presi
 
 ## 3. Mejóralo
 
-Prueba a realizar estas tres mejoras en tu proyecto de forma autónoma:
+Prueba a realizar alguna de estas mejoras en tu proyecto:
 
 1. 🔊 **Efecto visual de altavoz (Vibración en pantalla):** Crea o selecciona un personaje en EchidnaML con forma de altavoz o campana. Haz que el personaje cambie de tamaño ligeramente o gire de un lado a otro (simulando vibración) mientras el zumbador esté sonando.
 2. 🚨 **Alarma Intermitente:** Modifica el programa para que, al mantener pulsado **SL**, el sonido no sea continuo, sino que emita pitidos intermitentes tipo alarma (sonido 0.1s ➔ silencio 0.1s).
