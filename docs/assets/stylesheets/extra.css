@@ -103,6 +103,17 @@
   flex: 1 1 260px;
 }
 
+/* Detalles con lupa: más estrechas que la columna para no dominar la página. */
+.md-typeset img.img-lupa {
+  max-width: min(100%, 32rem);
+}
+
+/* Imagen de cabecera de cada proyecto (600x300): decorativa, no debe
+   ocupar la primera pantalla entera. */
+.md-typeset img.img-cabecera {
+  max-width: min(100%, 18rem);
+}
+
 @media (max-width: 600px) {
   .md-typeset .img-row,
   .md-typeset .img-text-row {

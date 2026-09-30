@@ -1,6 +1,6 @@
 # Interruptor crepuscular
 
-![Imagen cabecera Interruptor crepuscular](assets/images/Interruptor_crepuscular.png "Imagen cabecera Interruptor crepuscular")
+![Imagen cabecera Interruptor crepuscular](assets/images/Interruptor_crepuscular.png "Imagen cabecera Interruptor crepuscular"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 

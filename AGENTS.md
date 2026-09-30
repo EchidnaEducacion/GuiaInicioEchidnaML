@@ -40,6 +40,11 @@ alumnado que empiezan con la placa.
   opcional con `{ width="N" }`. En el PDF, `print.css` limita la altura de
   las imágenes a 95 mm. Están disponibles las clases `.img-row` e
   `.img-text-row` (ver `extra.css`/`print.css`) para poner imágenes en fila.
+  Las imágenes de detalle con lupa (`Lupa_*.png`) llevan `{ .img-lupa }`
+  para que todas tengan el mismo tamaño reducido (32rem en la web, 120 mm en
+  el PDF), y la imagen de cabecera de cada proyecto lleva `{ .img-cabecera }`
+  (18rem en la web, 80 mm en el PDF). En el PDF `{ width="N" }` no tiene
+  efecto porque `print.css` fija `width: auto`.
 - **Pseudocódigo** (`SI ... / SI NO ...` y `-->`): siempre en bloque de
   código con ``` ``` ```, 4 espacios por nivel.
 - Los marcadores provisionales en mayúsculas (`IMAGEN LUPA ...`,

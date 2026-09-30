@@ -1,6 +1,6 @@
 # Makey Makey
 
-![Imagen cabecera MkMk](assets/images/MkMk.png "Imagen cabecera MkMk")
+![Imagen cabecera MkMk](assets/images/MkMk.png "Imagen cabecera MkMk"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 

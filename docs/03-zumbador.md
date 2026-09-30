@@ -1,6 +1,6 @@
 # Zumbador
 
-![Imagen cabecera zumbador](assets/images/Zumbador.png "Imagen cabecera zumbador")
+![Imagen cabecera zumbador](assets/images/Zumbador.png "Imagen cabecera zumbador"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 

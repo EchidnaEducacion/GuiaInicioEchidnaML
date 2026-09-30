@@ -148,6 +148,19 @@ img {
   break-inside: avoid-page;
 }
 
+/* Detalles con lupa ({ .img-lupa }): ancho fijo menor que la columna.
+   Hace falta una clase porque el width:auto de arriba anula { width="N" }. */
+img.img-lupa {
+  width: 120mm;
+  max-width: 100%;
+}
+
+/* Cabecera de cada proyecto ({ .img-cabecera }). */
+img.img-cabecera {
+  width: 80mm;
+  max-width: 100%;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;

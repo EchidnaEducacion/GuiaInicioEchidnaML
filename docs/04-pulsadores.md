@@ -1,6 +1,6 @@
 # Pulsadores
 
-![Imagen cabecera pulsadores](assets/images/Pulsadores.png "Imagen cabecera pulsadores")
+![Imagen cabecera pulsadores](assets/images/Pulsadores.png "Imagen cabecera pulsadores"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 

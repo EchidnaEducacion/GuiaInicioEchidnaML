@@ -1,6 +1,6 @@
 # Semáforo
 
-![Imagen cabecera semaforo](assets/images/EchidnaSemaforo.png "Imagen cabecera semaforo")
+![Imagen cabecera semaforo](assets/images/EchidnaSemaforo.png "Imagen cabecera semaforo"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 
@@ -20,7 +20,7 @@ Vamos a realizar un semáforo en el que el LED verde se enciende durante 5 segun
 * **LED naranja:** Fase de precaución.
 * **LED rojo:** Fase de detención.
 
-![LED en EchidnaBlack2](assets/images/Lupa_Ledes.png "LED en EchidnaBlack2")
+![LED en EchidnaBlack2](assets/images/Lupa_Ledes.png "LED en EchidnaBlack2"){ .img-lupa }
 
 ## 2. Programación
 

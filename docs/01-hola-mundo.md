@@ -1,6 +1,6 @@
 # Hola Mundo
 
-![Imagen cabecera Hola Mundo](assets/images/Hola_Mundo.png "Imagen cabecera Hola Mundo")
+![Imagen cabecera Hola Mundo](assets/images/Hola_Mundo.png "Imagen cabecera Hola Mundo"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 
@@ -18,7 +18,7 @@ En este primer proyecto haremos que el **LED rojo** de la placa EchidnaBlack2 se
 
 Usaremos el LED rojo.
 
-![LED en EchidnaBlack2](assets/images/Lupa_Ledes.png "LED en EchidnaBlack2")
+![LED en EchidnaBlack2](assets/images/Lupa_Ledes.png "LED en EchidnaBlack2"){ .img-lupa }
 
 ## 2. Programación
 
