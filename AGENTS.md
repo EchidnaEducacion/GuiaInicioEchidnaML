@@ -41,7 +41,7 @@ alumnado que empiezan con la placa.
   las imágenes a 95 mm. Están disponibles las clases `.img-row` e
   `.img-text-row` (ver `extra.css`/`print.css`) para poner imágenes en fila.
   Las imágenes de detalle con lupa (`Lupa_*.png`) llevan `{ .img-lupa }`
-  para que todas tengan el mismo tamaño reducido (32rem en la web, 120 mm en
+  para que todas tengan el mismo tamaño reducido (26rem en la web, 100 mm en
   el PDF), y la imagen de cabecera de cada proyecto lleva `{ .img-cabecera }`
   (18rem en la web, 80 mm en el PDF). En el PDF `{ width="N" }` no tiene
   efecto porque `print.css` fija `width: auto`.

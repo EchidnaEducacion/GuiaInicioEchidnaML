@@ -151,7 +151,7 @@ img {
 /* Detalles con lupa ({ .img-lupa }): ancho fijo menor que la columna.
    Hace falta una clase porque el width:auto de arriba anula { width="N" }. */
 img.img-lupa {
-  width: 120mm;
+  width: 100mm;
   max-width: 100%;
 }
 
