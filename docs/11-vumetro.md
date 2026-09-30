@@ -1,6 +1,6 @@
 # Vúmetro
 
-IMAGEN CABECERA VÚMETRO
+![Imagen cabecera Vúmetro](assets/images/Vumetro.png "Imagen cabecera Vúmetro"){ .img-cabecera }
 
 --> Video del funcionamiento
 
