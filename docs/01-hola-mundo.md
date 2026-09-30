@@ -18,7 +18,7 @@ En este primer proyecto haremos que el **LED rojo** de la placa EchidnaBlack2 se
 
 Usaremos el LED rojo.
 
-IMAGEN LUPA LED ROJO
+![LED en EchidnaBlack2](assets/images/Lupa_Ledes.png "LED en EchidnaBlack2")
 
 ## 2. Programación
 
