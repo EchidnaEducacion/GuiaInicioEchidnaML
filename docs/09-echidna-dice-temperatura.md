@@ -1,6 +1,6 @@
 # El echidna dice la temperatura
 
-IMAGEN CABECERA EL ECHIDNA DICE LA TEMPERATURA
+![Imagen cabecera El echidna dice la temperatura](assets/images/Temperatura.png "Imagen cabecera El echidna dice la temperatura"){ .img-cabecera }
 
 --> Video del funcionamiento
 
@@ -21,11 +21,9 @@ Vamos a convertir a nuestro echidna en un **hombre del tiempo**: cada vez que pu
 
 ### 1.2 Qué componentes vamos a usar
 
-* **Sensor de temperatura:** Mide la temperatura del ambiente. Entrega un voltaje que depende de la temperatura, y el bloque `leer temperatura` lo convierte directamente a grados Celsius.
+* **Sensor de temperatura:** Mide la temperatura del ambiente. Entrega un voltaje que depende de la temperatura, y el bloque `leer temperatura` lo convierte directamente a grados Celsius. Si marcas la casilla que hay junto a ese bloque, verás la temperatura en el escenario.
 
 ![Sensor de temperatura en EchidnaBlack2](assets/images/Lupa_Temperatura.png "Sensor de temperatura en EchidnaBlack2"){ .img-lupa }
-
-Si marcas la casilla que hay junto al bloque `leer temperatura`, verás en el escenario la temperatura medida en cada momento.
 
 ## 2. Programación
 
@@ -48,5 +46,5 @@ Como dentro de un bloque `unir` solo caben dos partes, usamos un `unir` dentro d
 Prueba a realizar algunas de estas mejoras en tu proyecto de forma autónoma:
 
 1. **Sin tantos decimales:** El sensor da la temperatura con decimales (por ejemplo, 16.61). Usa el bloque `redondear` para que el echidna diga solo un número entero.
-2. **Grados Fahrenheit:** Haz que el echidna diga también la temperatura en grados Fahrenheit (°F), como en Estados Unidos. Para calcularla, multiplica los grados Celsius por 1.8 y súmale 32.
-3. **Alarma de calor:** Programa una alarma que haga sonar el **zumbador** cuando la temperatura supere un valor. Para probarla, calienta el sensor tocándolo suavemente con el dedo y observa cómo sube el valor.
+2. **Grados Fahrenheit:** Haz que el echidna diga también la temperatura en grados Fahrenheit (°F). Para calcularla, multiplica los grados Celsius por 1.8 y súmale 32.
+3. **Alarma de calor:** Haz que suene el **zumbador** cuando la temperatura supere un valor. Para probarla, calienta el sensor tocándolo suavemente con el dedo.
