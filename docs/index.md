@@ -16,6 +16,7 @@ Antes de empezar, lee la [Introducción](00-introduccion.md): qué son EchidnaBl
 4. [Pulsadores](04-pulsadores.md)
 5. [Interruptor crepuscular](05-interruptor-crepuscular.md)
 6. [Makey Makey](06-makey-makey.md)
+7. [Telesketch](07-telesketch.md)
 
 ## Estructura de los proyectos
 
