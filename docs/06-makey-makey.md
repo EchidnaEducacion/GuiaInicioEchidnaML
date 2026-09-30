@@ -10,20 +10,20 @@ Vamos a convertir la entrada **MkMk A0** de nuestra placa en una tecla de piano 
 
 * A detectar la conductividad eléctrica de objetos cotidianos usando el **modo Makey Makey (MkMk)**.
 * A conectar cables de cocodrilo en los conectores externos de la placa.
-* A entender cómo funciona un **circuito cerrado** (hacer masa / GND).
+* A entender cómo funciona un **circuito cerrado** a través de nuestro propio cuerpo.
 * A reproducir notas musicales y sonidos desde el software.
 
 ### 1.2 Qué componentes vamos a usar
 
 * **Entrada MkMk A0:** Conector táctil para detectar pulsaciones o conductividad.
-* **Pin GND (Masa / Común):** Indispensable para cerrar el circuito con tu cuerpo. Aunque en la placa aparece serigrafiado como **MkMk I/O** (en el extremo derecho de la fila de conectores), en este proyecto funciona como GND.
+* **Conector común MkMk I/O (5V):** Indispensable para cerrar el circuito con tu cuerpo. Está en el extremo derecho de la fila de conectores y proporciona 5V.
 * **Cables de cocodrilo:** Para conectar objetos externos (frutas, plastilina, papel de aluminio, etc.).
 
 **¡ATENCIÓN!** Para que funcione el modo MkMk debemos poner el selector del modo de funcionamiento hacia la derecha, y se nos encenderá el LED testigo en la parte inferior.
 
 ![Conexión en modo MkMk](assets/images/mkmk_conexion.png "Conexión en modo MkMk")
 
-En la imagen, la fruta está conectada a la entrada **A0** y la pulsera al conector **MkMk I/O** (GND). Al tocar la fruta con la mano, la corriente pasa a través de tu cuerpo, el circuito se cierra y la placa detecta el contacto.
+En la imagen, la fruta está conectada a la entrada **A0** y la pulsera al conector común **MkMk I/O** (5V). Al tocar la fruta con la mano, una corriente muy pequeña pasa a través de tu cuerpo, el circuito se cierra y la placa detecta el contacto en la entrada A0.
 
 ## 2. Programación
 
