@@ -20,7 +20,7 @@ Vamos a programar un sistema automático similar al de las farolas de la calle: 
 * **Sensor de luz (LDR):** Mide la cantidad de luz que recibe. Cuanto más oscuro esté el entorno, menor será el valor registrado.
 * **LED verde:** Funcionará como nuestra luz automática.
 
-IMAGEN LUPA LDR
+![Sensor de luz (LDR) en EchidnaBlack2](assets/images/Lupa_LDR.png "Sensor de luz (LDR) en EchidnaBlack2"){ .img-lupa }
 
 ## 2. Programación
 
