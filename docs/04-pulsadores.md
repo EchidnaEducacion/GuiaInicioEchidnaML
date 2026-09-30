@@ -21,7 +21,7 @@ Vamos a programar un sistema de encendido y apagado manual con dos botones:
 * **Pulsador SL (Switch Left / Izquierdo):** Para apagar el LED.
 * **LED rojo:** Componente que cambia de estado según el botón pulsado.
 
-IMAGEN LUPA PULSADORES
+![Pulsadores en EchidnaBlack2](assets/images/Lupa_Pulsadores.png "Pulsadores en EchidnaBlack2"){ .img-lupa }
 
 ## 2. Programación
 
