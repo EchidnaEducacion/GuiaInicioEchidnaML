@@ -48,5 +48,5 @@ Como dentro de un bloque `unir` solo caben dos partes, usamos un `unir` dentro d
 Prueba a realizar algunas de estas mejoras en tu proyecto de forma autónoma:
 
 1. **Sin tantos decimales:** El sensor da la temperatura con decimales (por ejemplo, 16.61). Usa el bloque `redondear` para que el echidna diga solo un número entero.
-2. **Termómetro de colores:** Haz que el **LED RGB** se encienda en **azul** si hace frío (menos de 20 °C), en **verde** si la temperatura es agradable y en **rojo** si hace calor (más de 25 °C).
+2. **Grados Fahrenheit:** Haz que el echidna diga también la temperatura en grados Fahrenheit (°F), como en Estados Unidos. Para calcularla, multiplica los grados Celsius por 1.8 y súmale 32.
 3. **Alarma de calor:** Programa una alarma que haga sonar el **zumbador** cuando la temperatura supere un valor. Para probarla, calienta el sensor tocándolo suavemente con el dedo y observa cómo sube el valor.
