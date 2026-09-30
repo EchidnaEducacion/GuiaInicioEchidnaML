@@ -2,8 +2,6 @@
 
 ![Imagen cabecera Telesketch](assets/images/Telesketch.png "Imagen cabecera Telesketch"){ .img-cabecera }
 
---> Video del funcionamiento
-
 ## 1. Qué vamos a hacer
 
 Vamos a convertir la pantalla de EchidnaML en un **Telesketch**, la pizarra mágica que dibuja líneas con dos ruedas. En nuestro caso usaremos el **joystick** de la placa: al mover la palanca hacia un lado, el **lápiz** dibujará una línea en el escenario en esa misma dirección.

@@ -6,8 +6,6 @@
 
 Vamos a programar un sistema automático similar al de las farolas de la calle: el **LED verde** se encenderá automáticamente cuando la luz ambiental baje (de noche) y se apagará cuando haya suficiente luz (de día).
 
---> Video del funcionamiento
-
 ### 1.1 Qué vamos a aprender
 
 * A programar un **sistema automático** que reaccione al entorno.

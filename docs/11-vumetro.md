@@ -2,8 +2,6 @@
 
 ![Imagen cabecera Vúmetro](assets/images/Vumetro.png "Imagen cabecera Vúmetro"){ .img-cabecera }
 
---> Video del funcionamiento
-
 ## 1. Qué vamos a hacer
 
 Vamos a construir un **vúmetro** o **semáforo de ruido**, que muestra con los LED de la placa cuánto ruido hay a nuestro alrededor. Con silencio se encenderá solo el **LED verde**; si el ruido aumenta, se encenderá también el **naranja**; y si hay mucho ruido, se encenderán los **tres LED**.

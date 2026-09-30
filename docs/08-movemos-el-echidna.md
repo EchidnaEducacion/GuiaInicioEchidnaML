@@ -2,8 +2,6 @@
 
 ![Imagen cabecera Movemos el echidna](assets/images/Movemos_echidna.png "Imagen cabecera Movemos el echidna"){ .img-cabecera }
 
---> Video del funcionamiento
-
 ## 1. Qué vamos a hacer
 
 Vamos a convertir la placa en un **mando de videojuego**: al **inclinar la placa** hacia un lado, el personaje de Echidna se moverá por la pantalla en esa dirección, y si **levantas la placa de golpe**, el personaje dará un **salto**.

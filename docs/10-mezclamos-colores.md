@@ -2,8 +2,6 @@
 
 ![Imagen cabecera Mezclamos colores](assets/images/Mezclamos_colores.png "Imagen cabecera Mezclamos colores"){ .img-cabecera }
 
---> Video del funcionamiento
-
 ## 1. Qué vamos a hacer
 
 Vamos a construir un **termómetro de colores**: el **LED RGB** de la placa cambiará de color automáticamente según la temperatura ambiente. Se encenderá en **azul** si hace frío, en **verde** si la temperatura es agradable y en **rojo** si hace calor.

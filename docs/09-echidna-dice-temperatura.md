@@ -2,8 +2,6 @@
 
 ![Imagen cabecera El echidna dice la temperatura](assets/images/Temperatura.png "Imagen cabecera El echidna dice la temperatura"){ .img-cabecera }
 
---> Video del funcionamiento
-
 ## 1. Qué vamos a hacer
 
 <div class="img-text-row" markdown="1">
