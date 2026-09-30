@@ -18,6 +18,7 @@ Antes de empezar, lee la [Introducción](00-introduccion.md): qué son EchidnaBl
 6. [Makey Makey](06-makey-makey.md)
 7. [Telesketch](07-telesketch.md)
 8. [Movemos el echidna](08-movemos-el-echidna.md)
+9. [El echidna dice la temperatura](09-echidna-dice-temperatura.md)
 
 ## Estructura de los proyectos
 
