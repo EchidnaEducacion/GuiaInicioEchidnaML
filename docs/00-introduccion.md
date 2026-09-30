@@ -13,3 +13,7 @@ El sistema se compone de una **placa** con diversos componentes integrados y un 
 EchidnaBlocks se **comunica** con la placa a través del **puerto serie**, mediante el cable USB: la placa envía el estado de sus **sensores** y tu programa lo procesa y le devuelve cómo deben estar sus **actuadores** (LED, zumbador...).
 
 Esta **guía** te propone una serie de **proyectos sencillos** para dar tus primeros pasos con la placa. No necesitas conocimientos previos de programación, aunque te resultará más fácil si ya conoces **Scratch**. Si quieres ampliar información, consulta el [Manual de EchidnaML y EchidnaBlack](https://echidnaeducacion.github.io/manual/) y la web del proyecto: [www.echidna.es](https://echidna.es/).
+
+Los programas de todos los proyectos de esta guía los puedes encontrar en EchidnaBlocks, en el menú **Archivo → Ejemplos**. Ábrelos para probarlos, estudiarlos y modificarlos.
+
+![Menú Archivo de EchidnaBlocks](assets/images/menuejemplos.png "Menú Archivo de EchidnaBlocks")
