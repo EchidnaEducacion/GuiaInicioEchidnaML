@@ -1,6 +1,6 @@
 # Mezclamos colores
 
-IMAGEN CABECERA MEZCLAMOS COLORES
+![Imagen cabecera Mezclamos colores](assets/images/Mezclamos_colores.png "Imagen cabecera Mezclamos colores"){ .img-cabecera }
 
 --> Video del funcionamiento
 
