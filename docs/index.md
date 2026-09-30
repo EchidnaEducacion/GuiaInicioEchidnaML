@@ -20,6 +20,7 @@ Antes de empezar, lee la [Introducción](00-introduccion.md): qué son EchidnaBl
 8. [Movemos el echidna](08-movemos-el-echidna.md)
 9. [El echidna dice la temperatura](09-echidna-dice-temperatura.md)
 10. [Mezclamos colores](10-mezclamos-colores.md)
+11. [Vúmetro](11-vumetro.md)
 
 ## Estructura de los proyectos
 

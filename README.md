@@ -22,6 +22,7 @@ proyectos sencillos. Se publica como sitio web estático con
 8. [Movemos el echidna](docs/08-movemos-el-echidna.md)
 9. [El echidna dice la temperatura](docs/09-echidna-dice-temperatura.md)
 10. [Mezclamos colores](docs/10-mezclamos-colores.md)
+11. [Vúmetro](docs/11-vumetro.md)
 
 Todos siguen la misma estructura: `1. Qué vamos a hacer` (con
 `1.1 Qué vamos a aprender` y `1.2 Qué componentes vamos a usar`),
