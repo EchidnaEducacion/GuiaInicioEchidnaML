@@ -1,6 +1,6 @@
 # Movemos el echidna
 
-IMAGEN CABECERA MOVEMOS EL ECHIDNA
+![Imagen cabecera Movemos el echidna](assets/images/Movemos_echidna.png "Imagen cabecera Movemos el echidna"){ .img-cabecera }
 
 --> Video del funcionamiento
 
