@@ -6,6 +6,10 @@ proyectos sencillos. Se publica como sitio web estático con
 [WeasyPrint](https://weasyprint.org/), con la misma estrategia que el
 [manual de EchidnaBlack y EchidnaML](https://github.com/EchidnaEducacion/manual).
 
+## Introducción
+
+[Introducción](docs/00-introduccion.md): EchidnaBlack2, EchidnaML y el entorno EchidnaBlocks.
+
 ## Proyectos
 
 1. [Hola Mundo](docs/01-hola-mundo.md)

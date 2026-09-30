@@ -4,6 +4,10 @@ Guía para iniciarse con **EchidnaML** y la placa **EchidnaBlack2** a través de
 
 [Descargar la guía en PDF](guia-inicio-echidnaml.pdf){ .md-button .md-button--primary }
 
+## Introducción
+
+Antes de empezar, lee la [Introducción](00-introduccion.md): qué son EchidnaBlack2 y EchidnaML y cómo es el entorno EchidnaBlocks.
+
 ## Proyectos
 
 1. [Hola Mundo](01-hola-mundo.md)

@@ -9,6 +9,7 @@ site_dir = "site"
 extra_css = ["assets/stylesheets/extra.css"]
 nav = [
   {"Inicio" = "index.md"},
+  {"Introducción" = "00-introduccion.md"},
   {"1. Hola Mundo" = "01-hola-mundo.md"},
   {"2. Semáforo" = "02-semaforo.md"},
   {"3. Zumbador" = "03-zumbador.md"},
