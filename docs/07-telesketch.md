@@ -1,6 +1,6 @@
 # Telesketch
 
-IMAGEN CABECERA TELESKETCH
+![Imagen cabecera Telesketch](assets/images/Telesketch.png "Imagen cabecera Telesketch"){ .img-cabecera }
 
 --> Video del funcionamiento
 
