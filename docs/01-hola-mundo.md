@@ -6,7 +6,7 @@
 
 En este primer proyecto haremos que el **LED rojo** de la placa EchidnaBlack2 se encienda y se apague de forma continua (parpadeo).
 
---> GIF FUNCIONAMIENTO
+![LED rojo parpadeando en EchidnaBlack2](assets/images/Hola_Mundo_funcionamiento.gif "LED rojo parpadeando en EchidnaBlack2")
 
 ### 1.1 Qué vamos a aprender
 
