@@ -1,5 +1,7 @@
 # Guía de inicio EchidnaML
 
+![EchidnaML](assets/images/pegataechidnaml.png "EchidnaML"){ .img-cabecera }
+
 Guía para iniciarse con **EchidnaML** y la placa **EchidnaBlack2** a través de proyectos sencillos, pensada para docentes y alumnado que dan sus primeros pasos con la placa.
 
 [Descargar la guía en PDF](guia-inicio-echidnaml.pdf){ .md-button .md-button--primary }

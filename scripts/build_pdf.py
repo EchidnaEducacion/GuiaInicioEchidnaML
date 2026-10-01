@@ -114,10 +114,10 @@ def render_page(depth, md_path, url_to_id):
 
 def render_cover(site_title, site_author):
     logo = (SITE_DIR / "assets/images/Logo_Echidna_I.png").resolve().as_uri()
-    portada = (SITE_DIR / "assets/images/Hola_Mundo.png").resolve().as_uri()
+    portada = (SITE_DIR / "assets/images/pegataechidnaml.png").resolve().as_uri()
     # A diferencia del manual, esta guía no tiene una ilustración de portada
     # propia: la portada se maqueta con HTML + print.css (logo, título,
-    # imagen del primer proyecto y autoría). El <h1> fija además el
+    # imagen de EchidnaML tomada del manual y autoría). El <h1> fija además el
     # string-set de doc-title que aparece en la cabecera del resto de páginas.
     return f"""
 <section id="cover">
@@ -126,7 +126,7 @@ def render_cover(site_title, site_author):
     <h1>{site_title}</h1>
     <p class="cover-subtitle">Primeros pasos con la placa EchidnaBlack2 a través de proyectos sencillos</p>
   </div>
-  <img class="cover-image" src="{portada}" alt="">
+  <img class="cover-image" src="{portada}" alt="EchidnaML">
   <p class="cover-author">{site_author}</p>
 </section>
 """

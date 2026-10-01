@@ -265,13 +265,16 @@ a { color: var(--echidna-orange-dark); text-decoration: underline; }
   max-width: 130mm;
 }
 
+/* pegataechidnaml.png es cuadrada: con más ancho no cabe en la página. */
 #cover .cover-image {
-  width: 150mm;
-  margin: 22mm auto 0;
+  width: 115mm;
+  max-height: none;
+  margin: 14mm auto 0;
 }
 
 #cover .cover-author {
   margin-top: auto;
+  padding-top: 10mm;
   font-family: "Exo", "Open Sans", sans-serif;
   font-size: 12pt;
   color: var(--echidna-orange-dark);
