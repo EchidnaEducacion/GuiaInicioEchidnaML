@@ -6,7 +6,7 @@
 
 Vamos a realizar un semáforo en el que el LED verde se enciende durante 5 segundos, luego se enciende el LED naranja durante 2 segundos y finalmente el LED rojo durante 5 segundos. El ciclo se repite continuamente.
 
---> GIF del funcionamiento?
+![Semáforo funcionando en EchidnaBlack2](assets/images/Semaforo_funcionamiento.gif "Semáforo funcionando en EchidnaBlack2")
 
 ### 1.1 Qué vamos a aprender
 
