@@ -12,6 +12,10 @@ Vamos a programar un sistema de encendido y apagado manual con dos botones:
 ### 1.1 Qué vamos a aprender
 
 * A leer **entradas digitales** (saber si un botón está presionado o no).
+* A diferenciar claramente entre una **Entrada (Input)** y una **Salida (Output)** en robótica:
+    * **Entrada (SR y SL):** Detecta la orden del usuario.
+    * **Salida (LED rojo):** Produce la respuesta (luz).
+* A tomar decisiones en el programa mediante el bloque condicional **`si ... si no`**: si se cumple la condición se ejecuta una parte del programa y, si no, la otra.
 * A utilizar **condicionales anidados** (`si ... si no` y dentro otro `si`).
 * A controlar el estado de un actuador (LED) mediante eventos físicos (pulsaciones).
 

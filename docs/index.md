@@ -14,15 +14,15 @@ Antes de empezar, lee la [Introducción](00-introduccion.md): qué son EchidnaBl
 
 1. [Hola Mundo](01-hola-mundo.md)
 2. [Semáforo](02-semaforo.md)
-3. [Zumbador](03-zumbador.md)
-4. [Pulsadores](04-pulsadores.md)
+3. [Pulsadores](03-pulsadores.md)
+4. [Zumbador](04-zumbador.md)
 5. [Interruptor crepuscular](05-interruptor-crepuscular.md)
 6. [Makey Makey](06-makey-makey.md)
-7. [Telesketch](07-telesketch.md)
-8. [Movemos el echidna](08-movemos-el-echidna.md)
-9. [El echidna dice la temperatura](09-echidna-dice-temperatura.md)
-10. [Mezclamos colores](10-mezclamos-colores.md)
-11. [Vúmetro](11-vumetro.md)
+7. [El echidna dice la temperatura](07-echidna-dice-temperatura.md)
+8. [Mezclamos colores](08-mezclamos-colores.md)
+9. [Vúmetro](09-vumetro.md)
+10. [Telesketch](10-telesketch.md)
+11. [Movemos el echidna](11-movemos-el-echidna.md)
 
 ## Estructura de los proyectos
 

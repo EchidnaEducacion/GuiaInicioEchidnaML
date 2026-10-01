@@ -9,11 +9,8 @@ Vamos a programar un timbre eléctrico: el **zumbador** emitirá un tono sonoro 
 ### 1.1 Qué vamos a aprender
 
 * A controlar un actuador de sonido (**zumbador**) mediante un botón de entrada.
-* A diferenciar claramente entre una **Entrada (Input)** y una **Salida (Output)** en robótica:
-    * **Entrada (SL):** Detecta la orden del usuario.
-    * **Salida (Zumbador):** Produce la respuesta (sonido).
 * A evaluar estados en tiempo real (`presionado` vs `liberado`).
-* A tomar decisiones en el programa mediante el bloque condicional **`si ... si no`**: si se cumple la condición se ejecuta una parte del programa y, si no, la otra.
+* A usar el condicional **`si ... si no`** para que el zumbador suene solo mientras el pulsador está presionado.
 
 ### 1.2 Qué componentes vamos a usar
 

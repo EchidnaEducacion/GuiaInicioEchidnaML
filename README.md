@@ -14,15 +14,15 @@ proyectos sencillos. Se publica como sitio web estático con
 
 1. [Hola Mundo](docs/01-hola-mundo.md)
 2. [Semáforo](docs/02-semaforo.md)
-3. [Zumbador](docs/03-zumbador.md)
-4. [Pulsadores](docs/04-pulsadores.md)
+3. [Pulsadores](docs/03-pulsadores.md)
+4. [Zumbador](docs/04-zumbador.md)
 5. [Interruptor crepuscular](docs/05-interruptor-crepuscular.md)
 6. [Makey Makey](docs/06-makey-makey.md)
-7. [Telesketch](docs/07-telesketch.md)
-8. [Movemos el echidna](docs/08-movemos-el-echidna.md)
-9. [El echidna dice la temperatura](docs/09-echidna-dice-temperatura.md)
-10. [Mezclamos colores](docs/10-mezclamos-colores.md)
-11. [Vúmetro](docs/11-vumetro.md)
+7. [El echidna dice la temperatura](docs/07-echidna-dice-temperatura.md)
+8. [Mezclamos colores](docs/08-mezclamos-colores.md)
+9. [Vúmetro](docs/09-vumetro.md)
+10. [Telesketch](docs/10-telesketch.md)
+11. [Movemos el echidna](docs/11-movemos-el-echidna.md)
 
 Todos siguen la misma estructura: `1. Qué vamos a hacer` (con
 `1.1 Qué vamos a aprender` y `1.2 Qué componentes vamos a usar`),
