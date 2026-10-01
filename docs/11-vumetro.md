@@ -20,7 +20,11 @@ Vamos a construir un **vúmetro** o **semáforo de ruido**, que muestra con los 
 
 ![Micrófono en EchidnaBlack2](assets/images/Lupa_Microfono.png "Micrófono en EchidnaBlack2"){ .img-lupa }
 
-Si marcas la casilla que hay junto al bloque `leer micrófono`, verás en el escenario el valor que mide en cada momento.
+Para leer el micrófono usamos el bloque `leer micrófono`:
+
+![Bloque leer micrófono](assets/images/Bloque_microfono.png "Bloque leer micrófono"){ .img-bloque }
+
+Si marcas la casilla que hay junto al bloque, verás en el escenario el valor que mide en cada momento.
 
 ## 2. Programación
 

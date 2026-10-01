@@ -22,6 +22,12 @@ Vamos a programar un timbre eléctrico: el **zumbador** emitirá un tono sonoro 
 
 ![Zumbador en EchidnaBlack2](assets/images/Lupa_Zumbador.png "Zumbador en EchidnaBlack2"){ .img-lupa }
 
+Para hacer sonar el zumbador usamos el bloque `encender zumbador`:
+
+![Bloque encender zumbador](assets/images/Bloque_zumbador.png "Bloque encender zumbador"){ .img-bloque }
+
+En el bloque puedes elegir si quieres **encender** o **apagar** el zumbador. El volumen se ajusta con el potenciómetro **Volume** de la placa.
+
 ## 2. Programación
 
 La programación se basa en revisar continuamente si el pulsador SL está presionado, si lo está se activa el zumbador y, si no, se apaga.

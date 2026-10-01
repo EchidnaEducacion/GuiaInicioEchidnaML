@@ -22,9 +22,7 @@ Vamos a construir un **termómetro de colores**: el **LED RGB** de la placa camb
 
 Para controlar el LED RGB usamos el bloque `LED R G B`, en el que damos a cada color un valor entre **0** (apagado) y **255** (máxima intensidad). Por ejemplo, para conseguir el **naranja Echidna** mezclamos mucho rojo (254), algo de verde (109) y casi nada de azul (4):
 
-<div class="img-row" markdown="1">
-![Bloque LED RGB con el naranja Echidna](assets/images/Bloque_LED_RGB_naranja.png "Bloque LED RGB con el naranja Echidna"){ width="340" }
-</div>
+![Bloque LED RGB con el naranja Echidna](assets/images/Bloque_LED_RGB_naranja.png "Bloque LED RGB con el naranja Echidna"){ .img-bloque }
 
 ## 2. Programación
 

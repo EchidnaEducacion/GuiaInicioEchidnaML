@@ -20,7 +20,9 @@ Vamos a convertir la pantalla de EchidnaML en un **Telesketch**, la pizarra mág
 
 ![Joystick en EchidnaBlack2](assets/images/Lupa_Joystick.png "Joystick en EchidnaBlack2"){ .img-lupa }
 
-Para leer el joystick usamos el bloque `leer joystick`, en el que puedes elegir el eje **x** o el eje **y**.
+Para leer el joystick usamos el bloque `leer joystick`, en el que puedes elegir el eje **x** o el eje **y**:
+
+![Bloque leer joystick](assets/images/Bloque_joystick.png "Bloque leer joystick"){ .img-bloque }
 
 <div class="img-text-row" markdown="1">
 ![Valores del joystick](assets/images/valores_joystick.png "Valores del joystick"){ width="300" }

@@ -78,6 +78,14 @@ def render_page(depth, md_path, url_to_id):
         # estilo en línea para que el PDF mida lo mismo que la web.
         img.set("style", f"width: {img.get('width')}px; height: auto;")
 
+    for img in article.xpath(".//p/img[contains(concat(' ', @class, ' '), ' img-bloque ')]"):
+        # La frase que presenta un bloque, su imagen y la explicación que la
+        # sigue deben quedar en la misma página. WeasyPrint no admite :has(),
+        # así que marcamos aquí los párrafos (ver .keep-with-next en print.css).
+        for p in (img.getparent(), img.getparent().getprevious()):
+            if p is not None and p.tag == "p":
+                p.set("class", f"{p.get('class', '')} keep-with-next".strip())
+
     for el in article.xpath(".//*[@id]"):
         el.set("id", f"{page_id}--{el.get('id')}")
 

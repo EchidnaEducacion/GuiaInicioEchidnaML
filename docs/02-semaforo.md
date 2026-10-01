@@ -22,6 +22,12 @@ Vamos a realizar un semáforo en el que el LED verde se enciende durante 5 segun
 
 ![LED en EchidnaBlack2](assets/images/Lupa_Ledes.png "LED en EchidnaBlack2"){ .img-lupa }
 
+Para encender y apagar los LED usamos el bloque `encender LED`:
+
+![Bloque encender LED](assets/images/Bloque_LED.png "Bloque encender LED"){ .img-bloque }
+
+En el bloque puedes elegir si quieres **encender** o **apagar** el LED y **qué LED**: verde, naranja o rojo.
+
 ## 2. Programación
 
 La programación se basa en una secuencia cíclica donde cada LED permanece encendido durante un tiempo específico y luego pasa al siguiente estado de forma automática.

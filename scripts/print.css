@@ -155,6 +155,18 @@ img.img-lupa {
   max-width: 100%;
 }
 
+/* Bloques de programación sueltos ({ .img-bloque }): todas las imágenes
+   están a la misma escala, así que se fija su resolución en vez del ancho
+   para que el texto de todos los bloques salga del mismo tamaño. */
+img.img-bloque {
+  image-resolution: 160dpi;
+  margin: .6rem 0 .6rem 8mm;
+}
+
+/* La frase que presenta un bloque, su imagen y la explicación que la sigue
+   van en la misma página (build_pdf.py marca los párrafos). */
+p.keep-with-next { break-after: avoid; }
+
 /* Cabecera de cada proyecto ({ .img-cabecera }). */
 img.img-cabecera {
   width: 80mm;

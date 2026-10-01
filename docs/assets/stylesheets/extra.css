@@ -108,6 +108,15 @@
   max-width: min(100%, 26rem);
 }
 
+/* Bloques de programación sueltos (Bloque_*.png): todas las imágenes están
+   a la misma escala; se reducen para que su texto quede cerca del del
+   párrafo. */
+.md-typeset img.img-bloque {
+  zoom: .75;
+  margin: 1rem 0 1rem 1.5rem;
+  border-radius: 0;
+}
+
 /* Imagen de cabecera de cada proyecto (600x300): decorativa, no debe
    ocupar la primera pantalla entera. */
 .md-typeset img.img-cabecera {

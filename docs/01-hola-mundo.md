@@ -20,6 +20,12 @@ Usaremos el LED rojo.
 
 ![LED en EchidnaBlack2](assets/images/Lupa_Ledes.png "LED en EchidnaBlack2"){ .img-lupa }
 
+Para encender y apagar los LED usamos el bloque `encender LED`:
+
+![Bloque encender LED](assets/images/Bloque_LED.png "Bloque encender LED"){ .img-bloque }
+
+En el bloque puedes elegir si quieres **encender** o **apagar** el LED y **qué LED**: verde, naranja o rojo.
+
 ## 2. Programación
 
 Este programa utiliza un bucle continuo para ejecutar la siguiente secuencia lógica, creando un parpadeo constante en el LED rojo.

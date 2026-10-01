@@ -23,6 +23,16 @@ alumnado que empiezan con la placa.
   `### 1.2 Qué componentes vamos a usar`, `## 2. Programación` (con
   **Lógica de programación** cuando aplica) y `## 3. Mejóralo` (tres
   propuestas numeradas). Mantén este patrón al añadir un proyecto.
+- **Bloque del componente**: al final del 1.2 (tras la imagen de lupa) se
+  presenta **un único bloque**, el del componente que introduce el proyecto
+  (en Zumbador, el zumbador y no los pulsadores): una frase con el nombre
+  del bloque entre comillas invertidas, su imagen
+  `![Bloque ...](assets/images/Bloque_*.png "Bloque ..."){ .img-bloque }`
+  y sus opciones o valores. Imagen y explicación salen del apartado
+  «BLOQUE DE PROGRAMACIÓN» del manual. Todas las `Bloque_*.png` están
+  recortadas y a la misma escala (la x del texto mide 12 px) para que
+  `.img-bloque` las muestre con el texto del mismo tamaño; respeta esa
+  escala al añadir una nueva.
 - **Navegación**: `nav` en `zensical.toml` es la fuente de verdad del orden.
   Si añades, eliminas o reordenas un proyecto, actualiza a la vez `nav`, la
   lista de `docs/index.md` y la del `README.md`. Los ficheros se nombran

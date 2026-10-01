@@ -23,6 +23,12 @@ Vamos a programar un sistema de encendido y apagado manual con dos botones:
 
 ![Pulsadores en EchidnaBlack2](assets/images/Lupa_Pulsadores.png "Pulsadores en EchidnaBlack2"){ .img-lupa }
 
+Para leer el estado de los pulsadores usamos el bloque `¿botón SL pulsado?`:
+
+![Bloque ¿botón pulsado?](assets/images/Bloque_pulsador.png "Bloque ¿botón pulsado?"){ .img-bloque }
+
+En el bloque puedes elegir el pulsador **SL** o **SR**. Devuelve **verdadero** (1) si está pulsado y **falso** (0) si no lo está.
+
 ## 2. Programación
 
 El programa comprueba si el pulsador derecho está presionado; en ese caso, enciende el LED rojo. Si no lo está y presionamos el pulsador izquierdo, el LED se apaga.

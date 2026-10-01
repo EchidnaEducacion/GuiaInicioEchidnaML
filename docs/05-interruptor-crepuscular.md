@@ -20,6 +20,12 @@ Vamos a programar un sistema automático similar al de las farolas de la calle: 
 
 ![Sensor de luz (LDR) en EchidnaBlack2](assets/images/Lupa_LDR.png "Sensor de luz (LDR) en EchidnaBlack2"){ .img-lupa }
 
+Para leer el sensor de luz usamos el bloque `leer sensor luz`:
+
+![Bloque leer sensor luz](assets/images/Bloque_sensor_luz.png "Bloque leer sensor luz"){ .img-bloque }
+
+Nos da valores entre **0** (no hay luz) y **1023** (mucha luz). Si marcas la casilla que hay junto al bloque, verás en el escenario el valor que mide en cada momento.
+
 ## 2. Programación
 
 Revisamos continuamente el valor del sensor de luz: si es menor que un cierto umbral, encendemos el LED; en caso contrario, lo apagamos.

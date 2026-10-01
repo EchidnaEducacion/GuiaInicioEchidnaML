@@ -20,7 +20,11 @@ Vamos a convertir la placa en un **mando de videojuego**: al **inclinar la placa
 
 ![Acelerómetro en EchidnaBlack2](assets/images/Lupa_Acelerometro.png "Acelerómetro en EchidnaBlack2"){ .img-lupa }
 
-Para leer el acelerómetro usamos el bloque `leer acelerómetro`, en el que puedes elegir el eje **x**, **y** o **z**. Estos son los valores que nos da:
+Para leer el acelerómetro usamos el bloque `leer acelerómetro`, en el que puedes elegir el eje **x**, **y** o **z**:
+
+![Bloque leer acelerómetro](assets/images/Bloque_acelerometro.png "Bloque leer acelerómetro"){ .img-bloque }
+
+Estos son los valores que nos da:
 
 * **En reposo:** alrededor de 0 en los ejes X e Y, y alrededor de 1 en el eje Z.
 * **Ejes X e Y:** al inclinar la placa, el valor cambia de 0 hasta -1 hacia un lado y hasta 1 hacia el otro.
