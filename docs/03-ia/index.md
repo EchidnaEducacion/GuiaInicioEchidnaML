@@ -2,9 +2,30 @@
 
 **EchidnaML** integra **LearningML**, una **plataforma educativa** diseñada para aprender los fundamentos del **machine learning** (aprendizaje automático) de forma sencilla y visual. Esto nos permite incorporar **inteligencia artificial** a nuestros proyectos con la placa EchidnaBlack2.
 
-En estos proyectos crearemos **modelos** que clasifican **textos**, **imágenes** y **números**, y después los usaremos en nuestros programas con los bloques de LearningML de EchidnaBlocks.
+En estos proyectos crearemos **modelos** que clasifican **textos**, **imágenes** y **números**, y después los usaremos en nuestros programas con los bloques de LearningML de EchidnaBlocks. Así entenderemos cómo se **entrenan** los modelos, qué **datos** necesitan, cómo influyen los **sesgos** y cómo se usan después para tomar **decisiones**.
 
-Para abrir LearningML, desde EchidnaML abrimos la aplicación **Modelos de Machine Learning**.
+## Conceptos clave
+
+* **Modelo:** lo que construye el ordenador a partir de los ejemplos para clasificar datos nuevos.
+* **Clase:** cada una de las categorías en las que el modelo puede clasificar un dato (por ejemplo, Enciende y Apaga).
+* **Ejemplo:** cada dato que añadimos a una clase para enseñar al modelo cómo es esa clase.
+* **Confianza:** el porcentaje de seguridad que tiene el modelo en su respuesta.
+
+## El entorno de LearningML
+
+Para abrir LearningML pulsamos el botón **Ir a LearningML** de EchidnaBlocks, y para volver, el botón **Ir a EchidnaBlocks**.
+
+![Entorno de LearningML](../assets/images/Entorno_LearningML.png "Entorno de LearningML")
+
+En esta guía usaremos sobre todo:
+
+* **Nombre del archivo (6):** el nombre con el que guardamos el modelo.
+* **Tipos de modelo (7):** elegimos si queremos reconocer **textos**, **imágenes** o **números**.
+* **Ir a EchidnaBlocks (3):** volvemos a EchidnaBlocks para usar el modelo en nuestro programa.
+
+## Fases para crear un modelo
+
+![Fases LearningML](../assets/images/Fases_LML.png "Fases LearningML")
 
 Para crear un modelo seguimos siempre estas fases:
 
