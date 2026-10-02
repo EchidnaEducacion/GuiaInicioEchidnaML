@@ -56,10 +56,10 @@ SI NO (es decir, si SR no está presionado el programa comprueba la segunda cond
 
 Prueba a realizar algunas de las siguientes modificaciones al proyecto:
 
-1. **LED virtual en pantalla:** Crea un objeto en EchidnaML que cambie de disfraz (encendido/apagado) al mismo tiempo que cambia el LED físico de la placa.
-2. **Luz cruzada (biestable):** Añade el **LED verde** al programa para que funcionen de forma alterna:
+1. **Luz cruzada (biestable):** Añade el **LED verde** al programa para que funcionen de forma alterna:
     * Al pulsar **SR**: LED rojo encendido y LED verde apagado.
     * Al pulsar **SL**: LED rojo apagado y LED verde encendido.
+2. **LED virtual en pantalla:** Crea un objeto en EchidnaML que cambie de disfraz (encendido/apagado) al mismo tiempo que cambia el LED físico de la placa.
 3. **Pulsador con memoria (conmutador):** Programa un solo pulsador (por ejemplo, **SL**) para que funcione como el interruptor de la luz de tu habitación: la primera vez que lo pulsas enciende el LED, y al volverlo a pulsar lo apaga.
 
 **Ayuda:** esta última mejora es más compleja, así que te dejamos una posible solución:
