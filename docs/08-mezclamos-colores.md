@@ -52,6 +52,6 @@ El segundo `si ... si no` solo se comprueba cuando la temperatura no es menor de
 
 Prueba a realizar algunas de estas mejoras en tu proyecto de forma autónoma:
 
-1. **Tu paleta de colores:** Prueba a mezclar colores en el bloque `LED R G B` y descubre qué valores necesitas para conseguir **amarillo**, **morado**, **blanco** o tu color favorito. Después úsalos para añadir una zona **muy fría** (menos de 10 °C) y otra **muy caliente** (más de 35 °C).
-2. **El echidna avisa:** Haz que el echidna del escenario diga "¡Qué frío!", "¡Qué bien se está!" o "¡Qué calor!" según el color que se encienda.
+1. **El echidna avisa:** Haz que el echidna del escenario diga "¡Qué frío!", "¡Qué bien se está!" o "¡Qué calor!" según el color que se encienda.
+2. **Tu paleta de colores:** Prueba a mezclar colores en el bloque `LED R G B` y descubre qué valores necesitas para conseguir **amarillo**, **morado**, **blanco** o tu color favorito. Después úsalos para añadir una zona **muy fría** (menos de 10 °C) y otra **muy caliente** (más de 35 °C).
 3. **Arcoíris:** Crea una variable y usa un bucle `repetir` para que el LED RGB pase poco a poco del azul al rojo, sumando 1 al rojo y restando 1 al azul en cada vuelta.
