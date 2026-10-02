@@ -22,7 +22,17 @@ alumnado que empiezan con la placa.
   `## 1. Qué vamos a hacer`, `### 1.1 Qué vamos a aprender`,
   `### 1.2 Qué componentes vamos a usar`, `## 2. Programación` (con
   **Lógica de programación** cuando aplica) y `## 3. Mejóralo` (tres
-  propuestas numeradas). Mantén este patrón al añadir un proyecto.
+  propuestas numeradas, de menos a más difícil). Mantén este patrón al
+  añadir un proyecto.
+- **Estructura fija de cada proyecto con IA** (sección 3, LearningML): la
+  misma, con un apartado nuevo tras el 1, que sigue las fases del manual:
+  `## 1. Qué vamos a hacer` (con 1.1 y 1.2), `## 2. Entrenamos el modelo`
+  (`### 2.1 Entrenar: clases y ejemplos`, `### 2.2 Aprender`,
+  `### 2.3 Probar`, que incluye volver a entrenar si no clasifica bien),
+  `## 3. Programación` (con **Lógica de programación**, incluida la
+  comprobación de confianza) y `## 4. Mejóralo`. En el 1.2, el bloque que se
+  presenta es el de LearningML que introduce el proyecto. Cómo abrir
+  LearningML y su entorno se explica una sola vez en `docs/03-ia/index.md`.
 - **Bloque del componente**: al final del 1.2 (tras la imagen de lupa) se
   presenta **un único bloque**, el del componente que introduce el proyecto
   (en Zumbador, el zumbador y no los pulsadores): una frase con el nombre
