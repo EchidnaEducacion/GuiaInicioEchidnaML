@@ -34,6 +34,7 @@ proyectos sencillos. Se publica como sitio web estático con
 
 1. [Asistente virtual](docs/03-ia/01-asistente-virtual.md)
 2. [Clasificador de residuos](docs/03-ia/02-clasificador-residuos.md)
+3. [Mando de inclinación](docs/03-ia/03-mando-inclinacion.md)
 
 ### 4. Licencia
 

@@ -15,3 +15,4 @@ Para abrir LearningML, desde EchidnaML abrimos la aplicación **Modelos de Machi
 
 1. [Asistente virtual](01-asistente-virtual.md): un modelo de **texto** que entiende nuestras órdenes para encender y apagar la luz.
 2. [Clasificador de residuos](02-clasificador-residuos.md): un modelo de **imágenes** que reconoce con la cámara a qué contenedor va cada residuo.
+3. [Mando de inclinación](03-mando-inclinacion.md): un modelo de **números** que reconoce, con el acelerómetro, hacia dónde inclinamos la placa.

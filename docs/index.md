@@ -32,6 +32,7 @@ Antes de empezar, lee la [Introducción](01-introduccion.md): qué son EchidnaBl
 
 1. [Asistente virtual](03-ia/01-asistente-virtual.md)
 2. [Clasificador de residuos](03-ia/02-clasificador-residuos.md)
+3. [Mando de inclinación](03-ia/03-mando-inclinacion.md)
 
 ## 4. Licencia
 

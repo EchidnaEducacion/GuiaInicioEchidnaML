@@ -27,7 +27,8 @@ nav = [
   {"3. Proyectos con IA" = [
     "03-ia/index.md",
     {"3.1 Asistente virtual" = "03-ia/01-asistente-virtual.md"},
-    {"3.2 Clasificador de residuos" = "03-ia/02-clasificador-residuos.md"}
+    {"3.2 Clasificador de residuos" = "03-ia/02-clasificador-residuos.md"},
+    {"3.3 Mando de inclinación" = "03-ia/03-mando-inclinacion.md"}
   ]},
   {"4. Licencia" = "04-licencia.md"}
 ]
