@@ -27,16 +27,24 @@ alumnado que empiezan con la placa.
   presenta **un único bloque**, el del componente que introduce el proyecto
   (en Zumbador, el zumbador y no los pulsadores): una frase con el nombre
   del bloque entre comillas invertidas, su imagen
-  `![Bloque ...](assets/images/Bloque_*.png "Bloque ..."){ .img-bloque }`
+  `![Bloque ...](../assets/images/Bloque_*.png "Bloque ..."){ .img-bloque }`
   y sus opciones o valores. Imagen y explicación salen del apartado
   «BLOQUE DE PROGRAMACIÓN» del manual. Todas las `Bloque_*.png` están
   recortadas y a la misma escala (la x del texto mide 12 px) para que
   `.img-bloque` las muestre con el texto del mismo tamaño; respeta esa
   escala al añadir una nueva.
+- **Estructura por secciones**: `1. Introducción` (`docs/01-introduccion.md`),
+  `2. Proyectos con EchidnaBlocks` (`docs/02-echidnablocks/`),
+  `3. Proyectos con IA` (`docs/03-ia/`, proyectos con LearningML) y
+  `4. Licencia` (`docs/04-licencia.md`). Cada sección con proyectos tiene un
+  `index.md` (presentación y lista de proyectos) y los proyectos se numeran
+  por sección en el `nav` (2.1, 2.2…, 3.1…); el `# Título` de la página va
+  sin número.
 - **Navegación**: `nav` en `zensical.toml` es la fuente de verdad del orden.
   Si añades, eliminas o reordenas un proyecto, actualiza a la vez `nav`, la
-  lista de `docs/index.md` y la del `README.md`. Los ficheros se nombran
-  `NN-nombre.md`.
+  lista del `index.md` de su sección, la de `docs/index.md` y la del
+  `README.md`. Los ficheros de proyecto se nombran `NN-nombre.md` dentro de
+  la carpeta de su sección.
 - **Sin emojis**: WeasyPrint no los coloca bien en el PDF (aparecen como un
   punto suelto en el margen superior). No los reintroduzcas.
 - **Markdown estricto (Python-Markdown)**: las listas necesitan una línea en
@@ -46,7 +54,9 @@ alumnado que empiezan con la placa.
 - **Imágenes**: viven en `docs/assets/images/` (sin subcarpetas), siempre en
   local (no enlaces a GitHub), referenciadas con ruta relativa y el `title`
   repitiendo el `alt`:
-  `![Descripción](assets/images/Nombre.png "Descripción")`. Ancho explícito
+  `![Descripción](../assets/images/Nombre.png "Descripción")` desde las
+  carpetas de sección (`assets/images/...` sin `../` solo en las páginas de
+  `docs/`). Ancho explícito
   opcional con `{ width="N" }`. En el PDF, `print.css` limita la altura de
   las imágenes a 95 mm. Están disponibles las clases `.img-row` e
   `.img-text-row` (ver `extra.css`/`print.css`) para poner imágenes en fila.
@@ -71,8 +81,9 @@ alumnado que empiezan con la placa.
 - `scripts/guia_nav.py`: recorrido común del `nav`.
 - `scripts/build_pdf.py` + `scripts/print.css`: generan
   `site/guia-inicio-echidnaml.pdf` uniendo todas las páginas ya construidas
-  en un único documento (portada maquetada en HTML, índice con página real,
-  un salto de página por proyecto). Requiere `zensical build --clean` previo.
+  en un único documento (portada maquetada en HTML, índice con página real
+  de secciones y proyectos, un salto de página por sección y por proyecto).
+  Requiere `zensical build --clean` previo.
 - `.github/workflows/docs.yml`: publicación en GitHub Pages (web + PDF) al
   hacer push a `main`. `.gitlab-ci.yml`: GitLab Pages (sin PDF).
 

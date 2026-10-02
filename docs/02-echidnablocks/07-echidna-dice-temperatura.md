@@ -1,11 +1,11 @@
 # El echidna dice la temperatura
 
-![Imagen cabecera El echidna dice la temperatura](assets/images/Temperatura.png "Imagen cabecera El echidna dice la temperatura"){ .img-cabecera }
+![Imagen cabecera El echidna dice la temperatura](../assets/images/Temperatura.png "Imagen cabecera El echidna dice la temperatura"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 
 <div class="img-text-row" markdown="1">
-![El echidna dice la temperatura](assets/images/Echidna_dice-temperatura.png "El echidna dice la temperatura"){ width="300" }
+![El echidna dice la temperatura](../assets/images/Echidna_dice-temperatura.png "El echidna dice la temperatura"){ width="300" }
 
 Vamos a convertir a nuestro echidna en un **hombre del tiempo**: cada vez que pulses la tecla **t** del teclado del ordenador, el echidna nos dirá en un bocadillo qué **temperatura** hace, medida con el sensor de la placa.
 </div>
@@ -21,11 +21,11 @@ Vamos a convertir a nuestro echidna en un **hombre del tiempo**: cada vez que pu
 
 * **Sensor de temperatura:** Mide la temperatura del ambiente. Entrega un voltaje que depende de la temperatura.
 
-![Sensor de temperatura en EchidnaBlack2](assets/images/Lupa_Temperatura.png "Sensor de temperatura en EchidnaBlack2"){ .img-lupa }
+![Sensor de temperatura en EchidnaBlack2](../assets/images/Lupa_Temperatura.png "Sensor de temperatura en EchidnaBlack2"){ .img-lupa }
 
 Para leer la temperatura usamos el bloque `leer temperatura`, que convierte ese voltaje directamente a grados Celsius (°C):
 
-![Bloque leer temperatura](assets/images/Bloque_temperatura.png "Bloque leer temperatura"){ .img-bloque }
+![Bloque leer temperatura](../assets/images/Bloque_temperatura.png "Bloque leer temperatura"){ .img-bloque }
 
 Si marcas la casilla que hay junto al bloque, verás la temperatura en el escenario.
 
@@ -33,7 +33,7 @@ Si marcas la casilla que hay junto al bloque, verás la temperatura en el escena
 
 Usaremos el personaje de **Echidna** que aparece en el escenario. El programa empieza al pulsar la tecla **t**: el echidna dice durante 2 segundos una frase formada con el bloque `unir`, que junta tres partes: el texto "Hola, ahora hace una temperatura de ", el valor del sensor y el símbolo "ºC".
 
-![Bloques programación El echidna dice la temperatura](assets/images/Ejemplo_temperatura.png "Bloques programación El echidna dice la temperatura")
+![Bloques programación El echidna dice la temperatura](../assets/images/Ejemplo_temperatura.png "Bloques programación El echidna dice la temperatura")
 
 **Lógica de programación**:
 

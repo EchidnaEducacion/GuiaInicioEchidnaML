@@ -1,6 +1,6 @@
 # Movemos el echidna
 
-![Imagen cabecera Movemos el echidna](assets/images/Movemos_echidna.png "Imagen cabecera Movemos el echidna"){ .img-cabecera }
+![Imagen cabecera Movemos el echidna](../assets/images/Movemos_echidna.png "Imagen cabecera Movemos el echidna"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 
@@ -18,11 +18,11 @@ Vamos a convertir la placa en un **mando de videojuego**: al **inclinar la placa
 
 * **Acelerómetro:** Sensor que mide los movimientos de la placa en los tres ejes. Con los ejes **X** e **Y** detecta hacia dónde inclinas la placa, gracias a la fuerza de la gravedad. Con el eje **Z** detecta los movimientos bruscos hacia arriba o hacia abajo.
 
-![Acelerómetro en EchidnaBlack2](assets/images/Lupa_Acelerometro.png "Acelerómetro en EchidnaBlack2"){ .img-lupa }
+![Acelerómetro en EchidnaBlack2](../assets/images/Lupa_Acelerometro.png "Acelerómetro en EchidnaBlack2"){ .img-lupa }
 
 Para leer el acelerómetro usamos el bloque `leer acelerómetro`, en el que puedes elegir el eje **x**, **y** o **z**:
 
-![Bloque leer acelerómetro](assets/images/Bloque_acelerometro.png "Bloque leer acelerómetro"){ .img-bloque }
+![Bloque leer acelerómetro](../assets/images/Bloque_acelerometro.png "Bloque leer acelerómetro"){ .img-bloque }
 
 Estos son los valores que nos da:
 
@@ -37,7 +37,7 @@ Usaremos el personaje de **Echidna** que aparece en el escenario. El programa ti
 * **Hilo de movimiento:** revisa continuamente los ejes X e Y. Si la placa está inclinada, suma o resta 10 a la posición del personaje y cambia de disfraz para que parezca que camina.
 * **Hilo de salto:** revisa continuamente el eje Z. Si detecta un movimiento brusco, el personaje sube 50 pasos (10 veces 5) y vuelve a bajar.
 
-![Bloques programación Movemos el echidna](assets/images/Ejemplo_acelerometro.png "Bloques programación Movemos el echidna")
+![Bloques programación Movemos el echidna](../assets/images/Ejemplo_acelerometro.png "Bloques programación Movemos el echidna")
 
 **Lógica de programación**:
 

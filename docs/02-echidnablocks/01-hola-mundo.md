@@ -1,12 +1,12 @@
 # Hola Mundo
 
-![Imagen cabecera Hola Mundo](assets/images/Hola_Mundo.png "Imagen cabecera Hola Mundo"){ .img-cabecera }
+![Imagen cabecera Hola Mundo](../assets/images/Hola_Mundo.png "Imagen cabecera Hola Mundo"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 
 En este primer proyecto haremos que el **LED rojo** de la placa EchidnaBlack2 se encienda y se apague de forma continua (parpadeo).
 
-![LED rojo parpadeando en EchidnaBlack2](assets/images/Hola_Mundo_funcionamiento.gif "LED rojo parpadeando en EchidnaBlack2")
+![LED rojo parpadeando en EchidnaBlack2](../assets/images/Hola_Mundo_funcionamiento.gif "LED rojo parpadeando en EchidnaBlack2")
 
 ### 1.1 Qué vamos a aprender
 
@@ -18,11 +18,11 @@ En este primer proyecto haremos que el **LED rojo** de la placa EchidnaBlack2 se
 
 Usaremos el LED rojo.
 
-![LED en EchidnaBlack2](assets/images/Lupa_Ledes.png "LED en EchidnaBlack2"){ .img-lupa }
+![LED en EchidnaBlack2](../assets/images/Lupa_Ledes.png "LED en EchidnaBlack2"){ .img-lupa }
 
 Para encender y apagar los LED usamos el bloque `encender LED`:
 
-![Bloque encender LED](assets/images/Bloque_LED.png "Bloque encender LED"){ .img-bloque }
+![Bloque encender LED](../assets/images/Bloque_LED.png "Bloque encender LED"){ .img-bloque }
 
 En el bloque puedes elegir si quieres **encender** o **apagar** el LED y **qué LED**: verde, naranja o rojo.
 
@@ -32,7 +32,7 @@ Este programa utiliza un bucle continuo para ejecutar la siguiente secuencia ló
 
 Construye el siguiente código arrastrando los bloques a tu área de trabajo:
 
-![Bloques programación Hola Mundo](assets/images/HolaMundo.png "Bloques programación Hola Mundo")
+![Bloques programación Hola Mundo](../assets/images/HolaMundo.png "Bloques programación Hola Mundo")
 
 VIDEO DE PROCESO DE PROGRAMACIÓN
 

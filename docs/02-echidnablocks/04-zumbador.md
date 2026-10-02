@@ -1,6 +1,6 @@
 # Zumbador
 
-![Imagen cabecera zumbador](assets/images/Zumbador.png "Imagen cabecera zumbador"){ .img-cabecera }
+![Imagen cabecera zumbador](../assets/images/Zumbador.png "Imagen cabecera zumbador"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 
@@ -17,11 +17,11 @@ Vamos a programar un timbre eléctrico: el **zumbador** emitirá un tono sonoro 
 * **Pulsador SL (Switch Left / Izquierdo):** Componente de entrada para activar el sonido.
 * **Zumbador (Buzzer):** Componente de salida que genera notas o pitidos.
 
-![Zumbador en EchidnaBlack2](assets/images/Lupa_Zumbador.png "Zumbador en EchidnaBlack2"){ .img-lupa }
+![Zumbador en EchidnaBlack2](../assets/images/Lupa_Zumbador.png "Zumbador en EchidnaBlack2"){ .img-lupa }
 
 Para hacer sonar el zumbador usamos el bloque `encender zumbador`:
 
-![Bloque encender zumbador](assets/images/Bloque_zumbador.png "Bloque encender zumbador"){ .img-bloque }
+![Bloque encender zumbador](../assets/images/Bloque_zumbador.png "Bloque encender zumbador"){ .img-bloque }
 
 En el bloque puedes elegir si quieres **encender** o **apagar** el zumbador. El volumen se ajusta con el potenciómetro **Volume** de la placa.
 
@@ -29,7 +29,7 @@ En el bloque puedes elegir si quieres **encender** o **apagar** el zumbador. El 
 
 La programación se basa en revisar continuamente si el pulsador SL está presionado, si lo está se activa el zumbador y, si no, se apaga.
 
-![Bloques programación zumbador](assets/images/Ejemplo_pulsador-zumbador.png "Bloques programación zumbador")
+![Bloques programación zumbador](../assets/images/Ejemplo_pulsador-zumbador.png "Bloques programación zumbador")
 
 **Lógica de programación**:
 

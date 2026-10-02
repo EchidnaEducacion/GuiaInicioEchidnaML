@@ -6,25 +6,37 @@ proyectos sencillos. Se publica como sitio web estático con
 [WeasyPrint](https://weasyprint.org/), con la misma estrategia que el
 [manual de EchidnaBlack y EchidnaML](https://github.com/EchidnaEducacion/manual).
 
-## Introducción
+## Estructura
 
-[Introducción](docs/00-introduccion.md): EchidnaBlack2, EchidnaML y el entorno EchidnaBlocks.
+### 1. Introducción
 
-## Proyectos
+[Introducción](docs/01-introduccion.md): EchidnaBlack2, EchidnaML y el entorno EchidnaBlocks.
 
-1. [Hola Mundo](docs/01-hola-mundo.md)
-2. [Semáforo](docs/02-semaforo.md)
-3. [Pulsadores](docs/03-pulsadores.md)
-4. [Zumbador](docs/04-zumbador.md)
-5. [Interruptor crepuscular](docs/05-interruptor-crepuscular.md)
-6. [Makey Makey](docs/06-makey-makey.md)
-7. [El echidna dice la temperatura](docs/07-echidna-dice-temperatura.md)
-8. [Mezclamos colores](docs/08-mezclamos-colores.md)
-9. [Vúmetro](docs/09-vumetro.md)
-10. [Telesketch](docs/10-telesketch.md)
-11. [Movemos el echidna](docs/11-movemos-el-echidna.md)
+### 2. Proyectos con EchidnaBlocks
 
-Todos siguen la misma estructura: `1. Qué vamos a hacer` (con
+[Presentación de la sección](docs/02-echidnablocks/index.md).
+
+1. [Hola Mundo](docs/02-echidnablocks/01-hola-mundo.md)
+2. [Semáforo](docs/02-echidnablocks/02-semaforo.md)
+3. [Pulsadores](docs/02-echidnablocks/03-pulsadores.md)
+4. [Zumbador](docs/02-echidnablocks/04-zumbador.md)
+5. [Interruptor crepuscular](docs/02-echidnablocks/05-interruptor-crepuscular.md)
+6. [Makey Makey](docs/02-echidnablocks/06-makey-makey.md)
+7. [El echidna dice la temperatura](docs/02-echidnablocks/07-echidna-dice-temperatura.md)
+8. [Mezclamos colores](docs/02-echidnablocks/08-mezclamos-colores.md)
+9. [Vúmetro](docs/02-echidnablocks/09-vumetro.md)
+10. [Telesketch](docs/02-echidnablocks/10-telesketch.md)
+11. [Movemos el echidna](docs/02-echidnablocks/11-movemos-el-echidna.md)
+
+### 3. Proyectos con IA
+
+[Presentación de la sección](docs/03-ia/index.md): proyectos con LearningML (en preparación).
+
+### 4. Licencia
+
+[Licencia](docs/04-licencia.md).
+
+Todos los proyectos siguen la misma estructura: `1. Qué vamos a hacer` (con
 `1.1 Qué vamos a aprender` y `1.2 Qué componentes vamos a usar`),
 `2. Programación` y `3. Mejóralo`.
 

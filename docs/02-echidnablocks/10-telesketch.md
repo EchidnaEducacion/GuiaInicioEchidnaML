@@ -1,6 +1,6 @@
 # Telesketch
 
-![Imagen cabecera Telesketch](assets/images/Telesketch.png "Imagen cabecera Telesketch"){ .img-cabecera }
+![Imagen cabecera Telesketch](../assets/images/Telesketch.png "Imagen cabecera Telesketch"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 
@@ -18,14 +18,14 @@ Vamos a convertir la pantalla de EchidnaML en un **Telesketch**, la pizarra mág
 
 * **Joystick:** Palanca que se mueve en varias direcciones. Por dentro tiene dos potenciómetros, uno para cada eje, que indican hacia dónde y cuánto la has desplazado. Además, al presionar la palanca hacia abajo funciona como un pulsador, que en EchidnaBlack2 es el mismo que el pulsador **SR**.
 
-![Joystick en EchidnaBlack2](assets/images/Lupa_Joystick.png "Joystick en EchidnaBlack2"){ .img-lupa }
+![Joystick en EchidnaBlack2](../assets/images/Lupa_Joystick.png "Joystick en EchidnaBlack2"){ .img-lupa }
 
 Para leer el joystick usamos el bloque `leer joystick`, en el que puedes elegir el eje **x** o el eje **y**:
 
-![Bloque leer joystick](assets/images/Bloque_joystick.png "Bloque leer joystick"){ .img-bloque }
+![Bloque leer joystick](../assets/images/Bloque_joystick.png "Bloque leer joystick"){ .img-bloque }
 
 <div class="img-text-row" markdown="1">
-![Valores del joystick](assets/images/valores_joystick.png "Valores del joystick"){ width="300" }
+![Valores del joystick](../assets/images/valores_joystick.png "Valores del joystick"){ width="300" }
 
 En **reposo**, el joystick da valores alrededor de **512** en los dos ejes. En el **eje X** da **0** si mueves la palanca a la izquierda y **1023** si la mueves a la derecha. En el **eje Y** da **0** si la mueves hacia abajo y **1023** si la mueves hacia arriba.
 </div>
@@ -44,9 +44,9 @@ En **reposo**, el joystick da valores alrededor de **512** en los dos ejes. En e
 **Control con el joystick:** revisamos continuamente los dos ejes del joystick. Si la palanca está desplazada hacia un lado, el objeto apunta en esa dirección y avanza 20 pasos, dibujando una línea.
 
 <div class="img-row" markdown="1">
-![Configuración inicial del lápiz](assets/images/Ejemplo_joystick_configuracion_inicial.png "Configuración inicial del lápiz"){ width="260" }
+![Configuración inicial del lápiz](../assets/images/Ejemplo_joystick_configuracion_inicial.png "Configuración inicial del lápiz"){ width="260" }
 
-![Bloques programación Telesketch](assets/images/Ejemplo_Pintamos.png "Bloques programación Telesketch"){ width="300" }
+![Bloques programación Telesketch](../assets/images/Ejemplo_Pintamos.png "Bloques programación Telesketch"){ width="300" }
 </div>
 
 **Lógica de programación**:

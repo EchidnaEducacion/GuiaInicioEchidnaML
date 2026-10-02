@@ -1,6 +1,6 @@
 # Interruptor crepuscular
 
-![Imagen cabecera Interruptor crepuscular](assets/images/Interruptor_crepuscular.png "Imagen cabecera Interruptor crepuscular"){ .img-cabecera }
+![Imagen cabecera Interruptor crepuscular](../assets/images/Interruptor_crepuscular.png "Imagen cabecera Interruptor crepuscular"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 
@@ -18,11 +18,11 @@ Vamos a programar un sistema automático similar al de las farolas de la calle: 
 * **Sensor de luz (LDR):** Mide la cantidad de luz que recibe. Cuanto más oscuro esté el entorno, menor será el valor registrado.
 * **LED verde:** Funcionará como nuestra luz automática.
 
-![Sensor de luz (LDR) en EchidnaBlack2](assets/images/Lupa_LDR.png "Sensor de luz (LDR) en EchidnaBlack2"){ .img-lupa }
+![Sensor de luz (LDR) en EchidnaBlack2](../assets/images/Lupa_LDR.png "Sensor de luz (LDR) en EchidnaBlack2"){ .img-lupa }
 
 Para leer el sensor de luz usamos el bloque `leer sensor luz`:
 
-![Bloque leer sensor luz](assets/images/Bloque_sensor_luz.png "Bloque leer sensor luz"){ .img-bloque }
+![Bloque leer sensor luz](../assets/images/Bloque_sensor_luz.png "Bloque leer sensor luz"){ .img-bloque }
 
 Nos da valores entre **0** (no hay luz) y **1023** (mucha luz). Si marcas la casilla que hay junto al bloque, verás en el escenario el valor que mide en cada momento.
 
@@ -30,7 +30,7 @@ Nos da valores entre **0** (no hay luz) y **1023** (mucha luz). Si marcas la cas
 
 Revisamos continuamente el valor del sensor de luz: si es menor que un cierto umbral, encendemos el LED; en caso contrario, lo apagamos.
 
-![Bloques programación interruptor crepuscular](assets/images/Ejemplo_sensor_luz.png "Bloques programación interruptor crepuscular")
+![Bloques programación interruptor crepuscular](../assets/images/Ejemplo_sensor_luz.png "Bloques programación interruptor crepuscular")
 
 **Lógica de programación**:
 

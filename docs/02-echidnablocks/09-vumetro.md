@@ -1,6 +1,6 @@
 # Vúmetro
 
-![Imagen cabecera Vúmetro](assets/images/Vumetro.png "Imagen cabecera Vúmetro"){ .img-cabecera }
+![Imagen cabecera Vúmetro](../assets/images/Vumetro.png "Imagen cabecera Vúmetro"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 
@@ -18,11 +18,11 @@ Vamos a construir un **vúmetro** o **semáforo de ruido**, que muestra con los 
 * **Micrófono:** Convierte las vibraciones del sonido en una señal eléctrica. Da valores bajos con silencio y valores más altos cuanto más intenso es el sonido, entre 0 y 1023.
 * **LED verde, naranja y rojo:** Nos indicarán el nivel de ruido.
 
-![Micrófono en EchidnaBlack2](assets/images/Lupa_Microfono.png "Micrófono en EchidnaBlack2"){ .img-lupa }
+![Micrófono en EchidnaBlack2](../assets/images/Lupa_Microfono.png "Micrófono en EchidnaBlack2"){ .img-lupa }
 
 Para leer el micrófono usamos el bloque `leer micrófono`:
 
-![Bloque leer micrófono](assets/images/Bloque_microfono.png "Bloque leer micrófono"){ .img-bloque }
+![Bloque leer micrófono](../assets/images/Bloque_microfono.png "Bloque leer micrófono"){ .img-bloque }
 
 Si marcas la casilla que hay junto al bloque, verás en el escenario el valor que mide en cada momento.
 
@@ -30,7 +30,7 @@ Si marcas la casilla que hay junto al bloque, verás en el escenario el valor qu
 
 Revisamos continuamente el valor del micrófono y, según el nivel de ruido, encendemos o apagamos cada uno de los tres LED.
 
-![Bloques programación Vúmetro](assets/images/Ejemplo_vumetro.png "Bloques programación Vúmetro")
+![Bloques programación Vúmetro](../assets/images/Ejemplo_vumetro.png "Bloques programación Vúmetro")
 
 **Lógica de programación**:
 

@@ -1,6 +1,6 @@
 # Mezclamos colores
 
-![Imagen cabecera Mezclamos colores](assets/images/Mezclamos_colores.png "Imagen cabecera Mezclamos colores"){ .img-cabecera }
+![Imagen cabecera Mezclamos colores](../assets/images/Mezclamos_colores.png "Imagen cabecera Mezclamos colores"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 
@@ -18,17 +18,17 @@ Vamos a construir un **termómetro de colores**: el **LED RGB** de la placa camb
 * **LED RGB:** Componente que tiene dentro tres LED: uno **rojo** (R, *Red*), uno **verde** (G, *Green*) y uno **azul** (B, *Blue*). Al mezclar la luz de los tres podemos conseguir más de 16 millones de colores.
 * **Sensor de temperatura:** Mide la temperatura del ambiente en grados Celsius (°C).
 
-![LED RGB en EchidnaBlack2](assets/images/Lupa_LEDRGB.png "LED RGB en EchidnaBlack2"){ .img-lupa }
+![LED RGB en EchidnaBlack2](../assets/images/Lupa_LEDRGB.png "LED RGB en EchidnaBlack2"){ .img-lupa }
 
 Para controlar el LED RGB usamos el bloque `LED R G B`, en el que damos a cada color un valor entre **0** (apagado) y **255** (máxima intensidad). Por ejemplo, para conseguir el **naranja Echidna** mezclamos mucho rojo (254), algo de verde (109) y casi nada de azul (4):
 
-![Bloque LED RGB con el naranja Echidna](assets/images/Bloque_LED_RGB_naranja.png "Bloque LED RGB con el naranja Echidna"){ .img-bloque }
+![Bloque LED RGB con el naranja Echidna](../assets/images/Bloque_LED_RGB_naranja.png "Bloque LED RGB con el naranja Echidna"){ .img-bloque }
 
 ## 2. Programación
 
 Revisamos continuamente la temperatura y encendemos el LED RGB de un color según la zona en la que esté: para el azul solo damos valor al canal B, para el verde solo al G y para el rojo solo al R.
 
-![Bloques programación Mezclamos colores](assets/images/Ejemplo_temperatura_RGB.png "Bloques programación Mezclamos colores")
+![Bloques programación Mezclamos colores](../assets/images/Ejemplo_temperatura_RGB.png "Bloques programación Mezclamos colores")
 
 **Lógica de programación**:
 

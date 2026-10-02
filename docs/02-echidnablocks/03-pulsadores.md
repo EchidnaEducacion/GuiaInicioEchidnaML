@@ -1,6 +1,6 @@
 # Pulsadores
 
-![Imagen cabecera pulsadores](assets/images/Pulsadores.png "Imagen cabecera pulsadores"){ .img-cabecera }
+![Imagen cabecera pulsadores](../assets/images/Pulsadores.png "Imagen cabecera pulsadores"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 
@@ -25,11 +25,11 @@ Vamos a programar un sistema de encendido y apagado manual con dos botones:
 * **Pulsador SL (Switch Left / Izquierdo):** Para apagar el LED.
 * **LED rojo:** Componente que cambia de estado según el botón pulsado.
 
-![Pulsadores en EchidnaBlack2](assets/images/Lupa_Pulsadores.png "Pulsadores en EchidnaBlack2"){ .img-lupa }
+![Pulsadores en EchidnaBlack2](../assets/images/Lupa_Pulsadores.png "Pulsadores en EchidnaBlack2"){ .img-lupa }
 
 Para leer el estado de los pulsadores usamos el bloque `¿botón SL pulsado?`:
 
-![Bloque ¿botón pulsado?](assets/images/Bloque_pulsador.png "Bloque ¿botón pulsado?"){ .img-bloque }
+![Bloque ¿botón pulsado?](../assets/images/Bloque_pulsador.png "Bloque ¿botón pulsado?"){ .img-bloque }
 
 En el bloque puedes elegir el pulsador **SL** o **SR**. Devuelve **verdadero** (1) si está pulsado y **falso** (0) si no lo está.
 
@@ -37,7 +37,7 @@ En el bloque puedes elegir el pulsador **SL** o **SR**. Devuelve **verdadero** (
 
 El programa comprueba si el pulsador derecho está presionado; en ese caso, enciende el LED rojo. Si no lo está y presionamos el pulsador izquierdo, el LED se apaga.
 
-![Bloques programación pulsadores](assets/images/Ejemplo_encender_apagar_led_pulsadores.png "Bloques programación pulsadores")
+![Bloques programación pulsadores](../assets/images/Ejemplo_encender_apagar_led_pulsadores.png "Bloques programación pulsadores")
 
 **Lógica de programación**:
 
@@ -64,6 +64,6 @@ Prueba a realizar algunas de las siguientes modificaciones al proyecto:
 
 **Ayuda:** esta última mejora es más compleja, así que te dejamos una posible solución:
 
-![Bloques programación pulsador con memoria](assets/images/Ejemplo_pulsador_memoria.png "Bloques programación pulsador con memoria")
+![Bloques programación pulsador con memoria](../assets/images/Ejemplo_pulsador_memoria.png "Bloques programación pulsador con memoria")
 
 La clave es la variable **`estadoLED`**, que recuerda si el LED está apagado (`0`) o encendido (`1`). Cada vez que pulsamos **SL**, el programa cambia el LED al estado contrario y actualiza la variable. El bloque **`esperar hasta que no ¿botón SL pulsado?`** hace que el programa espere a que soltemos el pulsador; sin él, mientras lo mantenemos pulsado el LED se encendería y apagaría muchas veces seguidas.

@@ -1,12 +1,12 @@
 # Semáforo
 
-![Imagen cabecera semaforo](assets/images/EchidnaSemaforo.png "Imagen cabecera semaforo"){ .img-cabecera }
+![Imagen cabecera semaforo](../assets/images/EchidnaSemaforo.png "Imagen cabecera semaforo"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 
 Vamos a realizar un semáforo en el que el LED verde se enciende durante 5 segundos, luego se enciende el LED naranja durante 2 segundos y finalmente el LED rojo durante 5 segundos. El ciclo se repite continuamente.
 
-![Semáforo funcionando en EchidnaBlack2](assets/images/Semaforo_funcionamiento.gif "Semáforo funcionando en EchidnaBlack2")
+![Semáforo funcionando en EchidnaBlack2](../assets/images/Semaforo_funcionamiento.gif "Semáforo funcionando en EchidnaBlack2")
 
 ### 1.1 Qué vamos a aprender
 
@@ -20,11 +20,11 @@ Vamos a realizar un semáforo en el que el LED verde se enciende durante 5 segun
 * **LED naranja:** Fase de precaución.
 * **LED rojo:** Fase de detención.
 
-![LED en EchidnaBlack2](assets/images/Lupa_Ledes.png "LED en EchidnaBlack2"){ .img-lupa }
+![LED en EchidnaBlack2](../assets/images/Lupa_Ledes.png "LED en EchidnaBlack2"){ .img-lupa }
 
 Para encender y apagar los LED usamos el bloque `encender LED`:
 
-![Bloque encender LED](assets/images/Bloque_LED.png "Bloque encender LED"){ .img-bloque }
+![Bloque encender LED](../assets/images/Bloque_LED.png "Bloque encender LED"){ .img-bloque }
 
 En el bloque puedes elegir si quieres **encender** o **apagar** el LED y **qué LED**: verde, naranja o rojo.
 
@@ -32,7 +32,7 @@ En el bloque puedes elegir si quieres **encender** o **apagar** el LED y **qué 
 
 La programación se basa en una secuencia cíclica donde cada LED permanece encendido durante un tiempo específico y luego pasa al siguiente estado de forma automática.
 
-![Bloques programación semáforo](assets/images/Semaforo.png "Bloques programación semáforo")
+![Bloques programación semáforo](../assets/images/Semaforo.png "Bloques programación semáforo")
 
 **Lógica de programación**:
 
