@@ -41,7 +41,7 @@ En **reposo**, el joystick da valores alrededor de **512** en los dos ejes. En e
 * Fije el color y el grosor con el que va a pintar.
 * Baje el lápiz, para que dibuje al moverse.
 
-**Control con el joystick:** revisamos continuamente los dos ejes del joystick. Si la palanca está inclinada hacia un lado, el objeto apunta en esa dirección y avanza 20 pasos, dibujando una línea.
+**Control con el joystick:** revisamos continuamente los dos ejes del joystick. Si la palanca está desplazada hacia un lado, el objeto apunta en esa dirección y avanza 20 pasos, dibujando una línea.
 
 <div class="img-row" markdown="1">
 ![Configuración inicial del lápiz](assets/images/Ejemplo_joystick_configuracion_inicial.png "Configuración inicial del lápiz"){ width="260" }
@@ -74,4 +74,4 @@ Prueba a realizar algunas de estas mejoras en tu proyecto de forma autónoma:
 
 1. **Borra la pizarra:** Como en un Telesketch de verdad, haz que al presionar el joystick (pulsador **SR**) se borre el dibujo y el lápiz vuelva al centro del escenario.
 2. **Cambia de color:** Usa el pulsador **SL** para cambiar el color del lápiz cada vez que lo pulses, y enciende el **LED RGB** del mismo color para saber con cuál estás pintando.
-3. **Controla la velocidad:** Haz que el lápiz avance más o menos pasos según cuánto inclines la palanca. Pista: usa los bloques `cambiar x en` y `cambiar y en` con el valor de cada eje menos 512 (para que en reposo valga 0) y divídelo, por ejemplo, entre 50.
+3. **Controla la velocidad:** Haz que el lápiz avance más o menos pasos según cuánto muevas la palanca del joystick. **Ayuda:** usa los bloques `cambiar x en` y `cambiar y en` con el valor de cada eje menos 512 (para que en reposo valga 0) y divídelo, por ejemplo, entre 50.
