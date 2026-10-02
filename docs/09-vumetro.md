@@ -54,6 +54,6 @@ Es probable que veas que los LED **parpadean** aunque el ruido sea constante. Es
 
 Prueba a realizar algunas de estas mejoras en tu proyecto de forma autónoma:
 
-1. **Calibra tu aula:** Observa qué valores mide el micrófono con silencio, hablando en voz baja y dando una palmada, y ajusta los umbrales (20 y 50) para que el vúmetro funcione bien en tu clase.
-2. **Una lectura más estable:** Para que los LED no parpadeen, en lugar de usar cada lectura del micrófono calcula la **media** de varias. Crea las variables `suma`, `numeroDatos` y `mediaSonido`: en cada vuelta suma a `suma` la lectura del micrófono y suma 1 a `numeroDatos`; cuando tengas 10 datos, guarda en `mediaSonido` la división `suma / numeroDatos` y vuelve a poner `suma` y `numeroDatos` a 0. Después usa `mediaSonido` en los condicionales.
-3. **Silencio, por favor:** Haz que, cuando se enciendan los tres LED, el echidna del escenario diga "¡Silencio, por favor!".
+1. **Una lectura más estable:** Para que los LED no parpadeen, en lugar de usar cada lectura del micrófono calcula la **media** de varias. Crea las variables `suma`, `numeroDatos` y `mediaSonido`: en cada vuelta suma a `suma` la lectura del micrófono y suma 1 a `numeroDatos`; cuando tengas 10 datos, guarda en `mediaSonido` la división `suma / numeroDatos` y vuelve a poner `suma` y `numeroDatos` a 0. Después usa `mediaSonido` en los condicionales. **Ayuda:** puedes encontrar la programación en **Archivo → Ejemplos → Vumetro_media_sonido**.
+2. **Calibra tu aula:** Observa qué valores mide el micrófono con silencio, hablando en voz baja y dando una palmada, y ajusta los umbrales (20 y 50) para que el vúmetro funcione bien en tu clase.
+3. **Vúmetro virtual en pantalla:** Diseña un vúmetro en la pantalla: crea un objeto en EchidnaML con cuatro disfraces (sin barras, una, dos y tres barras) y haz que cambie de disfraz al mismo tiempo que se encienden los LED de la placa.
