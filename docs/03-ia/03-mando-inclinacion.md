@@ -61,7 +61,13 @@ Si el modelo se equivoca, volvemos a **2.1 Entrenar**: añadimos más ejemplos o
 
 ## 3. Programación
 
-Cuando el modelo funcione bien, abrimos **EchidnaBlocks** y construimos el programa:
+Cuando el modelo funcione bien, abrimos **EchidnaBlocks** y construimos el programa, que tiene dos scripts.
+
+El primero lee continuamente el **acelerómetro** y guarda los ejes X e Y en las variables `acelX` y `acelY`. También guarda en `Confianza` y `Sentido` la confianza y la clase que da el modelo, para verlas en el escenario mientras inclinamos la placa:
+
+![Lectura del acelerómetro](../assets/images/LMLModeloNumeros-ValoresAcel.png "Lectura del acelerómetro")
+
+El segundo mueve el echidna según la clase:
 
 ![Bloques programación Mando de inclinación](../assets/images/NumerosEchidnaBlocks.png "Bloques programación Mando de inclinación")
 
