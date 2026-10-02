@@ -1,4 +1,4 @@
-# Pulsadores
+# 2.3 Pulsadores
 
 ![Imagen cabecera pulsadores](../assets/images/Pulsadores.png "Imagen cabecera pulsadores"){ .img-cabecera }
 

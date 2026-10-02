@@ -1,4 +1,4 @@
-# Zumbador
+# 2.4 Zumbador
 
 ![Imagen cabecera zumbador](../assets/images/Zumbador.png "Imagen cabecera zumbador"){ .img-cabecera }
 

@@ -1,4 +1,4 @@
-# Mezclamos colores
+# 2.8 Mezclamos colores
 
 ![Imagen cabecera Mezclamos colores](../assets/images/Mezclamos_colores.png "Imagen cabecera Mezclamos colores"){ .img-cabecera }
 

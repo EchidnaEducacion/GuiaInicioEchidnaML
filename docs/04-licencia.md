@@ -1,4 +1,4 @@
-# Licencia
+# 4. Licencia
 
 ![Licencia Creative Commons BY-SA 4.0](assets/images/Licencia_CC_BY-SA.svg "Licencia Creative Commons BY-SA 4.0"){ width="176" }
 

@@ -1,4 +1,4 @@
-# Makey Makey
+# 2.6 Makey Makey
 
 ![Imagen cabecera MkMk](../assets/images/MkMk.png "Imagen cabecera MkMk"){ .img-cabecera }
 

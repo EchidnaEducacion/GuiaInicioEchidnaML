@@ -1,4 +1,4 @@
-# Introducción
+# 1. Introducción
 
 **EchidnaBlack2** (hardware) y **EchidnaML** (software) forman un **sistema integrado** pensado para aprender los fundamentos de la **programación**, la **robótica** y la **inteligencia artificial** (IA). Su objetivo es fomentar el **pensamiento computacional** en Primaria, Secundaria, Bachillerato y F.P., y estimular la creatividad con proyectos prácticos que conectan el mundo digital y el analógico.
 

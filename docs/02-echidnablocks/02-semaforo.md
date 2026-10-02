@@ -1,4 +1,4 @@
-# Semáforo
+# 2.2 Semáforo
 
 ![Imagen cabecera semaforo](../assets/images/EchidnaSemaforo.png "Imagen cabecera semaforo"){ .img-cabecera }
 

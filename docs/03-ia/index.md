@@ -1,4 +1,4 @@
-# Proyectos con IA
+# 3. Proyectos con IA
 
 **EchidnaML** integra **LearningML**, una **plataforma educativa** diseñada para aprender los fundamentos del **machine learning** (aprendizaje automático) de forma sencilla y visual. Esto nos permite incorporar **inteligencia artificial** a nuestros proyectos con la placa EchidnaBlack2.
 

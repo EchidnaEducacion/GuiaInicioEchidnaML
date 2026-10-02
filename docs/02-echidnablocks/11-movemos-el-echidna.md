@@ -1,4 +1,4 @@
-# Movemos el echidna
+# 2.11 Movemos el echidna
 
 ![Imagen cabecera Movemos el echidna](../assets/images/Movemos_echidna.png "Imagen cabecera Movemos el echidna"){ .img-cabecera }
 

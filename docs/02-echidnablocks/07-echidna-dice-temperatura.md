@@ -1,4 +1,4 @@
-# El echidna dice la temperatura
+# 2.7 El echidna dice la temperatura
 
 ![Imagen cabecera El echidna dice la temperatura](../assets/images/Temperatura.png "Imagen cabecera El echidna dice la temperatura"){ .img-cabecera }
 

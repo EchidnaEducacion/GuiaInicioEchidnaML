@@ -1,4 +1,4 @@
-# Proyectos con EchidnaBlocks
+# 2. Proyectos con EchidnaBlocks
 
 En estos proyectos programamos la placa **EchidnaBlack2** con los bloques de **EchidnaBlocks**. Cada proyecto presenta un componente nuevo de la placa y va creciendo en complejidad.
 

@@ -18,7 +18,7 @@ alumnado que empiezan con la placa.
 
 - **Idioma**: español, registro cercano (tuteo al alumnado), términos clave
   en **negrita**.
-- **Estructura fija de cada proyecto**: `# Título`, imagen de cabecera,
+- **Estructura fija de cada proyecto**: `# N.M Título`, imagen de cabecera,
   `## 1. Qué vamos a hacer`, `### 1.1 Qué vamos a aprender`,
   `### 1.2 Qué componentes vamos a usar`, `## 2. Programación` (con
   **Lógica de programación** cuando aplica) y `## 3. Mejóralo` (tres
@@ -38,8 +38,9 @@ alumnado que empiezan con la placa.
   `3. Proyectos con IA` (`docs/03-ia/`, proyectos con LearningML) y
   `4. Licencia` (`docs/04-licencia.md`). Cada sección con proyectos tiene un
   `index.md` (presentación y lista de proyectos) y los proyectos se numeran
-  por sección en el `nav` (2.1, 2.2…, 3.1…); el `# Título` de la página va
-  sin número.
+  por sección (2.1, 2.2…, 3.1…). El número va en el `nav` y también en el
+  `# Título` de la página (`# 2.1 Hola Mundo`, `# 3. Proyectos con IA`), para
+  que el índice del PDF salga numerado; si reordenas, renumera ambos.
 - **Navegación**: `nav` en `zensical.toml` es la fuente de verdad del orden.
   Si añades, eliminas o reordenas un proyecto, actualiza a la vez `nav`, la
   lista del `index.md` de su sección, la de `docs/index.md` y la del

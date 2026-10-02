@@ -1,4 +1,4 @@
-# Interruptor crepuscular
+# 2.5 Interruptor crepuscular
 
 ![Imagen cabecera Interruptor crepuscular](../assets/images/Interruptor_crepuscular.png "Imagen cabecera Interruptor crepuscular"){ .img-cabecera }
 
