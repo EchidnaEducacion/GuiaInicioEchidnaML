@@ -61,7 +61,7 @@ Escribimos frases **distintas** de los ejemplos y comprobamos en qué clase las 
 
 ![Probar el modelo de textos](../assets/images/3-probar_textos.png "Probar el modelo de textos")
 
-En el ejemplo, el modelo clasifica la frase "Es de día" como **Apaga** con un 61 % de confianza.
+En el ejemplo, el modelo clasifica la frase "Me voy a la cama", que no está entre los ejemplos de entrenamiento, como **Apaga** con un 65 % de confianza.
 
 Si el modelo se equivoca o la confianza es baja, volvemos a **2.1 Entrenar**: revisamos los ejemplos, añadimos otros nuevos y aprendemos de nuevo.
 
