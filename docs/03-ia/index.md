@@ -10,3 +10,7 @@ Para crear un modelo seguimos siempre estas fases:
 2. **Aprender**: creamos el modelo.
 3. **Probar**: comprobamos que el modelo clasifica correctamente. Si no lo hace, volvemos a la fase **Entrenar**.
 4. **Programar**: abrimos **EchidnaBlocks** y usamos los bloques de LearningML para construir nuestra aplicación.
+
+Para abrir LearningML, desde EchidnaML abrimos la aplicación **Modelos de Machine Learning**.
+
+1. [Asistente virtual](01-asistente-virtual.md): un modelo de **texto** que entiende nuestras órdenes para encender y apagar la luz.

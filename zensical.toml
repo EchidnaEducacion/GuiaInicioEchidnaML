@@ -25,7 +25,8 @@ nav = [
     {"2.11 Movemos el echidna" = "02-echidnablocks/11-movemos-el-echidna.md"}
   ]},
   {"3. Proyectos con IA" = [
-    "03-ia/index.md"
+    "03-ia/index.md",
+    {"3.1 Asistente virtual" = "03-ia/01-asistente-virtual.md"}
   ]},
   {"4. Licencia" = "04-licencia.md"}
 ]

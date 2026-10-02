@@ -30,7 +30,9 @@ proyectos sencillos. Se publica como sitio web estático con
 
 ### 3. Proyectos con IA
 
-[Presentación de la sección](docs/03-ia/index.md): proyectos con LearningML (en preparación).
+[Presentación de la sección](docs/03-ia/index.md): proyectos con LearningML.
+
+1. [Asistente virtual](docs/03-ia/01-asistente-virtual.md)
 
 ### 4. Licencia
 
