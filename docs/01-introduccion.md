@@ -6,14 +6,14 @@ El sistema se compone de una **placa** con diversos componentes integrados y un 
 
 ![EchidnaBlack2](assets/images/EchidnaBlack_2_perspectiva.jpg "EchidnaBlack2"){ .img-cabecera }
 
-**EchidnaBlocks** es una versión de **Scratch** que incorpora **bloques** específicos para controlar la placa **EchidnaBlack2** y para integrar modelos de **machine learning** mediante LearningML. Es el entorno con el que vas a programar todos los proyectos de esta guía.
+**EchidnaML** reúne dos herramientas que usaremos en esta guía:
 
-![Entorno de programación EchidnaBlocks](assets/images/EchidnaBlocks-_partes.png "Entorno de programación EchidnaBlocks")
+* **EchidnaBlocks**: el entorno de programación por bloques, basado en Scratch, con el que programamos la placa.
+* **LearningML**: la herramienta para crear modelos de **machine learning** que después usamos en nuestros programas.
 
-EchidnaBlocks se **comunica** con la placa a través del **puerto serie**, mediante el cable USB: la placa envía el estado de sus **sensores** y tu programa lo procesa y le devuelve cómo deben estar sus **actuadores** (LED, zumbador...).
+Esta **guía** te propone una serie de **proyectos sencillos** para dar tus primeros pasos con la placa. No necesitas conocimientos previos de programación, aunque te resultará más fácil si ya conoces **Scratch**. Está organizada en dos bloques de proyectos:
 
-Esta **guía** te propone una serie de **proyectos sencillos** para dar tus primeros pasos con la placa. No necesitas conocimientos previos de programación, aunque te resultará más fácil si ya conoces **Scratch**. Si quieres ampliar información, consulta el [Manual de EchidnaML y EchidnaBlack](https://echidnaeducacion.github.io/manual/) y la web del proyecto: [www.echidna.es](https://echidna.es/).
+* **Proyectos con EchidnaBlocks**: cada proyecto presenta un componente de la placa y cómo programarlo.
+* **Proyectos con IA**: añadimos inteligencia artificial con modelos de LearningML.
 
-Los programas de todos los proyectos de esta guía los puedes encontrar en EchidnaBlocks, en el menú **Archivo → Ejemplos**. Ábrelos para probarlos, estudiarlos y modificarlos.
-
-![Menú Archivo de EchidnaBlocks](assets/images/menuejemplos.png "Menú Archivo de EchidnaBlocks")
+Si quieres ampliar información, consulta el [Manual de EchidnaML y EchidnaBlack](https://echidnaeducacion.github.io/manual/) y la web del proyecto: [www.echidna.es](https://echidna.es/).
