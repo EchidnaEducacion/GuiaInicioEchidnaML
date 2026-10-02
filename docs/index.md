@@ -31,6 +31,7 @@ Antes de empezar, lee la [Introducción](01-introduccion.md): qué son EchidnaBl
 [Proyectos](03-ia/index.md) que incorporan inteligencia artificial con **LearningML**: crearemos modelos que clasifican textos, imágenes y números y los usaremos con la placa.
 
 1. [Asistente virtual](03-ia/01-asistente-virtual.md)
+2. [Clasificador de residuos](03-ia/02-clasificador-residuos.md)
 
 ## 4. Licencia
 

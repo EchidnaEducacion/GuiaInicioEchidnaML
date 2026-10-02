@@ -33,6 +33,7 @@ proyectos sencillos. Se publica como sitio web estático con
 [Presentación de la sección](docs/03-ia/index.md): proyectos con LearningML.
 
 1. [Asistente virtual](docs/03-ia/01-asistente-virtual.md)
+2. [Clasificador de residuos](docs/03-ia/02-clasificador-residuos.md)
 
 ### 4. Licencia
 

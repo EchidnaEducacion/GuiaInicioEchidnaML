@@ -14,3 +14,4 @@ Para crear un modelo seguimos siempre estas fases:
 Para abrir LearningML, desde EchidnaML abrimos la aplicación **Modelos de Machine Learning**.
 
 1. [Asistente virtual](01-asistente-virtual.md): un modelo de **texto** que entiende nuestras órdenes para encender y apagar la luz.
+2. [Clasificador de residuos](02-clasificador-residuos.md): un modelo de **imágenes** que reconoce con la cámara a qué contenedor va cada residuo.
