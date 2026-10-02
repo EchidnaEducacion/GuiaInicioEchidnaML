@@ -51,4 +51,4 @@ Prueba a realizar algunas de estas mejoras en tu proyecto de forma autónoma:
 
 1. **Sin tantos decimales:** El sensor da la temperatura con decimales (por ejemplo, 16.61). Usa el bloque `redondear` para que el echidna diga solo un número entero.
 2. **Grados Fahrenheit:** Haz que el echidna diga también la temperatura en grados Fahrenheit (°F). Para calcularla, multiplica los grados Celsius por 1.8 y súmale 32.
-3. **Alarma de calor:** Haz que suene el **zumbador** cuando la temperatura supere un valor. Para probarla, calienta el sensor tocándolo suavemente con el dedo.
+3. **Fondo de frío y calor:** Añade dos fondos al escenario de EchidnaML, uno que represente el frío (por ejemplo, un paisaje nevado) y otro el calor (por ejemplo, una playa). Haz que se muestre uno u otro según si la temperatura está por debajo o por encima de un valor. Para probarlo, calienta el sensor tocándolo suavemente con el dedo.
