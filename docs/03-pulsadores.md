@@ -62,7 +62,7 @@ Prueba a realizar algunas de las siguientes modificaciones al proyecto:
     * Al pulsar **SL**: LED rojo apagado y LED verde encendido.
 3. **Pulsador con memoria (conmutador):** Programa un solo pulsador (por ejemplo, **SL**) para que funcione como el interruptor de la luz de tu habitación: la primera vez que lo pulsas enciende el LED, y al volverlo a pulsar lo apaga.
 
-Esta última mejora es más compleja, así que te dejamos una posible solución:
+**Ayuda:** esta última mejora es más compleja, así que te dejamos una posible solución:
 
 ![Bloques programación pulsador con memoria](assets/images/Ejemplo_pulsador_memoria.png "Bloques programación pulsador con memoria")
 
