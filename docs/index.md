@@ -31,3 +31,7 @@ Todos los proyectos siguen la misma estructura:
 1. **Qué vamos a hacer**: descripción del proyecto, qué vamos a aprender y qué componentes vamos a usar.
 2. **Programación**: el programa de bloques y la lógica que lo explica.
 3. **Mejóralo**: propuestas para ampliar el proyecto por tu cuenta.
+
+## Licencia
+
+Esta guía se publica bajo licencia Creative Commons BY-SA 4.0. Consulta los detalles en la página de [Licencia](licencia.md).
