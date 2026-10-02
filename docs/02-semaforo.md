@@ -46,8 +46,8 @@ Luego, el ciclo vuelve a comenzar con la luz verde y se repite de forma indefini
 
 Prueba a perfeccionar tu semáforo con algunas de estas tres mejoras que te proponemos:
 
-1. **Semáforo virtual en pantalla:** Diseña un objeto "Semáforo" en EchidnaML con tres disfraces (Verde, Naranja, Rojo). Programa el objeto para que cambie de disfraz en la pantalla al mismo tiempo que cambian los LED en la placa real.
-2. **Naranja intermitente:** Modifica la fase intermedia para que el LED naranja no se quede fijo, sino que **parpadee 3 veces rápidas** (encendido `0.3` segundos / apagado `0.3` segundos) antes de pasar al rojo.
+1. **Naranja intermitente:** Modifica la fase intermedia para que el LED naranja no se quede fijo, sino que **parpadee 3 veces rápidas** (encendido `0.3` segundos / apagado `0.3` segundos) antes de pasar al rojo.
+2. **Semáforo virtual en pantalla:** Diseña un objeto "Semáforo" en EchidnaML con tres disfraces (Verde, Naranja, Rojo). Programa el objeto para que cambie de disfraz en la pantalla al mismo tiempo que cambian los LED en la placa real.
 3. **Semáforo sonoro adaptado:** Añade el **zumbador** de la placa para avisar a personas con discapacidad visual:
     * **Fase verde:** Sonido intermitente lento.
     * **Fase roja:** Sonido continuo o apagado.
