@@ -13,7 +13,7 @@ Vamos a convertir la entrada **MkMk A0** de nuestra placa en una tecla de piano 
 * A entender cómo funciona un **circuito cerrado** a través de nuestro propio cuerpo.
 * A reproducir notas musicales y sonidos desde el software.
 
-### 1.2 Qué componentes vamos a usar
+### 1.2 Qué vamos a usar
 
 * **Entrada MkMk A0:** Conector táctil para detectar pulsaciones o conductividad.
 * **Conector común MkMk I/O (5V):** Indispensable para cerrar el circuito con tu cuerpo. Está en el extremo derecho de la fila de conectores y proporciona 5V.
@@ -37,7 +37,7 @@ Primero elegimos el instrumento con el bloque **`fijar instrumento a (1) Piano`*
 
 ![Bloques programación MkMk](../assets/images/Ejemplo_MkMk_piano.png "Bloques programación MkMk")
 
-**Lógica de programación**:
+**Cómo funciona**:
 
 El programa revisa continuamente:
 

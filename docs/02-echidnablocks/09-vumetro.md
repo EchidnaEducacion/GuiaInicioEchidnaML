@@ -13,7 +13,7 @@ Vamos a construir un **vúmetro** o **semáforo de ruido**, que muestra con los 
 * A trabajar con **umbrales numéricos** para definir estados (silencio, ruido moderado y mucho ruido).
 * A entender por qué algunas señales, como el sonido, **cambian constantemente**.
 
-### 1.2 Qué componentes vamos a usar
+### 1.2 Qué vamos a usar
 
 * **Micrófono:** Convierte las vibraciones del sonido en una señal eléctrica. Da valores bajos con silencio y valores más altos cuanto más intenso es el sonido, entre 0 y 1023.
 * **LED verde, naranja y rojo:** Nos indicarán el nivel de ruido.
@@ -32,7 +32,7 @@ Revisamos continuamente el valor del micrófono y, según el nivel de ruido, enc
 
 ![Bloques programación Vúmetro](../assets/images/Ejemplo_vumetro.png "Bloques programación Vúmetro")
 
-**Lógica de programación**:
+**Cómo funciona**:
 
 El programa revisa continuamente:
 

@@ -14,7 +14,7 @@ Vamos a realizar un semáforo en el que el LED verde se enciende durante 5 segun
 * A controlar múltiples componentes digitales (LED) de forma coordinada.
 * A estructurar un ciclo de estados infinito (**programación cíclica**).
 
-### 1.2 Qué componentes vamos a usar
+### 1.2 Qué vamos a usar
 
 * **LED verde:** Fase de paso.
 * **LED naranja:** Fase de precaución.
@@ -34,7 +34,7 @@ La programación se basa en una secuencia cíclica donde cada LED permanece ence
 
 ![Bloques programación semáforo](../assets/images/Semaforo.png "Bloques programación semáforo")
 
-**Lógica de programación**:
+**Cómo funciona**:
 
 1. El LED verde se enciende durante 5 segundos. Al finalizar este tiempo, se apaga.
 2. El LED naranja se enciende durante 2 segundos, y luego se apaga.

@@ -19,7 +19,7 @@ Vamos a programar un sistema de encendido y apagado manual con dos botones:
 * A utilizar **condicionales anidados** (`si ... si no` y dentro otro `si`).
 * A controlar el estado de un actuador (LED) mediante eventos físicos (pulsaciones).
 
-### 1.2 Qué componentes vamos a usar
+### 1.2 Qué vamos a usar
 
 * **Pulsador SR (Switch Right / Derecho):** Para encender el LED.
 * **Pulsador SL (Switch Left / Izquierdo):** Para apagar el LED.
@@ -39,7 +39,7 @@ El programa comprueba si el pulsador derecho está presionado; en ese caso, enci
 
 ![Bloques programación pulsadores](../assets/images/Ejemplo_encender_apagar_led_pulsadores.png "Bloques programación pulsadores")
 
-**Lógica de programación**:
+**Cómo funciona**:
 
 El programa revisa continuamente:
 

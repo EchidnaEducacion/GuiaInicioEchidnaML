@@ -16,7 +16,7 @@ Para que el asistente entienda frases que nunca ha visto, crearemos con **Learni
 * A usar la **confianza** del modelo para decidir si nos fiamos de su respuesta.
 * A usar el modelo en EchidnaBlocks para controlar la placa.
 
-### 1.2 Qué componentes vamos a usar
+### 1.2 Qué vamos a usar
 
 Usaremos el **LED RGB** de la placa y el **teclado** del ordenador para escribir las órdenes.
 
@@ -71,7 +71,7 @@ Cuando el modelo funcione bien, abrimos **EchidnaBlocks** y construimos el progr
 
 ![Bloques programación Asistente virtual](../assets/images/modelo_texto_EchidnaBlocks.png "Bloques programación Asistente virtual")
 
-**Lógica de programación**:
+**Cómo funciona**:
 
 El echidna pregunta "¿Qué necesitas?" y espera nuestra respuesta. Antes de actuar, comprueba la **confianza** del modelo para esa respuesta: solo nos hace caso si es mayor de 60.
 

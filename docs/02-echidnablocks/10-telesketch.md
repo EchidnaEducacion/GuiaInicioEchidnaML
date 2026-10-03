@@ -14,7 +14,7 @@ Vamos a convertir la pantalla de EchidnaML en un **Telesketch**, la pizarra mág
 * A combinar varios condicionales `si` con **umbrales** (`>` y `<`) para detectar hacia dónde movemos la palanca.
 * A mover un objeto por el escenario usando **direcciones** y **coordenadas**.
 
-### 1.2 Qué componentes vamos a usar
+### 1.2 Qué vamos a usar
 
 * **Joystick:** Palanca que se mueve en varias direcciones. Por dentro tiene dos potenciómetros, uno para cada eje, que indican hacia dónde y cuánto la has desplazado. Además, al presionar la palanca hacia abajo funciona como un pulsador, que en EchidnaBlack2 es el mismo que el pulsador **SR**.
 
@@ -49,7 +49,7 @@ En **reposo**, el joystick da valores alrededor de **512** en los dos ejes. En e
 ![Bloques programación Telesketch](../assets/images/Ejemplo_Pintamos.png "Bloques programación Telesketch"){ width="300" }
 </div>
 
-**Lógica de programación**:
+**Cómo funciona**:
 
 El programa revisa continuamente:
 

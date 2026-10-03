@@ -14,9 +14,9 @@ En este primer proyecto haremos que el **LED rojo** de la placa EchidnaBlack2 se
 * A utilizar bucles infinitos para realizar una **programación cíclica** (tareas que se repiten para siempre).
 * A controlar el estado (encendido/apagado) de un componente de la placa.
 
-### 1.2 Qué componentes vamos a usar
+### 1.2 Qué vamos a usar
 
-Usaremos el LED rojo.
+* **LED rojo:** Se enciende y se apaga para crear el parpadeo.
 
 ![LED en EchidnaBlack2](../assets/images/Lupa_Ledes.png "LED en EchidnaBlack2"){ .img-lupa }
 
@@ -36,7 +36,7 @@ Construye el siguiente código arrastrando los bloques a tu área de trabajo:
 
 VIDEO DE PROCESO DE PROGRAMACIÓN
 
-**Lógica de programación**:
+**Cómo funciona**:
 
 El programa empieza con el bloque **`al hacer clic en`** (bandera verde): todo lo que coloquemos debajo se ejecutará cuando pulsemos la bandera verde en EchidnaML.
 

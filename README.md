@@ -41,7 +41,7 @@ proyectos sencillos. Se publica como sitio web estático con
 [Licencia](docs/04-licencia.md).
 
 Todos los proyectos siguen la misma estructura: `1. Qué vamos a hacer` (con
-`1.1 Qué vamos a aprender` y `1.2 Qué componentes vamos a usar`),
+`1.1 Qué vamos a aprender` y `1.2 Qué vamos a usar`),
 `2. Programamos` y `3. Mejóralo`.
 
 ## Requisitos

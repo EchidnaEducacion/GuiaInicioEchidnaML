@@ -12,7 +12,7 @@ Vamos a programar un timbre eléctrico: el **zumbador** emitirá un tono sonoro 
 * A evaluar estados en tiempo real (`presionado` vs `liberado`).
 * A usar el condicional **`si ... si no`** para que el zumbador suene solo mientras el pulsador está presionado.
 
-### 1.2 Qué componentes vamos a usar
+### 1.2 Qué vamos a usar
 
 * **Pulsador SL (Switch Left / Izquierdo):** Componente de entrada para activar el sonido.
 * **Zumbador (Buzzer):** Componente de salida que genera notas o pitidos.
@@ -31,7 +31,7 @@ La programación se basa en revisar continuamente si el pulsador SL está presio
 
 ![Bloques programación zumbador](../assets/images/Ejemplo_pulsador-zumbador.png "Bloques programación zumbador")
 
-**Lógica de programación**:
+**Cómo funciona**:
 
 El programa revisa continuamente:
 

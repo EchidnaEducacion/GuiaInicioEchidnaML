@@ -14,7 +14,7 @@ Vamos a convertir la placa en un **mando de videojuego**: al **inclinar la placa
 * A animar un personaje cambiando de **disfraz**.
 * A ejecutar dos programas a la vez usando **dos hilos** de ejecución.
 
-### 1.2 Qué componentes vamos a usar
+### 1.2 Qué vamos a usar
 
 * **Acelerómetro:** Sensor que mide los movimientos de la placa en los tres ejes. Con los ejes **X** e **Y** detecta hacia dónde inclinas la placa, gracias a la fuerza de la gravedad. Con el eje **Z** detecta los movimientos bruscos hacia arriba o hacia abajo.
 
@@ -39,7 +39,7 @@ Usaremos el personaje de **Echidna** que aparece en el escenario. El programa ti
 
 ![Bloques programación Movemos el echidna](../assets/images/Ejemplo_acelerometro.png "Bloques programación Movemos el echidna")
 
-**Lógica de programación**:
+**Cómo funciona**:
 
 Hilo de movimiento, el programa revisa continuamente:
 

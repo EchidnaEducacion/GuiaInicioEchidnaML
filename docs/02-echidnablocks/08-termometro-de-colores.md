@@ -13,7 +13,7 @@ Vamos a construir un **termómetro de colores**: el **LED RGB** de la placa camb
 * A usar el **sensor de temperatura** como entrada para controlar un actuador.
 * A usar un condicional `si ... si no` **dentro de otro** para distinguir tres zonas de temperatura.
 
-### 1.2 Qué componentes vamos a usar
+### 1.2 Qué vamos a usar
 
 * **LED RGB:** Componente que tiene dentro tres LED: uno **rojo** (R, *Red*), uno **verde** (G, *Green*) y uno **azul** (B, *Blue*). Al mezclar la luz de los tres podemos conseguir más de 16 millones de colores.
 * **Sensor de temperatura:** Mide la temperatura del ambiente en grados Celsius (°C).
@@ -30,7 +30,7 @@ Revisamos continuamente la temperatura y encendemos el LED RGB de un color segú
 
 ![Bloques programación Termómetro de colores](../assets/images/Ejemplo_temperatura_RGB.png "Bloques programación Termómetro de colores")
 
-**Lógica de programación**:
+**Cómo funciona**:
 
 El programa revisa continuamente:
 

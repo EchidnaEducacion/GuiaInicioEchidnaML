@@ -13,7 +13,7 @@ Vamos a programar un sistema automático similar al de las farolas de la calle: 
 * A usar un **operador de comparación** (`<`) para que el condicional `si ... si no` decida a partir de la lectura de un sensor.
 * A trabajar con **umbrales numéricos** para definir estados (día/noche).
 
-### 1.2 Qué componentes vamos a usar
+### 1.2 Qué vamos a usar
 
 * **Sensor de luz (LDR):** Mide la cantidad de luz que recibe. Cuanto más oscuro esté el entorno, menor será el valor registrado.
 * **LED verde:** Funcionará como nuestra luz automática.
@@ -32,7 +32,7 @@ Revisamos continuamente el valor del sensor de luz: si es menor que un cierto um
 
 ![Bloques programación interruptor crepuscular](../assets/images/Ejemplo_sensor_luz.png "Bloques programación interruptor crepuscular")
 
-**Lógica de programación**:
+**Cómo funciona**:
 
 El programa revisa continuamente:
 

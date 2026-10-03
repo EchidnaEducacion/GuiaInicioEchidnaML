@@ -30,6 +30,6 @@ Los programas de todos los proyectos los puedes encontrar en EchidnaBlocks, en e
 
 Todos los proyectos siguen la misma estructura:
 
-1. **Qué vamos a hacer**: descripción del proyecto, qué vamos a aprender y qué componentes vamos a usar.
-2. **Programamos**: el programa de bloques y la lógica que lo explica.
+1. **Qué vamos a hacer**: descripción del proyecto, qué vamos a aprender y qué vamos a usar.
+2. **Programamos**: el programa de bloques y cómo funciona.
 3. **Mejóralo**: propuestas para ampliar el proyecto por tu cuenta.

@@ -15,7 +15,7 @@ Para saber hacia dónde inclinamos la placa, crearemos con **LearningML** un **m
 * A introducir ejemplos con **varias columnas** (en nuestro caso, los ejes X e Y del acelerómetro).
 * A usar el modelo en EchidnaBlocks para controlar un personaje.
 
-### 1.2 Qué componentes vamos a usar
+### 1.2 Qué vamos a usar
 
 Usaremos el **acelerómetro** de la placa, que mide su inclinación, y el pulsador **SL**.
 
@@ -71,7 +71,7 @@ El segundo mueve el echidna según la clase:
 
 ![Bloques programación Mando de inclinación](../assets/images/NumerosEchidnaBlocks.png "Bloques programación Mando de inclinación")
 
-**Lógica de programación**:
+**Cómo funciona**:
 
 El programa revisa continuamente el pulsador **SL**. Cuando lo pulsamos, une los valores `acelX` y `acelY` del acelerómetro con una coma (bloque `unir`) y se los da al modelo para que los clasifique. Antes de mover el echidna, comprueba la **confianza**:
 

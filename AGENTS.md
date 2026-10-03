@@ -20,8 +20,8 @@ alumnado que empiezan con la placa.
   en **negrita**.
 - **Estructura fija de cada proyecto**: `# N.M Título`, imagen de cabecera,
   `## 1. Qué vamos a hacer`, `### 1.1 Qué vamos a aprender`,
-  `### 1.2 Qué componentes vamos a usar`, `## 2. Programamos` (con
-  **Lógica de programación** cuando aplica) y `## 3. Mejóralo` (tres
+  `### 1.2 Qué vamos a usar`, `## 2. Programamos` (con
+  **Cómo funciona** cuando aplica) y `## 3. Mejóralo` (tres
   propuestas numeradas, de menos a más difícil). Mantén este patrón al
   añadir un proyecto.
 - **Pista y Ayuda en «Mejóralo»**: **Pista:** da información sobre cómo
@@ -33,7 +33,7 @@ alumnado que empiezan con la placa.
   `## 1. Qué vamos a hacer` (con 1.1 y 1.2), `## 2. Entrenamos el modelo`
   (`### 2.1 Entrenar: clases y ejemplos`, `### 2.2 Aprender`,
   `### 2.3 Probar`, que incluye volver a entrenar si no clasifica bien),
-  `## 3. Programamos` (con **Lógica de programación**, incluida la
+  `## 3. Programamos` (con **Cómo funciona**, incluida la
   comprobación de confianza) y `## 4. Mejóralo`. En el 1.2, el bloque que se
   presenta es el de LearningML que introduce el proyecto. Cómo abrir
   LearningML y su entorno se explica una sola vez en `docs/03-ia/index.md`.

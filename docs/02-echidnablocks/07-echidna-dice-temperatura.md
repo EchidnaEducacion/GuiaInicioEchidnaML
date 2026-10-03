@@ -17,7 +17,7 @@ Vamos a convertir a nuestro echidna en un **hombre del tiempo**: cada vez que pu
 * A **unir textos** y valores de un sensor para construir una frase.
 * A hacer que un personaje **diga** mensajes en un bocadillo.
 
-### 1.2 Qué componentes vamos a usar
+### 1.2 Qué vamos a usar
 
 * **Sensor de temperatura:** Mide la temperatura del ambiente. Entrega un voltaje que depende de la temperatura.
 
@@ -35,7 +35,7 @@ Usaremos el personaje de **Echidna** que aparece en el escenario. El programa em
 
 ![Bloques programación El echidna dice la temperatura](../assets/images/Ejemplo_temperatura.png "Bloques programación El echidna dice la temperatura")
 
-**Lógica de programación**:
+**Cómo funciona**:
 
 ```
 CUANDO se pulsa la tecla t:

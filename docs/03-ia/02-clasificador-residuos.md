@@ -15,7 +15,7 @@ Para que reconozca los residuos, crearemos con **LearningML** un **modelo de im�
 * A usar la **cámara** (webcam) en EchidnaBlocks para clasificar lo que ve.
 * A mover un **servomotor de posición** a un ángulo concreto.
 
-### 1.2 Qué componentes vamos a usar
+### 1.2 Qué vamos a usar
 
 Usaremos la **cámara** del ordenador, el **LED RGB** de la placa y dos **servomotores de posición** conectados a los pines **D7** (contenedor azul) y **D8** (contenedor amarillo).
 
@@ -72,7 +72,7 @@ Cuando el modelo funcione bien, abrimos **EchidnaBlocks** y construimos el progr
 
 ![Bloques programación Clasificador de residuos](../assets/images/Ejemplo_modelo_imagenes.png "Bloques programación Clasificador de residuos")
 
-**Lógica de programación**:
+**Cómo funciona**:
 
 **Configuración inicial:** al hacer clic en la bandera verde, activamos la cámara, colocamos los dos servos a 90° (tapas cerradas) y apagamos el LED RGB. El echidna dice "Presiona espacio y te digo a qué cubo va.".
 
