@@ -173,6 +173,10 @@ img.img-cabecera {
   max-width: 100%;
 }
 
+/* Solo en la web ({ .solo-web }): GIF de proceso, que en el PDF solo
+   mostraría el primer fotograma. */
+img.solo-web { display: none; }
+
 table {
   width: 100%;
   border-collapse: collapse;

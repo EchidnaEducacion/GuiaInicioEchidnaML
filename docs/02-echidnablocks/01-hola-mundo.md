@@ -34,7 +34,7 @@ Construye el siguiente código arrastrando los bloques a tu área de trabajo:
 
 ![Bloques programación Hola Mundo](../assets/images/HolaMundo.png "Bloques programación Hola Mundo")
 
-VIDEO DE PROCESO DE PROGRAMACIÓN
+![Proceso de programación Hola Mundo](../assets/images/HolaMundo_programacion.gif "Proceso de programación Hola Mundo"){ .solo-web }
 
 **Cómo funciona**:
 

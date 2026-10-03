@@ -79,7 +79,10 @@ alumnado que empiezan con la placa.
   para que todas tengan el mismo tamaño reducido (26rem en la web, 100 mm en
   el PDF), y la imagen de cabecera de cada proyecto lleva `{ .img-cabecera }`
   (18rem en la web, 80 mm en el PDF). En el PDF `{ width="N" }` no tiene
-  efecto porque `print.css` fija `width: auto`.
+  efecto porque `print.css` fija `width: auto`. Los GIF del proceso de
+  programación llevan `{ .solo-web }`: se ven en la web y se ocultan en el
+  PDF (allí solo saldría el primer fotograma y ya está la captura del
+  programa).
 - **Pseudocódigo** (`SI ... / SI NO ...` y `-->`): siempre en bloque de
   código con ``` ``` ```, 4 espacios por nivel.
 - Los marcadores provisionales en mayúsculas (`IMAGEN LUPA ...`,
