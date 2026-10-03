@@ -46,7 +46,7 @@ Todos los proyectos siguen la misma estructura: `1. Qué vamos a hacer` (con
 
 ## Requisitos
 
-- Python 3
+- Python 3.11 o superior
 - `pip`
 
 ## Vista previa local
