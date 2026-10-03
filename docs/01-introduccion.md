@@ -4,7 +4,11 @@
 
 El sistema se compone de una **placa** con diversos componentes integrados y un **entorno de programación** diseñado a medida para aprovechar todas sus posibilidades.
 
-![EchidnaBlack2](assets/images/EchidnaBlack_2_perspectiva.jpg "EchidnaBlack2"){ .img-cabecera }
+<div class="img-row" markdown="1">
+![EchidnaBlack2](assets/images/EchidnaBlack_2_perspectiva.jpg "EchidnaBlack2"){ width="330" }
+
+![EchidnaML](assets/images/pegataechidnaml.png "EchidnaML"){ width="230" }
+</div>
 
 **EchidnaML** reúne dos herramientas que usaremos en esta guía:
 
