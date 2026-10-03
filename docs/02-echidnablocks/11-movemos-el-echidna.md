@@ -30,7 +30,7 @@ Estos son los valores que nos da:
 * **Ejes X e Y:** al inclinar la placa, el valor cambia de 0 hasta -1 hacia un lado y hasta 1 hacia el otro.
 * **Eje Z:** al mover la placa bruscamente, el valor se aleja mucho de 1.
 
-## 2. Programación
+## 2. Programamos
 
 Usaremos el personaje de **Echidna** que aparece en el escenario. El programa tiene **dos hilos** de ejecución, es decir, dos grupos de bloques que empiezan a la vez al hacer clic en la bandera verde y funcionan al mismo tiempo:
 

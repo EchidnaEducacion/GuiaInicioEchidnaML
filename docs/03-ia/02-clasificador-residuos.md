@@ -66,7 +66,7 @@ En el ejemplo, el modelo clasifica la imagen de una botella como **amarillo** co
 
 Si el modelo se equivoca, volvemos a **2.1 Entrenar**: añadimos más imágenes o revisamos las que tenemos y aprendemos de nuevo.
 
-## 3. Programación
+## 3. Programamos
 
 Cuando el modelo funcione bien, abrimos **EchidnaBlocks** y construimos el programa:
 

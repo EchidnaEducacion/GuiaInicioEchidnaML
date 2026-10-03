@@ -46,5 +46,5 @@ Todos los proyectos con IA siguen la misma estructura:
 
 1. **Qué vamos a hacer**: descripción del proyecto, qué vamos a aprender y qué componentes vamos a usar.
 2. **Entrenamos el modelo**: creamos las clases y los ejemplos, el modelo aprende y lo probamos.
-3. **Programación**: el programa de bloques que usa el modelo y la lógica que lo explica.
+3. **Programamos**: el programa de bloques que usa el modelo y la lógica que lo explica.
 4. **Mejóralo**: propuestas para ampliar el proyecto por tu cuenta.

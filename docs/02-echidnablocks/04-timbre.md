@@ -25,7 +25,7 @@ Para hacer sonar el zumbador usamos el bloque `encender zumbador`:
 
 En el bloque puedes elegir si quieres **encender** o **apagar** el zumbador. El volumen se ajusta con el potenciómetro **Volume** de la placa.
 
-## 2. Programación
+## 2. Programamos
 
 La programación se basa en revisar continuamente si el pulsador SL está presionado, si lo está se activa el zumbador y, si no, se apaga.
 

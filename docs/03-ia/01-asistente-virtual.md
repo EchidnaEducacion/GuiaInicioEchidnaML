@@ -65,7 +65,7 @@ En el ejemplo, el modelo clasifica la frase "Me voy a la cama", que no está ent
 
 Si el modelo se equivoca o la confianza es baja, volvemos a **2.1 Entrenar**: revisamos los ejemplos, añadimos otros nuevos y aprendemos de nuevo.
 
-## 3. Programación
+## 3. Programamos
 
 Cuando el modelo funcione bien, abrimos **EchidnaBlocks** y construimos el programa con los bloques de LearningML y los de la placa:
 

@@ -24,7 +24,7 @@ Para controlar el LED RGB usamos el bloque `LED R G B`, en el que damos a cada c
 
 ![Bloque LED RGB con el naranja Echidna](../assets/images/Bloque_LED_RGB_naranja.png "Bloque LED RGB con el naranja Echidna"){ .img-bloque }
 
-## 2. Programación
+## 2. Programamos
 
 Revisamos continuamente la temperatura y encendemos el LED RGB de un color según la zona en la que esté: para el azul solo damos valor al canal B, para el verde solo al G y para el rojo solo al R.
 

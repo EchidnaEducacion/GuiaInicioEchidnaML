@@ -26,7 +26,7 @@ Para leer el micrófono usamos el bloque `leer micrófono`:
 
 Si marcas la casilla que hay junto al bloque, verás en el escenario el valor que mide en cada momento.
 
-## 2. Programación
+## 2. Programamos
 
 Revisamos continuamente el valor del micrófono y, según el nivel de ruido, encendemos o apagamos cada uno de los tres LED.
 

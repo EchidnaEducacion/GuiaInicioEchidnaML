@@ -26,7 +26,7 @@ Para encender y apagar los LED usamos el bloque `encender LED`:
 
 En el bloque puedes elegir si quieres **encender** o **apagar** el LED y **qué LED**: verde, naranja o rojo.
 
-## 2. Programación
+## 2. Programamos
 
 Este programa utiliza un bucle continuo para ejecutar la siguiente secuencia lógica, creando un parpadeo constante en el LED rojo.
 

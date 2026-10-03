@@ -59,7 +59,7 @@ En el ejemplo, el modelo clasifica `0.3,0.05` como **Derecha** con un 82,08 % de
 
 Si el modelo se equivoca, volvemos a **2.1 Entrenar**: añadimos más ejemplos o revisamos los que tenemos y aprendemos de nuevo.
 
-## 3. Programación
+## 3. Programamos
 
 Cuando el modelo funcione bien, abrimos **EchidnaBlocks** y construimos el programa, que tiene dos scripts.
 

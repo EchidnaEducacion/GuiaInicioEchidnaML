@@ -31,7 +31,7 @@ Para leer una entrada MkMk usamos el bloque `leer MK MK`:
 
 En el bloque puedes elegir la entrada: **A0**, **A1**, **A2**, **A3**, **A6**, **A7**, **D2** o **D3**. Devuelve **verdadero** (1) cuando detecta que el circuito se ha cerrado (la lectura de la entrada supera **350** en una escala de 0 a 1023) y **falso** (0) cuando el circuito está abierto.
 
-## 2. Programación
+## 2. Programamos
 
 Primero elegimos el instrumento con el bloque **`fijar instrumento a (1) Piano`**. Después revisamos continuamente la entrada MkMk A0: **cuando detecta contacto**, se reproduce la **nota 60** (que corresponde a la nota *Do central* del piano) durante **`0.25` tiempos** (con el tempo por defecto, 60 pulsos por minuto, equivale a un cuarto de segundo).
 

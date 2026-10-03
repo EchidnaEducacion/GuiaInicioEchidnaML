@@ -26,7 +26,7 @@ Para leer el sensor de luz usamos el bloque `leer sensor luz`:
 
 Nos da valores entre **0** (no hay luz) y **1023** (mucha luz). Si marcas la casilla que hay junto al bloque, verás en el escenario el valor que mide en cada momento.
 
-## 2. Programación
+## 2. Programamos
 
 Revisamos continuamente el valor del sensor de luz: si es menor que un cierto umbral, encendemos el LED; en caso contrario, lo apagamos.
 

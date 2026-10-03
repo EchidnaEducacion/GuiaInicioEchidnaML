@@ -33,7 +33,7 @@ Para leer el estado de los pulsadores usamos el bloque `¿botón SL pulsado?`:
 
 En el bloque puedes elegir el pulsador **SL** o **SR**. Devuelve **verdadero** (1) si está pulsado y **falso** (0) si no lo está.
 
-## 2. Programación
+## 2. Programamos
 
 El programa comprueba si el pulsador derecho está presionado; en ese caso, enciende el LED rojo. Si no lo está y presionamos el pulsador izquierdo, el LED se apaga.
 

@@ -30,7 +30,7 @@ Para leer el joystick usamos el bloque `leer joystick`, en el que puedes elegir 
 En **reposo**, el joystick da valores alrededor de **512** en los dos ejes. En el **eje X** da **0** si mueves la palanca a la izquierda y **1023** si la mueves a la derecha. En el **eje Y** da **0** si la mueves hacia abajo y **1023** si la mueves hacia arriba.
 </div>
 
-## 2. Programación
+## 2. Programamos
 
 **Añade la extensión Lápiz:** pulsa el botón de extensiones, en la esquina inferior izquierda de EchidnaML, y elige **Lápiz**. Así tendrás los bloques para dibujar en el escenario.
 

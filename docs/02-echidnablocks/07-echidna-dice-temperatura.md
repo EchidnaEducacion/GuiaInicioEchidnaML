@@ -29,7 +29,7 @@ Para leer la temperatura usamos el bloque `leer temperatura`, que convierte ese 
 
 Si marcas la casilla que hay junto al bloque, verás la temperatura en el escenario.
 
-## 2. Programación
+## 2. Programamos
 
 Usaremos el personaje de **Echidna** que aparece en el escenario. El programa empieza al pulsar la tecla **t**: el echidna dice durante 2 segundos una frase formada con el bloque `unir`, que junta tres partes: el texto "Hola, ahora hace una temperatura de ", el valor del sensor y el símbolo "ºC".
 

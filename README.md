@@ -42,7 +42,7 @@ proyectos sencillos. Se publica como sitio web estático con
 
 Todos los proyectos siguen la misma estructura: `1. Qué vamos a hacer` (con
 `1.1 Qué vamos a aprender` y `1.2 Qué componentes vamos a usar`),
-`2. Programación` y `3. Mejóralo`.
+`2. Programamos` y `3. Mejóralo`.
 
 ## Requisitos
 
