@@ -32,9 +32,13 @@ Este programa utiliza un bucle continuo para ejecutar la siguiente secuencia ló
 
 Construye el siguiente código arrastrando los bloques a tu área de trabajo:
 
-![Bloques programación Hola Mundo](../assets/images/HolaMundo.png "Bloques programación Hola Mundo")
+=== "Programa"
 
-![Proceso de programación Hola Mundo](../assets/images/HolaMundo_programacion.gif "Proceso de programación Hola Mundo"){ .solo-web }
+    ![Bloques programación Hola Mundo](../assets/images/HolaMundo.png "Bloques programación Hola Mundo")
+
+=== "Paso a paso"
+
+    ![Proceso de programación Hola Mundo](../assets/images/HolaMundo_programacion.gif "Proceso de programación Hola Mundo"){ .solo-web }
 
 **Cómo funciona**:
 

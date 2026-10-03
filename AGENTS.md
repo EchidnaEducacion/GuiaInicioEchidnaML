@@ -82,7 +82,10 @@ alumnado que empiezan con la placa.
   efecto porque `print.css` fija `width: auto`. Los GIF del proceso de
   programación llevan `{ .solo-web }`: se ven en la web y se ocultan en el
   PDF (allí solo saldría el primer fotograma y ya está la captura del
-  programa).
+  programa). Captura y GIF van en pestañas (`pymdownx.tabbed`):
+  `=== "Programa"` con la captura y `=== "Paso a paso"` con el GIF, con el
+  contenido sangrado 4 espacios; en el PDF las pestañas no se ven y solo
+  sale la captura.
 - **Pseudocódigo** (`SI ... / SI NO ...` y `-->`): siempre en bloque de
   código con ``` ``` ```, 4 espacios por nivel.
 - Los marcadores provisionales en mayúsculas (`IMAGEN LUPA ...`,

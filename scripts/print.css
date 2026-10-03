@@ -177,6 +177,12 @@ img.img-cabecera {
    mostraría el primer fotograma. */
 img.solo-web { display: none; }
 
+/* Pestañas (=== "..."): en el PDF no hay pestañas; se ocultan los
+   controles y se ve el contenido de cada una (el GIF ya va con .solo-web). */
+.tabbed-set > input,
+.tabbed-labels,
+.tabbed-control { display: none; }
+
 table {
   width: 100%;
   border-collapse: collapse;
