@@ -1,6 +1,6 @@
-# 2.3 Pulsadores
+# 2.3 Interruptor de luz
 
-![Imagen cabecera pulsadores](../assets/images/Pulsadores.png "Imagen cabecera pulsadores"){ .img-cabecera }
+![Imagen cabecera Interruptor de luz](../assets/images/Pulsadores.png "Imagen cabecera Interruptor de luz"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 

@@ -52,4 +52,4 @@ Prueba a realizar algunas de estas mejoras en tu proyecto de forma autónoma:
 
 1. **Calibra tu aula:** Averigua qué valor lee el sensor de luz en tu mesa y ajusta el umbral exacto para que la luz se encienda solo cuando tapes el sensor con la mano. Para ver en pantalla el valor del sensor de luz, marca la casilla que hay junto al bloque `leer sensor luz`.
 2. **Fondo de día y noche:** Añade dos fondos al escenario de EchidnaML (uno soleado y otro nocturno). Haz que el fondo cambie en la pantalla al mismo tiempo que se enciende o apaga el LED en la placa.
-3. **Luz blanca:** Sustituye el LED verde por el **LED RGB** para que ilumine más: cuando haya oscuridad, se encenderá en color **blanco**, y cuando haya mucha luz, se apagará. **Ayuda:** con el bloque `LED R G B`, el blanco se consigue poniendo los tres colores a `255`, y para apagarlo los ponemos a `0`.
+3. **Luz blanca:** Sustituye el LED verde por el **LED RGB** para que ilumine más: cuando haya oscuridad, se encenderá en color **blanco**, y cuando haya mucha luz, se apagará. **Pista:** con el bloque `LED R G B`, el blanco se consigue poniendo los tres colores a `255`, y para apagarlo los ponemos a `0`.

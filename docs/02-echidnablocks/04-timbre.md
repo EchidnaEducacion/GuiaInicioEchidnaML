@@ -1,6 +1,6 @@
-# 2.4 Zumbador
+# 2.4 Timbre
 
-![Imagen cabecera zumbador](../assets/images/Zumbador.png "Imagen cabecera zumbador"){ .img-cabecera }
+![Imagen cabecera Timbre](../assets/images/Zumbador.png "Imagen cabecera Timbre"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 

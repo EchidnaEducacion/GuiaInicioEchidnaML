@@ -1,6 +1,6 @@
-# 2.6 Makey Makey
+# 2.6 Piano de frutas
 
-![Imagen cabecera MkMk](../assets/images/MkMk.png "Imagen cabecera MkMk"){ .img-cabecera }
+![Imagen cabecera Piano de frutas](../assets/images/MkMk.png "Imagen cabecera Piano de frutas"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 

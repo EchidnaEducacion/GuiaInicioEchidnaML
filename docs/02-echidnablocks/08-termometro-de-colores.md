@@ -1,6 +1,6 @@
-# 2.8 Mezclamos colores
+# 2.8 Termómetro de colores
 
-![Imagen cabecera Mezclamos colores](../assets/images/Mezclamos_colores.png "Imagen cabecera Mezclamos colores"){ .img-cabecera }
+![Imagen cabecera Termómetro de colores](../assets/images/Mezclamos_colores.png "Imagen cabecera Termómetro de colores"){ .img-cabecera }
 
 ## 1. Qué vamos a hacer
 
@@ -28,7 +28,7 @@ Para controlar el LED RGB usamos el bloque `LED R G B`, en el que damos a cada c
 
 Revisamos continuamente la temperatura y encendemos el LED RGB de un color según la zona en la que esté: para el azul solo damos valor al canal B, para el verde solo al G y para el rojo solo al R.
 
-![Bloques programación Mezclamos colores](../assets/images/Ejemplo_temperatura_RGB.png "Bloques programación Mezclamos colores")
+![Bloques programación Termómetro de colores](../assets/images/Ejemplo_temperatura_RGB.png "Bloques programación Termómetro de colores")
 
 **Lógica de programación**:
 

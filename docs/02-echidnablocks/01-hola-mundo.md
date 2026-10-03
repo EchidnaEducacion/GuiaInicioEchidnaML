@@ -53,4 +53,4 @@ Una vez que consigas hacer parpadear el LED, prueba a realizar estas modificacio
 
 1. **Ritmo rápido:** Cambia el tiempo de espera a `0.2` segundos. ¿Qué le ocurre al parpadeo? ¿Qué ocurre si sigues bajando el tiempo de espera?
 2. **Sombra de señal:** Intenta que el LED esté encendido mucho tiempo (`2` segundos) y apagado muy poco tiempo (`0.1` segundos).
-3. **LED virtual en pantalla:** Crea un objeto en EchidnaML que cambie de disfraz para simular en la pantalla el mismo parpadeo que ocurre en la placa real. **Ayuda:** para sincronizar el objeto LED, lo podemos hacer mediante mensajes.
+3. **LED virtual en pantalla:** Crea un objeto en EchidnaML que cambie de disfraz para simular en la pantalla el mismo parpadeo que ocurre en la placa real. **Pista:** para sincronizar el objeto LED, lo podemos hacer mediante mensajes.

@@ -24,6 +24,10 @@ alumnado que empiezan con la placa.
   **Lógica de programación** cuando aplica) y `## 3. Mejóralo` (tres
   propuestas numeradas, de menos a más difícil). Mantén este patrón al
   añadir un proyecto.
+- **Pista y Ayuda en «Mejóralo»**: **Pista:** da información sobre cómo
+  hacerlo (un bloque, un valor, una idea) y **Ayuda:** da la solución
+  (captura del programa o ejemplo de EchidnaML). Van en negrita al final de
+  la propuesta, o en párrafo aparte tras la lista si incluyen imagen.
 - **Estructura fija de cada proyecto con IA** (sección 3, LearningML): la
   misma, con un apartado nuevo tras el 1, que sigue las fases del manual:
   `## 1. Qué vamos a hacer` (con 1.1 y 1.2), `## 2. Entrenamos el modelo`
@@ -35,7 +39,7 @@ alumnado que empiezan con la placa.
   LearningML y su entorno se explica una sola vez en `docs/03-ia/index.md`.
 - **Bloque del componente**: al final del 1.2 (tras la imagen de lupa) se
   presenta **un único bloque**, el del componente que introduce el proyecto
-  (en Zumbador, el zumbador y no los pulsadores): una frase con el nombre
+  (en Timbre, el zumbador y no los pulsadores): una frase con el nombre
   del bloque entre comillas invertidas, su imagen
   `![Bloque ...](../assets/images/Bloque_*.png "Bloque ..."){ .img-bloque }`
   y sus opciones o valores. Imagen y explicación salen del apartado

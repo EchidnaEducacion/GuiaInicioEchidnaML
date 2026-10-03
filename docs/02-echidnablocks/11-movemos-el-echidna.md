@@ -70,6 +70,6 @@ Los valores 0,5 y -0,5 actúan como umbrales: si la placa está casi plana, no s
 
 Prueba a realizar algunas de estas mejoras en tu proyecto de forma autónoma:
 
-1. **Sin salirse de la pantalla:** Haz que el personaje vuelva al centro del escenario al hacer clic en la bandera verde y que no pueda salirse por los bordes. **Ayuda:** usa el bloque `rebotar si toca un borde`.
+1. **Sin salirse de la pantalla:** Haz que el personaje vuelva al centro del escenario al hacer clic en la bandera verde y que no pueda salirse por los bordes. **Pista:** usa el bloque `rebotar si toca un borde`.
 2. **Salto con efectos:** Haz que, cada vez que el personaje salte, suene el **zumbador** y se encienda el **LED RGB**.
 3. **Recoge la comida:** Añade un nuevo objeto (por ejemplo, una hormiga) en una posición al azar. Cuando el echidna lo toque, suma un punto a una **variable** y mueve la comida a otra posición al azar.
