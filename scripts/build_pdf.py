@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Genera site/guia-inicio-echidnaml.pdf a partir del sitio ya construido por Zensical.
+"""Genera site/proyectos-inicio-echidnaml.pdf a partir del sitio ya construido por Zensical.
 
 En vez de imprimir cada página por separado (lo que fuerza un salto de
 página entre cada fichero .md y deja huecos en blanco), este script une el
@@ -13,7 +13,7 @@ La profundidad de cada página determina cuánto se desplazan sus
 encabezados: el index.md de una sección hereda la profundidad de la propia
 sección (su <h1> hace de título de capítulo/subsección) y el resto de
 páginas quedan un nivel más abajo. Así el índice y los marcadores del PDF
-reflejan la estructura real de la guía.
+reflejan la estructura real del recurso.
 """
 
 from pathlib import Path
@@ -33,7 +33,7 @@ from guia_nav import (
 )
 
 PRINT_CSS_PATH = Path(__file__).resolve().parent / "print.css"
-OUTPUT_PATH = SITE_DIR / "guia-inicio-echidnaml.pdf"
+OUTPUT_PATH = SITE_DIR / "proyectos-inicio-echidnaml.pdf"
 
 MAX_TOC_DEPTH = 1
 
@@ -123,7 +123,7 @@ def render_page(depth, md_path, url_to_id):
 def render_cover(site_title, site_author):
     logo = (SITE_DIR / "assets/images/Logo_Echidna_I.png").resolve().as_uri()
     portada = (SITE_DIR / "assets/images/pegataechidnaml.png").resolve().as_uri()
-    # A diferencia del manual, esta guía no tiene una ilustración de portada
+    # A diferencia del manual, este recurso no tiene una ilustración de portada
     # propia: la portada se maqueta con HTML + print.css (logo, título,
     # imagen de EchidnaML tomada del manual y autoría). El <h1> fija además el
     # string-set de doc-title que aparece en la cabecera del resto de páginas.
@@ -132,7 +132,7 @@ def render_cover(site_title, site_author):
   <img class="cover-logo" src="{logo}" alt="Echidna Educación">
   <div class="cover-title">
     <h1>{site_title}</h1>
-    <p class="cover-subtitle">Primeros pasos con la placa EchidnaBlack2 a través de proyectos sencillos</p>
+    <p class="cover-subtitle">Primeros pasos con la placa EchidnaBlack2</p>
   </div>
   <img class="cover-image" src="{portada}" alt="EchidnaML">
   <p class="cover-author">{site_author}</p>

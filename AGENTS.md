@@ -4,9 +4,9 @@ Instrucciones para agentes de IA (Claude Code y similares) que trabajen en este 
 
 ## Qué es este proyecto
 
-Guía de inicio de **EchidnaML** y la placa **EchidnaBlack2** basada en
-proyectos sencillos, publicada con [Zensical](https://zensical.org/) como
-sitio estático y como PDF. Sigue la misma estrategia (configuración,
+**Proyectos de inicio con EchidnaML**: proyectos sencillos con **EchidnaML** y
+la placa **EchidnaBlack2**, publicados con [Zensical](https://zensical.org/) como
+sitio estático y como PDF. Siguen la misma estrategia (configuración,
 scripts y estilos) que el manual de Echidna
 (<https://github.com/EchidnaEducacion/manual>); si cambias algo de la
 maquetación, comprueba si conviene hacer lo mismo allí.
@@ -101,7 +101,7 @@ alumnado que empiezan con la placa.
   `docs/assets/stylesheets/extra.css` (identidad visual de la web).
 - `scripts/guia_nav.py`: recorrido común del `nav`.
 - `scripts/build_pdf.py` + `scripts/print.css`: generan
-  `site/guia-inicio-echidnaml.pdf` uniendo todas las páginas ya construidas
+  `site/proyectos-inicio-echidnaml.pdf` uniendo todas las páginas ya construidas
   en un único documento (portada maquetada en HTML, índice con página real
   de secciones y proyectos, un salto de página por sección y por proyecto).
   Requiere `zensical build --clean` previo.

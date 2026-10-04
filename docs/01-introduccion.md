@@ -10,12 +10,12 @@ El sistema se compone de una **placa** con diversos componentes integrados y un 
 ![EchidnaML](assets/images/pegataechidnaml.png "EchidnaML"){ width="230" }
 </div>
 
-**EchidnaML** reúne dos herramientas que usaremos en esta guía:
+**EchidnaML** reúne dos herramientas que usaremos en estos proyectos:
 
 * **EchidnaBlocks**: el entorno de programación por bloques, basado en Scratch, con el que programamos la placa.
 * **LearningML**: la herramienta para crear modelos de **machine learning** que después usamos en nuestros programas.
 
-Esta **guía** te propone una serie de **proyectos sencillos** para dar tus primeros pasos con la placa. No necesitas conocimientos previos de programación, aunque te resultará más fácil si ya conoces **Scratch**. Está organizada en dos bloques de proyectos:
+Te proponemos una serie de **proyectos sencillos** para dar tus primeros pasos con la placa. No necesitas conocimientos previos de programación, aunque te resultará más fácil si ya conoces **Scratch**. Están organizados en dos bloques:
 
 * **Proyectos con EchidnaBlocks**: cada proyecto presenta un componente de la placa y cómo programarlo.
 * **Proyectos con IA**: añadimos inteligencia artificial con modelos de LearningML.

@@ -1,10 +1,10 @@
-# Guía de inicio EchidnaML
+# Proyectos de inicio con EchidnaML
 
 ![EchidnaML](assets/images/pegataechidnaml.png "EchidnaML"){ .img-cabecera }
 
-Guía para iniciarse con **EchidnaML** y la placa **EchidnaBlack2** a través de proyectos sencillos, pensada para docentes y alumnado que dan sus primeros pasos con la placa.
+Proyectos sencillos para iniciarse con **EchidnaML** y la placa **EchidnaBlack2**, pensada para docentes y alumnado que dan sus primeros pasos con la placa.
 
-[Descargar la guía en PDF](guia-inicio-echidnaml.pdf){ .md-button .md-button--primary }
+[Descargar en PDF](proyectos-inicio-echidnaml.pdf){ .md-button .md-button--primary }
 
 ## 1. Introducción
 
@@ -36,4 +36,4 @@ Antes de empezar, lee la [Introducción](01-introduccion.md): qué son EchidnaBl
 
 ## 4. Licencia
 
-Esta guía se publica bajo licencia Creative Commons BY-SA 4.0. Consulta los detalles en la página de [Licencia](04-licencia.md).
+Estos proyectos se publican bajo licencia Creative Commons BY-SA 4.0. Consulta los detalles en la página de [Licencia](04-licencia.md).

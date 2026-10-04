@@ -1,7 +1,7 @@
-# Guía de inicio EchidnaML — proyecto Zensical
+# Proyectos de inicio con EchidnaML — proyecto Zensical
 
-Guía para iniciarse con EchidnaML y la placa EchidnaBlack2 basada en
-proyectos sencillos. Se publica como sitio web estático con
+Proyectos sencillos para iniciarse con EchidnaML y la placa EchidnaBlack2.
+Se publican como sitio web estático con
 [Zensical](https://zensical.org/) y como PDF maquetado con
 [WeasyPrint](https://weasyprint.org/), con la misma estrategia que el
 [manual de EchidnaBlack y EchidnaML](https://github.com/EchidnaEducacion/manual).
@@ -80,7 +80,7 @@ Requiere haber ejecutado antes `zensical build --clean`. El script une el
 contenido de todas las páginas (en el orden del `nav` de `zensical.toml`) en
 un único documento y lo maqueta con WeasyPrint usando `scripts/print.css`:
 portada, índice con numeración de página real y un salto de página al
-empezar cada proyecto. Genera `site/guia-inicio-echidnaml.pdf`.
+empezar cada proyecto. Genera `site/proyectos-inicio-echidnaml.pdf`.
 
 En Debian/Ubuntu, WeasyPrint necesita estas bibliotecas del sistema y, si
 `pip` no encuentra una rueda precompilada de `lxml` para tu Python, hacen
@@ -92,7 +92,7 @@ sudo apt install libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0 libxml2-de
 
 El flujo de GitHub Actions instala estas dependencias y genera el PDF en
 cada publicación, por lo que queda disponible en
-`<sitio>/guia-inicio-echidnaml.pdf` (enlazado desde la página de inicio).
+`<sitio>/proyectos-inicio-echidnaml.pdf` (enlazado desde la página de inicio).
 
 ## Licencia
 

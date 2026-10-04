@@ -1,6 +1,6 @@
 [project]
-site_name = "Guía de inicio EchidnaML"
-site_description = "Guía para iniciarse con EchidnaML y la placa EchidnaBlack2 basada en proyectos sencillos"
+site_name = "Proyectos de inicio con EchidnaML"
+site_description = "Proyectos sencillos para iniciarse con EchidnaML y la placa EchidnaBlack2"
 site_author = "Echidna Educación"
 site_url = "https://echidnaeducacion.github.io/GuiaInicioEchidnaML/"
 copyright = "Contenido bajo licencia CC BY-SA 4.0"

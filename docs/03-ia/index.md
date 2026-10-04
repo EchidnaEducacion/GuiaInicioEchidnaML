@@ -17,7 +17,7 @@ Para abrir LearningML pulsamos el botón **Ir a LearningML** de EchidnaBlocks, y
 
 ![Entorno de LearningML](../assets/images/Entorno_LearningML.png "Entorno de LearningML")
 
-En esta guía usaremos sobre todo:
+En estos proyectos usaremos sobre todo:
 
 * **Nombre del archivo (6):** el nombre con el que guardamos el modelo.
 * **Tipos de modelo (7):** elegimos si queremos reconocer **textos**, **imágenes** o **números**.
