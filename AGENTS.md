@@ -108,6 +108,22 @@ alumnado que empiezan con la placa.
 - `.github/workflows/docs.yml`: publicación en GitHub Pages (web + PDF) al
   hacer push a `main`. `.gitlab-ci.yml`: GitLab Pages (sin PDF).
 
+## Al empezar a trabajar
+
+Antes de tocar nada, comprueba si alguien del equipo ha subido cambios:
+
+1. `git status`: si hay cambios locales sin confirmar, avisa antes de
+   seguir (no hagas `stash` ni descartes nada por tu cuenta).
+2. `git fetch --prune` y `git log --oneline HEAD..@{u}` para ver qué hay
+   nuevo en `main`.
+3. Si hay commits nuevos, `git pull --rebase`; si da conflictos, detente y
+   consúltalo.
+4. Resume en pocas líneas qué ha llegado a `main` (commits y ficheros).
+   Las demás ramas no hace falta revisarlas.
+
+Antes de hacer `push`, repite `git pull --rebase` por si ha llegado algo
+durante la sesión.
+
 ## Cómo comprobar los cambios
 
 ```bash
