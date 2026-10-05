@@ -8,6 +8,14 @@ En estos proyectos programamos la placa **EchidnaBlack2** con los bloques de **E
 
 EchidnaBlocks se **comunica** con la placa a través del **puerto serie**, mediante el cable USB: la placa envía el estado de sus **sensores** y tu programa lo procesa y le devuelve cómo deben estar sus **actuadores** (LED, zumbador...).
 
+El **programa** **detecta** **automáticamente** la **placa** y la versión de la misma que estamos utilizando: EchidnaBlack o EchidnaBlack2. Para ello debemos conectar la placa antes de abrir EchidnaML.
+
+![Puesta en marcha](../assets/images/Puesta_en_marcha.png "Puesta en marcha"){ width="1002" }
+
+El programa detecta automáticamente la placa y nos muestra el mensaje:
+
+![Detección de la placa](../assets/images/Detecciondelaplaca.png "Detección de la placa"){ width="319" }
+
 Los programas de todos los proyectos los puedes encontrar en EchidnaBlocks, en el menú **Archivo → Ejemplos**. Ábrelos para probarlos, estudiarlos y modificarlos.
 
 ![Menú Archivo de EchidnaBlocks](../assets/images/menuejemplos.png "Menú Archivo de EchidnaBlocks")
