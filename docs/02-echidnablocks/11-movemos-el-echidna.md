@@ -16,9 +16,13 @@ Vamos a convertir la placa en un **mando de videojuego**: al **inclinar la placa
 
 ### 1.2 Qué vamos a usar
 
+#### Componentes
+
 * **Acelerómetro:** Sensor que mide los movimientos de la placa en los tres ejes. Con los ejes **X** e **Y** detecta hacia dónde inclinas la placa, gracias a la fuerza de la gravedad. Con el eje **Z** detecta los movimientos bruscos hacia arriba o hacia abajo.
 
 ![Acelerómetro en EchidnaBlack2](../assets/images/Lupa_Acelerometro.png "Acelerómetro en EchidnaBlack2"){ .img-lupa }
+
+#### Programación
 
 Para leer el acelerómetro usamos el bloque `leer acelerómetro`, en el que puedes elegir el eje **x**, **y** o **z**:
 

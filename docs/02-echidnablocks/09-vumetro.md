@@ -15,10 +15,14 @@ Vamos a construir un **vúmetro** o **semáforo de ruido**, que muestra con los 
 
 ### 1.2 Qué vamos a usar
 
+#### Componentes
+
 * **Micrófono:** Convierte las vibraciones del sonido en una señal eléctrica. Da valores bajos con silencio y valores más altos cuanto más intenso es el sonido, entre 0 y 1023.
 * **LED verde, naranja y rojo:** Nos indicarán el nivel de ruido.
 
 ![Micrófono en EchidnaBlack2](../assets/images/Lupa_Microfono.png "Micrófono en EchidnaBlack2"){ .img-lupa }
+
+#### Programación
 
 Para leer el micrófono usamos el bloque `leer micrófono`:
 

@@ -19,9 +19,13 @@ Vamos a convertir a nuestro echidna en un **hombre del tiempo**: cada vez que pu
 
 ### 1.2 Qué vamos a usar
 
+#### Componentes
+
 * **Sensor de temperatura:** Mide la temperatura del ambiente. Entrega un voltaje que depende de la temperatura.
 
 ![Sensor de temperatura en EchidnaBlack2](../assets/images/Lupa_Temperatura.png "Sensor de temperatura en EchidnaBlack2"){ .img-lupa }
+
+#### Programación
 
 Para leer la temperatura usamos el bloque `leer temperatura`, que convierte ese voltaje directamente a grados Celsius (°C):
 

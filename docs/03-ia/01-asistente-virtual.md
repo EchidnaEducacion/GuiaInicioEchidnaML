@@ -18,9 +18,13 @@ Para que el asistente entienda frases que nunca ha visto, crearemos con **Learni
 
 ### 1.2 Qué vamos a usar
 
+#### Componentes
+
 Usaremos el **LED RGB** de la placa y el **teclado** del ordenador para escribir las órdenes.
 
 ![LED RGB en EchidnaBlack2](../assets/images/Lupa_LEDRGB.png "LED RGB en EchidnaBlack2"){ .img-lupa }
+
+#### Programación
 
 Para usar el modelo en nuestro programa usamos el bloque `clasificar texto`:
 

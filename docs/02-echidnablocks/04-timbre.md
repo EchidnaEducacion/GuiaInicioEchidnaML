@@ -14,10 +14,14 @@ Vamos a programar un timbre eléctrico: el **zumbador** emitirá un tono sonoro 
 
 ### 1.2 Qué vamos a usar
 
+#### Componentes
+
 * **Pulsador SL (Switch Left / Izquierdo):** Componente de entrada para activar el sonido.
 * **Zumbador (Buzzer):** Componente de salida que genera notas o pitidos.
 
 ![Zumbador en EchidnaBlack2](../assets/images/Lupa_Zumbador.png "Zumbador en EchidnaBlack2"){ .img-lupa }
+
+#### Programación
 
 Para hacer sonar el zumbador usamos el bloque `encender zumbador`:
 

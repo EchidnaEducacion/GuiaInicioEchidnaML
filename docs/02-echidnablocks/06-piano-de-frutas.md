@@ -15,6 +15,8 @@ Vamos a convertir la entrada **MkMk A0** de nuestra placa en una tecla de piano 
 
 ### 1.2 Qué vamos a usar
 
+#### Componentes
+
 * **Entrada MkMk A0:** Conector táctil para detectar pulsaciones o conductividad.
 * **Conector común MkMk I/O (5V):** Indispensable para cerrar el circuito con tu cuerpo. Está en el extremo derecho de la fila de conectores y proporciona 5V.
 * **Cables de cocodrilo:** Para conectar objetos externos (frutas, plastilina, papel de aluminio, etc.).
@@ -24,6 +26,8 @@ Vamos a convertir la entrada **MkMk A0** de nuestra placa en una tecla de piano 
 ![Conexión en modo MkMk](../assets/images/mkmk_conexion.png "Conexión en modo MkMk")
 
 En la imagen, la fruta está conectada a la entrada **A0** y la pulsera al conector común **MkMk I/O** (5V). Al tocar la fruta con la mano, una corriente muy pequeña pasa a través de tu cuerpo, el circuito se cierra y la placa detecta el contacto en la entrada A0.
+
+#### Programación
 
 Para leer una entrada MkMk usamos el bloque `leer MK MK`:
 

@@ -17,9 +17,13 @@ Para saber hacia dónde inclinamos la placa, crearemos con **LearningML** un **m
 
 ### 1.2 Qué vamos a usar
 
+#### Componentes
+
 Usaremos el **acelerómetro** de la placa, que mide su inclinación, y el pulsador **SL**.
 
 ![Acelerómetro en EchidnaBlack2](../assets/images/Lupa_Acelerometro.png "Acelerómetro en EchidnaBlack2"){ .img-lupa }
+
+#### Programación
 
 Para usar el modelo en nuestro programa usamos el bloque `clasificar números`:
 

@@ -16,11 +16,15 @@ Vamos a realizar un semáforo en el que el LED verde se enciende durante 5 segun
 
 ### 1.2 Qué vamos a usar
 
+#### Componentes
+
 * **LED verde:** Fase de paso.
 * **LED naranja:** Fase de precaución.
 * **LED rojo:** Fase de detención.
 
 ![LED en EchidnaBlack2](../assets/images/Lupa_Ledes.png "LED en EchidnaBlack2"){ .img-lupa }
+
+#### Programación
 
 Para encender y apagar los LED usamos el bloque `encender LED`:
 

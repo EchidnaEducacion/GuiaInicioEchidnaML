@@ -15,10 +15,14 @@ Vamos a construir un **termómetro de colores**: el **LED RGB** de la placa camb
 
 ### 1.2 Qué vamos a usar
 
+#### Componentes
+
 * **LED RGB:** Componente que tiene dentro tres LED: uno **rojo** (R, *Red*), uno **verde** (G, *Green*) y uno **azul** (B, *Blue*). Al mezclar la luz de los tres podemos conseguir más de 16 millones de colores.
 * **Sensor de temperatura:** Mide la temperatura del ambiente en grados Celsius (°C).
 
 ![LED RGB en EchidnaBlack2](../assets/images/Lupa_LEDRGB.png "LED RGB en EchidnaBlack2"){ .img-lupa }
+
+#### Programación
 
 Para controlar el LED RGB usamos el bloque `LED R G B`, en el que damos a cada color un valor entre **0** (apagado) y **255** (máxima intensidad). Por ejemplo, para conseguir el **naranja Echidna** mezclamos mucho rojo (254), algo de verde (109) y casi nada de azul (4):
 

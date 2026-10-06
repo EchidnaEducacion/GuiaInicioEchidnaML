@@ -16,9 +16,13 @@ Vamos a convertir la pantalla de EchidnaML en un **Telesketch**, la pizarra mág
 
 ### 1.2 Qué vamos a usar
 
+#### Componentes
+
 * **Joystick:** Palanca que se mueve en varias direcciones. Por dentro tiene dos potenciómetros, uno para cada eje, que indican hacia dónde y cuánto la has desplazado. Además, al presionar la palanca hacia abajo funciona como un pulsador, que en EchidnaBlack2 es el mismo que el pulsador **SR**.
 
 ![Joystick en EchidnaBlack2](../assets/images/Lupa_Joystick.png "Joystick en EchidnaBlack2"){ .img-lupa }
+
+#### Programación
 
 Para leer el joystick usamos el bloque `leer joystick`, en el que puedes elegir el eje **x** o el eje **y**:
 

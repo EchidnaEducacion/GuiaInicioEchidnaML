@@ -17,11 +17,15 @@ Para que reconozca los residuos, crearemos con **LearningML** un **modelo de im�
 
 ### 1.2 Qué vamos a usar
 
+#### Componentes
+
 Usaremos la **cámara** del ordenador, el **LED RGB** de la placa y dos **servomotores de posición** conectados a los pines **D7** (contenedor azul) y **D8** (contenedor amarillo).
 
 ![Conexión del servomotor](../assets/images/Conexion_Servo_posicion.png "Conexión del servomotor"){ width="320" }
 
 Presta atención al conectar los cables: Vcc, GND y señal se indican con los colores rojo, negro y amarillo. Como vamos a conectar **dos servomotores**, usa alimentación externa y coloca el selector de alimentación en la posición **Vin**.
+
+#### Programación
 
 Para usar el modelo en nuestro programa usamos el bloque `clasificar imagen`:
 

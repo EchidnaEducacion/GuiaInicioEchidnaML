@@ -20,10 +20,16 @@ alumnado que empiezan con la placa.
   en **negrita**.
 - **Estructura fija de cada proyecto**: `# N.M Título`, imagen de cabecera,
   `## 1. Qué vamos a hacer`, `### 1.1 Qué vamos a aprender`,
-  `### 1.2 Qué vamos a usar`, `## 2. Programamos` (con
+  `### 1.2 Qué vamos a usar` (con `#### Componentes` y
+  `#### Programación`), `## 2. Programamos` (con
   **Cómo funciona** cuando aplica) y `## 3. Mejóralo` (tres
   propuestas numeradas, de menos a más difícil). Mantén este patrón al
   añadir un proyecto.
+- **Qué vamos a usar (1.2)**: dos subapartados. `#### Componentes`: lista
+  de componentes (o frase con lo que se usa en los proyectos con IA),
+  imagen de la lupa y avisos de montaje (por ejemplo, el selector MkMk o
+  la alimentación de los servos). `#### Programación`: el bloque del
+  componente (ver «Bloque del componente»).
 - **Pista y Ayuda en «Mejóralo»**: **Pista:** da información sobre cómo
   hacerlo (un bloque, un valor, una idea) y **Ayuda:** da la solución
   (captura del programa o ejemplo de EchidnaML). Van en negrita al final de
@@ -37,7 +43,7 @@ alumnado que empiezan con la placa.
   comprobación de confianza) y `## 4. Mejóralo`. En el 1.2, el bloque que se
   presenta es el de LearningML que introduce el proyecto. Cómo abrir
   LearningML y su entorno se explica una sola vez en `docs/03-ia/index.md`.
-- **Bloque del componente**: al final del 1.2 (tras la imagen de lupa) se
+- **Bloque del componente**: en `#### Programación`, al final del 1.2, se
   presenta **un único bloque**, el del componente que introduce el proyecto
   (en Timbre, el zumbador y no los pulsadores): una frase con el nombre
   del bloque entre comillas invertidas, su imagen
