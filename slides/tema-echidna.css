@@ -83,7 +83,8 @@ section:not(.portada):not(.seccion) > h2 {
 strong { color: var(--echidna-orange-dark); }
 
 ul, ol { margin: .3em 0; }
-li { margin: .25em 0; }
+li { margin: .5em 0; }
+li::marker { color: var(--echidna-orange); }
 
 /* Nombres de bloques (`encender LED`): misma fuente que el texto, en una
    etiqueta suave en vez de en monoespaciada. */

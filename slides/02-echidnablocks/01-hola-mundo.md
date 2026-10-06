@@ -59,7 +59,7 @@ tiene que llegar.
 
 - A crear nuestro **primer programa** en EchidnaML.
 - A usar un **bucle infinito** para hacer una **programación cíclica**: tareas que se repiten para siempre.
-- A controlar el estado de un componente de la placa: **encendido** o **apagado**.
+- A controlar el estado de un componente de la placa: encendido o apagado.
 
 ---
 
@@ -293,7 +293,7 @@ Rúbrica orientativa:
 
 - A crear mi **primer programa** en EchidnaML.
 - A usar un **bucle infinito** para hacer una **programación cíclica**: tareas que se repiten para siempre.
-- A controlar el estado de un componente de la placa: **encendido** o **apagado**.
+- A controlar el estado de un componente de la placa: encendido o apagado.
 
 </div>
 
