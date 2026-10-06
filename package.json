@@ -4,7 +4,7 @@
   "description": "Diapositivas para el docente (Marp) de Proyectos de inicio con EchidnaML",
   "license": "CC-BY-SA-4.0",
   "scripts": {
-    "slides:pdf": "marp --input-dir slides --output site-slides --theme-set slides/tema-echidna.css --html --allow-local-files --pdf"
+    "slides:pdf": "for f in slides/*/*.md; do o=\"site-slides/${f#slides/}\"; marp \"$f\" -o \"${o%.md}.pdf\" --theme-set slides/tema-echidna.css --html --allow-local-files --no-stdin || exit 1; done"
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^4"
