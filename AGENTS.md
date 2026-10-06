@@ -111,6 +111,8 @@ alumnado que empiezan con la placa.
 - `docs/assets/images/`, `docs/assets/fonts/` (Exo y Open Sans para el PDF),
   `docs/assets/stylesheets/extra.css` (identidad visual de la web).
 - `scripts/guia_nav.py`: recorrido común del `nav`.
+- `slides/` (diapositivas Marp, tema `slides/tema-echidna.css`) y
+  `package.json` (marp-cli para exportarlas).
 - `scripts/build_pdf.py` + `scripts/print.css`: generan
   `site/proyectos-inicio-echidnaml.pdf` uniendo todas las páginas ya construidas
   en un único documento (portada maquetada en HTML, índice con página real
@@ -147,6 +149,17 @@ python scripts/build_pdf.py
 
 Revisa la web (`zensical serve`) y el PDF: imágenes visibles, listas bien
 formadas y posición correcta en la navegación.
+
+Las diapositivas para el docente (`slides/`, Marp) se ven en VS Code con la
+extensión Marp for VS Code (recomendada en `.vscode/`). Para exportarlas a PDF
+hace falta Node.js (LTS) y un Chrome o Chromium; `CHROME_PATH` indica cuál usar
+(el Chromium de snap falla si está abierto, mejor un `chrome-headless-shell`
+instalado con `npx @puppeteer/browsers install chrome-headless-shell@stable`):
+
+```bash
+npm ci
+npm run slides:pdf   # genera site-slides/<sección>/<proyecto>.pdf
+```
 
 ## Licencia
 

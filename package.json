@@ -1,0 +1,12 @@
+{
+  "name": "proyectos-inicio-echidnaml-diapositivas",
+  "private": true,
+  "description": "Diapositivas para el docente (Marp) de Proyectos de inicio con EchidnaML",
+  "license": "CC-BY-SA-4.0",
+  "scripts": {
+    "slides:pdf": "marp --input-dir slides --output site-slides --theme-set slides/tema-echidna.css --html --allow-local-files --pdf"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4"
+  }
+}

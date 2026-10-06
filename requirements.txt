@@ -1,6 +1,8 @@
 zensical>=0.0.22,<1.0
 weasyprint>=62,<70
 lxml>=5.0,<6.0
+# Lector de TOML para scripts/guia_nav.py en Python < 3.11 (tomllib es de 3.11).
+tomli>=2.0; python_version < "3.11"
 # WeasyPrint no la declara como dependencia, pero la necesita para decodificar
 # los .woff2 de scripts/print.css (Exo, Open Sans); sin ella, @font-face falla
 # en silencio y el PDF cae a la fuente por defecto.
