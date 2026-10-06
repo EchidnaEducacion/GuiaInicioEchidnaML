@@ -128,9 +128,9 @@ section.portada {
   background-image: none;
 }
 
-section.portada h1 { font-size: 80px; margin: 0 0 .2em; }
+section.portada h1 { font-size: 62px; margin: 0 0 .3em; }
 section.portada img { height: 340px; }
-section.portada p { color: var(--suave); font-size: 28px; }
+section.portada p { color: var(--suave); font-size: 44px; }
 
 /* Separador de apartado: fondo naranja, texto blanco. */
 section.seccion {

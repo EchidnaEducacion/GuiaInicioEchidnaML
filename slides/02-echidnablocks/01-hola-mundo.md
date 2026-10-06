@@ -9,11 +9,11 @@ footer: "2.1 Hola Mundo · Proyectos de inicio con EchidnaML"
 <!-- _paginate: false -->
 <!-- _footer: "" -->
 
-# 2.1 Hola Mundo
+# Proyectos de inicio con EchidnaML
 
 ![Hola Mundo](../assets/images/Hola_Mundo.png)
 
-Proyectos de inicio con EchidnaML
+2.1 Hola Mundo
 
 <!--
 Notas del docente: primer proyecto. Antes de empezar, comprueba que la
