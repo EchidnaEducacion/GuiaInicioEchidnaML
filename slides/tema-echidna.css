@@ -154,7 +154,7 @@ section.seccion footer, section.seccion::after { color: #fff; }
 /* Texto a la izquierda e imagen a la derecha (o al revés). */
 .dos-columnas {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 3fr; /* texto 2/5, imagen 3/5 */
   gap: 48px;
   align-items: center;
 }
@@ -162,7 +162,7 @@ section.seccion footer, section.seccion::after { color: #fff; }
 .dos-columnas img { max-width: 100%; max-height: 470px; }
 
 /* Columnas de texto alineadas arriba (listas de distinta longitud). */
-.dos-columnas.arriba { align-items: start; font-size: 26px; }
+.dos-columnas.arriba { grid-template-columns: 1fr 1fr; align-items: start; font-size: 26px; }
 
 /* Licencia: logotipo CC, autoría y enlace, en letra algo menor. */
 .licencia { font-size: 26px; }

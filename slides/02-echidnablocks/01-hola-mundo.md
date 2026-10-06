@@ -70,7 +70,7 @@ tiene que llegar.
 
 - **LED rojo:** se enciende y se apaga para crear el parpadeo.
 
-La placa tiene tres LED: **verde**, **naranja** y **rojo**.
+La placa tiene tres LED: verde, naranja y rojo.
 
 </div>
 <div>
