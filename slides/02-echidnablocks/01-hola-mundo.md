@@ -306,6 +306,47 @@ cree haber conseguido; sirve de autoevaluación.
 
 <!-- _class: seccion -->
 
+## 5. Licencia
+
+Puedes usar, compartir y adaptar este material
+
+---
+
+## Licencia
+
+<div class="licencia">
+
+![Licencia Creative Commons BY-SA 4.0](../assets/images/Licencia_CC_BY-SA.svg)
+
+**Proyectos de inicio con EchidnaML** · **Autoría:** Echidna Educación
+
+Licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank" rel="noopener">Creative Commons Reconocimiento-CompartirIgual 4.0 (CC BY-SA 4.0)</a>
+
+</div>
+
+<div class="dos-columnas arriba">
+<div>
+
+Puedes:
+
+- **Compartir:** copiar y redistribuir el material.
+- **Adaptar:** remezclar, transformar y crear a partir de él, incluso con fines comerciales.
+
+</div>
+<div>
+
+Siempre que:
+
+- **Reconocimiento:** cites la autoría, enlaces la licencia e indiques si has hecho cambios.
+- **Compartir igual:** difundas tu obra con la misma licencia.
+
+</div>
+</div>
+
+---
+
+<!-- _class: seccion -->
+
 ## ¡Enhorabuena!
 
 Ya has hecho tu primer programa con EchidnaML.
