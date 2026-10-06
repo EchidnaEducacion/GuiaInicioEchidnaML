@@ -242,7 +242,7 @@ IMAGEN DISFRACES LED
 
 ## 4. Evaluación
 
-¿Qué hemos aprendido?
+Comprueba lo que has conseguido
 
 ---
 
@@ -265,7 +265,7 @@ Respuestas:
 
 ---
 
-## He conseguido...
+## He conseguido…
 
 <div class="logros">
 
