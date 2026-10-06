@@ -265,23 +265,6 @@ Respuestas:
 
 ---
 
-## Qué he aprendido
-
-<div class="logros">
-
-- A crear mi **primer programa** en EchidnaML.
-- A usar un **bucle infinito** para hacer una **programación cíclica**: tareas que se repiten para siempre.
-- A controlar el estado de un componente de la placa: **encendido** o **apagado**.
-
-</div>
-
-<!--
-Son los objetivos de «Qué vamos a aprender». El alumnado marca los que
-cree haber conseguido; sirve de autoevaluación.
--->
-
----
-
 ## He conseguido...
 
 <div class="logros">
@@ -300,6 +283,23 @@ Rúbrica orientativa:
 - Conseguido: el programa funciona y resuelve los retos 1 y 2.
 - Avanzado: además, resuelve el reto 3 sincronizando el objeto con
   mensajes.
+-->
+
+---
+
+## Qué he aprendido
+
+<div class="logros">
+
+- A crear mi **primer programa** en EchidnaML.
+- A usar un **bucle infinito** para hacer una **programación cíclica**: tareas que se repiten para siempre.
+- A controlar el estado de un componente de la placa: **encendido** o **apagado**.
+
+</div>
+
+<!--
+Son los objetivos de «Qué vamos a aprender». El alumnado marca los que
+cree haber conseguido; sirve de autoevaluación.
 -->
 
 ---
