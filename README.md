@@ -52,8 +52,11 @@ Una presentación por proyecto en `slides/`, escrita con
 
 ## Requisitos
 
-- Python 3.11 o superior
+- Python 3.10 o superior (en 3.10 se instala además `tomli`, ya incluido en
+  `requirements.txt`)
 - `pip`
+- Solo para exportar las diapositivas desde la terminal: Node.js (versión
+  LTS) y Chrome o Chromium (ver [Diapositivas](#diapositivas))
 
 ## Vista previa local
 
@@ -104,6 +107,9 @@ cada publicación, por lo que queda disponible en
 
 Cada proyecto tendrá una presentación para el docente en Markdown
 (`slides/<sección>/NN-nombre.md`), con el tema `slides/tema-echidna.css`.
+Sigue las fases del proyecto: portada, `1. Qué vamos a hacer`,
+`2. Programamos`, `3. Mejóralo` (un reto por diapositiva, con su Pista y
+otra diapositiva de Ayuda), `4. Evaluación`, `5. Licencia` y cierre.
 Las imágenes se toman de `docs/assets` a través del enlace simbólico
 `slides/assets`, así que se referencian igual que en los proyectos. Las notas
 del docente van en comentarios `<!-- ... -->` y se ven en el modo
@@ -116,24 +122,46 @@ presentador.
    instala con `code --install-extension marp-team.marp-vscode`.
 2. Abre la presentación y pulsa **Open Preview to the Side**.
 3. Para exportar, usa el comando **Marp: Export Slide Deck…** (PDF, PPTX,
-   HTML o imágenes).
+   HTML o imágenes). Para PDF usa el Chrome o Chromium del sistema; si falla,
+   genera el PDF desde la terminal (ver abajo).
 
 El tema y el HTML ya están activados en `.vscode/settings.json`.
 
 ### Generar desde la terminal
 
-Requiere Node.js y Chrome o Chromium:
+Requiere Node.js (versión LTS; en Linux, por ejemplo, con
+[nvm](https://github.com/nvm-sh/nvm)) y Chrome o Chromium. La primera vez,
+instala marp-cli (queda en `node_modules/`, que no se sube):
 
 ```bash
-npx @marp-team/marp-cli slides/02-echidnablocks/01-hola-mundo.md \
-  --theme-set slides/tema-echidna.css --html --allow-local-files --pdf
+npm ci
 ```
 
-Con `--pptx` genera PowerPoint y sin `--pdf`, HTML.
+Después, para generar el PDF de todas las presentaciones:
+
+```bash
+npm run slides:pdf
+```
+
+Los PDF se guardan en `site-slides/<sección>/NN-nombre.pdf` (tampoco se
+sube).
+
+Si Chrome o Chromium no se encuentra, o la exportación falla o se queda
+colgada (pasa con el Chromium de snap de Ubuntu cuando está abierto), usa un
+Chrome sin interfaz solo para esto e indícalo en `CHROME_PATH`:
+
+```bash
+npx @puppeteer/browsers install chrome-headless-shell@stable --path ~/.cache/chrome-marp
+export CHROME_PATH=~/.cache/chrome-marp/chrome-headless-shell/<versión>/chrome-headless-shell-linux64/chrome-headless-shell
+```
+
+(la primera orden muestra la ruta exacta; añade el `export` a tu
+`~/.bashrc` para no repetirlo).
 
 En Windows, `slides/assets` solo funciona si Git crea enlaces simbólicos; si
 no, las imágenes no se verán. Clona con `git clone -c core.symlinks=true ...`
-o usa WSL.
+o usa WSL. `npm run slides:pdf` también necesita una terminal tipo Unix
+(WSL o Git Bash).
 
 Las diapositivas aún no se publican en la web; se añadirán al flujo de
 GitHub Actions cuando la plantilla esté cerrada.
