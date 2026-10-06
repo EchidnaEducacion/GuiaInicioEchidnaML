@@ -102,6 +102,30 @@ alumnado que empiezan con la placa.
 - Los marcadores provisionales en mayúsculas (`IMAGEN LUPA ...`,
   `--> GIF ...`, `VIDEO ...`) son contenido pendiente del autor: no los
   elimines ni los inventes.
+- **Diapositivas para el docente** (`slides/`, Marp, tema `echidna`): una
+  presentación por proyecto, `slides/<sección>/NN-nombre.md` con el mismo
+  nombre que el proyecto y `footer` «N.M Título · Proyectos de inicio con
+  EchidnaML». Se publican solo en PDF (sin GIF ni «Paso a paso»). Estructura
+  fija, tomando el piloto `slides/02-echidnablocks/01-hola-mundo.md` como
+  plantilla:
+    - **Portada** (`_class: portada`, `_footer: "Echidna Educación"`):
+      «Proyectos de inicio con EchidnaML», `# N.M Título` e imagen de
+      cabecera; el tema pone el logo de EchidnaML y la franja naranja.
+    - **Pantallas naranjas** (`_class: seccion`) para cada fase:
+      `1. Qué vamos a hacer`, `2. Programamos`, `3. Mejóralo`,
+      `4. Evaluación` y `5. Licencia`.
+    - **1**: El reto, Qué vamos a aprender, Componentes y Programación (el
+      único bloque del 1.2, con `.img-bloque`). **2**: El programa y Cómo
+      funciona. **3**: una diapositiva por reto con su `.pista` y otra de
+      Ayuda; las Pistas pueden ampliar las de la guía sin llevarlas a ella.
+      **4**: Comprueba lo que sabes, He conseguido… y Qué he aprendido
+      (objetivos del 1.1), las dos últimas con casillas (`.logros`).
+    - **Cierre** (`_class: seccion`): ¡Enhorabuena! y el siguiente proyecto.
+    - **Notas** (`<!-- -->`): respuestas, rúbrica y avisos para el docente.
+      No salen en el PDF; serán la fuente del documento para el docente.
+    - **Clases del tema**: `dos-columnas` (y `arriba`), `centro`,
+      `img-bloque`, `pista`, `logros`, `licencia` y `pendiente` para los
+      marcadores `IMAGEN ...` (las mismas reglas que en la guía).
 
 ## Estructura del repositorio
 
