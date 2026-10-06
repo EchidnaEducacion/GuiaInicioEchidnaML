@@ -7,13 +7,13 @@ footer: "2.1 Hola Mundo · Proyectos de inicio con EchidnaML"
 
 <!-- _class: portada -->
 <!-- _paginate: false -->
-<!-- _footer: "" -->
+<!-- _footer: "Echidna Educación" -->
 
-# Proyectos de inicio con EchidnaML
+Proyectos de inicio con EchidnaML
+
+# 2.1 Hola Mundo
 
 ![Hola Mundo](../assets/images/Hola_Mundo.png)
-
-2.1 Hola Mundo
 
 <!--
 Notas del docente: primer proyecto. Antes de empezar, comprueba que la
