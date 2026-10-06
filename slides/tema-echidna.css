@@ -182,16 +182,14 @@ section.seccion footer, section.seccion::after { color: #fff; }
    todos los bloques se vea del mismo tamaño al proyectar. */
 img.img-bloque { zoom: 1.6; }
 
-/* Recuadros de Pista y Ayuda en Mejóralo. */
-.pista, .ayuda {
+/* Recuadro de Pista en Mejóralo. */
+.pista {
   border-left: 8px solid var(--echidna-orange);
   background: #fff4ea;
   padding: .5em .9em;
   border-radius: 0 10px 10px 0;
   margin-top: .6em;
 }
-
-.ayuda { border-left-color: #2e7d32; background: #edf6ee; }
 
 /* Lista de logros para el alumnado: casillas para marcar. */
 .logros ul { list-style: none; padding-left: 0; }
@@ -218,3 +216,5 @@ img.img-bloque { zoom: 1.6; }
   padding: 1.2em;
   border-radius: 10px;
 }
+
+.pendiente + .pendiente { margin-top: .8em; }
