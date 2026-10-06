@@ -44,6 +44,12 @@ Todos los proyectos siguen la misma estructura: `1. Qué vamos a hacer` (con
 `1.1 Qué vamos a aprender` y `1.2 Qué vamos a usar`),
 `2. Programamos` y `3. Mejóralo`.
 
+### Diapositivas para el docente (en preparación)
+
+Una presentación por proyecto en `slides/`, escrita con
+[Marp](https://marp.app/). De momento, piloto de
+[2.1 Hola Mundo](slides/02-echidnablocks/01-hola-mundo.md).
+
 ## Requisitos
 
 - Python 3.11 o superior
@@ -93,6 +99,44 @@ sudo apt install libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0 libxml2-de
 El flujo de GitHub Actions instala estas dependencias y genera el PDF en
 cada publicación, por lo que queda disponible en
 `<sitio>/proyectos-inicio-echidnaml.pdf` (enlazado desde la página de inicio).
+
+## Diapositivas
+
+Cada proyecto tendrá una presentación para el docente en Markdown
+(`slides/<sección>/NN-nombre.md`), con el tema `slides/tema-echidna.css`.
+Las imágenes se toman de `docs/assets` a través del enlace simbólico
+`slides/assets`, así que se referencian igual que en los proyectos. Las notas
+del docente van en comentarios `<!-- ... -->` y se ven en el modo
+presentador.
+
+### Ver y exportar con VS Code
+
+1. Instala la extensión **Marp for VS Code** (`marp-team.marp-vscode`).
+   VS Code la propone al abrir la carpeta del repositorio; también se
+   instala con `code --install-extension marp-team.marp-vscode`.
+2. Abre la presentación y pulsa **Open Preview to the Side**.
+3. Para exportar, usa el comando **Marp: Export Slide Deck…** (PDF, PPTX,
+   HTML o imágenes).
+
+El tema y el HTML ya están activados en `.vscode/settings.json`.
+
+### Generar desde la terminal
+
+Requiere Node.js y Chrome o Chromium:
+
+```bash
+npx @marp-team/marp-cli slides/02-echidnablocks/01-hola-mundo.md \
+  --theme-set slides/tema-echidna.css --html --allow-local-files --pdf
+```
+
+Con `--pptx` genera PowerPoint y sin `--pdf`, HTML.
+
+En Windows, `slides/assets` solo funciona si Git crea enlaces simbólicos; si
+no, las imágenes no se verán. Clona con `git clone -c core.symlinks=true ...`
+o usa WSL.
+
+Las diapositivas aún no se publican en la web; se añadirán al flujo de
+GitHub Actions cuando la plantilla esté cerrada.
 
 ## Licencia
 

@@ -1,0 +1,189 @@
+/* @theme echidna */
+
+/* Tema Marp de las diapositivas para el docente. Colores y fuentes de la
+   web (docs/assets/stylesheets/extra.css) y del PDF (scripts/print.css).
+   Las rutas url() se resuelven desde la presentación, que está en
+   slides/<sección>/, por eso empiezan por ../assets (enlace a docs/assets). */
+
+@font-face {
+  font-family: "Exo";
+  src: url("../assets/fonts/Exo-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/OpenSans.woff2") format("woff2");
+  font-weight: 300 800;
+}
+
+:root {
+  --echidna-orange: #e66a00;
+  --echidna-orange-light: #ff8f3d;
+  --echidna-orange-dark: #b85400;
+  --texto: #2b2b2b;
+  --suave: #6b6b6b;
+}
+
+section {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  height: 720px;
+  padding: 56px 72px 64px;
+  background: #fff url("../assets/images/Logo_Echidna_I.png") no-repeat right 40px top 28px / 96px auto;
+  color: var(--texto);
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  line-height: 1.4;
+  justify-content: flex-start;
+}
+
+section > * { flex-shrink: 0; }
+
+p { margin: .4em 0; }
+
+h1, h2, h3 {
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+  color: var(--echidna-orange);
+  margin: 0 0 .5em;
+}
+
+h1 { font-size: 64px; }
+
+h2 {
+  font-size: 46px;
+  padding-bottom: .15em;
+  border-bottom: 4px solid var(--echidna-orange-light);
+  margin-right: 120px; /* deja sitio al logotipo */
+}
+
+h3 { font-size: 34px; color: var(--echidna-orange-dark); }
+
+strong { color: var(--echidna-orange-dark); }
+
+ul, ol { margin: .3em 0; }
+li { margin: .25em 0; }
+
+/* Nombres de bloques (`encender LED`): misma fuente que el texto, en una
+   etiqueta suave en vez de en monoespaciada. */
+code {
+  font-family: inherit;
+  font-size: .95em;
+  background: #fbeee2;
+  color: var(--texto);
+  border-radius: 6px;
+  padding: .05em .3em;
+}
+
+img { background: transparent; }
+
+/* Pie: «N.M Título» (directiva footer) y número de diapositiva. */
+footer {
+  position: absolute;
+  left: 72px;
+  bottom: 22px;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--suave);
+}
+
+section::after {
+  content: attr(data-marpit-pagination);
+  position: absolute;
+  right: 72px;
+  bottom: 22px;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--suave);
+}
+
+/* Portada del proyecto: título grande y cabecera debajo. */
+section.portada {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: none;
+}
+
+section.portada h1 { font-size: 80px; margin: .6em 0 .3em; }
+section.portada p { color: var(--suave); font-size: 28px; }
+
+/* Separador de apartado: fondo naranja, texto blanco. */
+section.seccion {
+  justify-content: center;
+  background: var(--echidna-orange);
+  color: #fff;
+}
+
+section.seccion h1, section.seccion h2 {
+  color: #fff;
+  border: 0;
+  font-size: 72px;
+}
+
+section.seccion p { font-size: 34px; }
+section.seccion strong { color: #fff; }
+section.seccion footer, section.seccion::after { color: #fff; }
+
+/* Texto a la izquierda e imagen a la derecha (o al revés). */
+.dos-columnas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.dos-columnas img { max-width: 100%; max-height: 470px; }
+
+/* Imagen centrada que ocupa el resto de la diapositiva. */
+.centro {
+  text-align: center;
+}
+
+.centro img { max-height: 470px; }
+
+/* Bloques de programación sueltos (Bloque_*.png): todas las imágenes están
+   a la misma escala (la x mide 12 px); se amplían igual para que el texto de
+   todos los bloques se vea del mismo tamaño al proyectar. */
+img.img-bloque { zoom: 1.6; }
+
+/* Recuadros de Pista y Ayuda en Mejóralo. */
+.pista, .ayuda {
+  border-left: 8px solid var(--echidna-orange);
+  background: #fff4ea;
+  padding: .5em .9em;
+  border-radius: 0 10px 10px 0;
+  margin-top: .6em;
+}
+
+.ayuda { border-left-color: #2e7d32; background: #edf6ee; }
+
+/* Lista de logros para el alumnado: casillas para marcar. */
+.logros ul { list-style: none; padding-left: 0; }
+
+.logros li { padding-left: 1.6em; position: relative; margin: .5em 0; }
+
+.logros li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: .2em;
+  width: .9em;
+  height: .9em;
+  border: 3px solid var(--echidna-orange);
+  border-radius: 4px;
+}
+
+/* Marcadores de contenido pendiente (IMAGEN ...): bien visibles. */
+.pendiente {
+  border: 3px dashed var(--echidna-orange);
+  color: var(--echidna-orange-dark);
+  font-weight: 700;
+  text-align: center;
+  padding: 1.2em;
+  border-radius: 10px;
+}
