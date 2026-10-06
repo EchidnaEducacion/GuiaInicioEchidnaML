@@ -23,6 +23,14 @@ presentación de EchidnaBlocks en la guía).
 
 ---
 
+<!-- _class: seccion -->
+
+## 1. Qué vamos a hacer
+
+El reto, lo que aprenderemos y lo que vamos a usar
+
+---
+
 ## El reto
 
 <div class="dos-columnas">
@@ -89,6 +97,14 @@ En el bloque elegimos:
 
 ---
 
+<!-- _class: seccion -->
+
+## 2. Programamos
+
+Construimos el programa y vemos cómo funciona
+
+---
+
 ## El programa
 
 <div class="dos-columnas">
@@ -136,7 +152,7 @@ Errores típicos:
 
 <!-- _class: seccion -->
 
-## Mejóralo
+## 3. Mejóralo
 
 Tres retos, de menos a más difícil
 
@@ -224,7 +240,7 @@ IMAGEN DISFRACES LED
 
 <!-- _class: seccion -->
 
-## Evaluación
+## 4. Evaluación
 
 ¿Qué hemos aprendido?
 
@@ -245,6 +261,23 @@ Respuestas:
 3. Elegir «verde» en los dos bloques `encender LED` / `apagar LED`.
 4. Un programa con tareas que se repiten para siempre, dentro de un bucle
    infinito como `por siempre`.
+-->
+
+---
+
+## Qué he aprendido
+
+<div class="logros">
+
+- A crear mi **primer programa** en EchidnaML.
+- A usar un **bucle infinito** para hacer una **programación cíclica**: tareas que se repiten para siempre.
+- A controlar el estado de un componente de la placa: **encendido** o **apagado**.
+
+</div>
+
+<!--
+Son los objetivos de «Qué vamos a aprender». El alumnado marca los que
+cree haber conseguido; sirve de autoevaluación.
 -->
 
 ---
