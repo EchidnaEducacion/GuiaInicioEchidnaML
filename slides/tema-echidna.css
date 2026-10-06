@@ -75,7 +75,8 @@ section:not(.portada):not(.seccion) > h2 {
   position: absolute;
   top: 56px;
   left: 72px;
-  right: 192px; /* deja sitio al logotipo */
+  right: 40px; /* la línea llega hasta debajo del logotipo */
+  padding-right: 152px; /* el texto no se mete bajo el logotipo */
   margin: 0;
 }
 
