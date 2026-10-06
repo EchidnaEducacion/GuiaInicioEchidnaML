@@ -20,4 +20,4 @@ Te proponemos una serie de **proyectos sencillos** para dar tus primeros pasos c
 * **Proyectos con EchidnaBlocks**: cada proyecto presenta un componente de la placa y cómo programarlo.
 * **Proyectos con IA**: añadimos inteligencia artificial con modelos de LearningML.
 
-Si quieres ampliar información, consulta el [Manual de EchidnaML y EchidnaBlack](https://echidnaeducacion.github.io/manual/) y la web del proyecto: [www.echidna.es](https://echidna.es/).
+Si quieres ampliar información, consulta el [Manual de EchidnaML y EchidnaBlack](https://echidnaeducacion.github.io/manual/){ target="_blank" rel="noopener" } y la web del proyecto: [www.echidna.es](https://echidna.es/){ target="_blank" rel="noopener" }.
