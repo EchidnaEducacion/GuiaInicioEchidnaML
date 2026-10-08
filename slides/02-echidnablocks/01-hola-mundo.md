@@ -306,9 +306,11 @@ cree haber conseguido; sirve de autoevaluación.
 
 <!-- _class: seccion -->
 
-## 5. Licencia
+## ¡Enhorabuena!
 
-Puedes usar, compartir y adaptar este material
+Ya has hecho tu primer programa con EchidnaML.
+
+Siguiente proyecto: **2.2 Semáforo**
 
 ---
 
@@ -342,13 +344,3 @@ Siempre que:
 
 </div>
 </div>
-
----
-
-<!-- _class: seccion -->
-
-## ¡Enhorabuena!
-
-Ya has hecho tu primer programa con EchidnaML.
-
-Siguiente proyecto: **2.2 Semáforo**

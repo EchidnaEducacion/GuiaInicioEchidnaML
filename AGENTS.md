@@ -112,8 +112,8 @@ alumnado que empiezan con la placa.
       «Proyectos de inicio con EchidnaML», `# N.M Título` e imagen de
       cabecera; el tema pone el logo de EchidnaML y la franja naranja.
     - **Pantallas naranjas** (`_class: seccion`) para cada fase:
-      `1. Qué vamos a hacer`, `2. Programamos`, `3. Mejóralo`,
-      `4. Evaluación` y `5. Licencia`.
+      `1. Qué vamos a hacer`, `2. Programamos`, `3. Mejóralo` y
+      `4. Evaluación`.
     - **1**: El reto, Qué vamos a aprender, Componentes y Programación (el
       único bloque del 1.2, con `.img-bloque`). **2**: El programa y Cómo
       funciona. **3**: una diapositiva por reto con su `.pista` y otra de
@@ -121,6 +121,8 @@ alumnado que empiezan con la placa.
       **4**: Comprueba lo que sabes, He conseguido… y Qué he aprendido
       (objetivos del 1.1), las dos últimas con casillas (`.logros`).
     - **Cierre** (`_class: seccion`): ¡Enhorabuena! y el siguiente proyecto.
+    - **Licencia**: la última diapositiva, tras el cierre y sin pantalla
+      naranja (`.licencia` con la autoría y el resumen de la CC BY-SA).
     - **Notas** (`<!-- -->`): respuestas, rúbrica y avisos para el docente.
       No salen en el PDF; serán la fuente del documento para el docente.
     - **Clases del tema**: `dos-columnas` (y `arriba`), `centro`,
