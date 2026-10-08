@@ -112,9 +112,11 @@ alumnado que empiezan con la placa.
       «Proyectos de inicio con EchidnaML», `# N.M Título` e imagen de
       cabecera; el tema pone el logo de EchidnaML, debajo tres franjas con
       sus colores (naranja, gris y verde) y la franja naranja de la autoría.
-    - **Pantallas naranjas** (`_class: seccion`) para cada fase:
-      `1. Qué vamos a hacer`, `2. Programamos`, `3. Mejóralo` y
-      `4. Evaluación`.
+    - **Pantallas naranjas** (`_class: seccion`) para cada fase, con el
+      número en negrita y sin punto (`## **1** Qué vamos a hacer`): el tema
+      lo pone grande en naranja dentro de una banda blanca y añade tres
+      franjas bajo el texto. Fases: `1 Qué vamos a hacer`, `2 Programamos`,
+      `3 Mejóralo` y `4 Evaluación`.
     - **1**: El reto, Qué vamos a aprender, Componentes y Programación (el
       único bloque del 1.2, con `.img-bloque`). **2**: El programa y Cómo
       funciona. **3**: una diapositiva por reto con su `.pista` y otra de

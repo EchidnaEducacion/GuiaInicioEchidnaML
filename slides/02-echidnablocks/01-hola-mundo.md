@@ -25,7 +25,7 @@ presentación de EchidnaBlocks en la guía).
 
 <!-- _class: seccion -->
 
-## 1. Qué vamos a hacer
+## **1** Qué vamos a hacer
 
 El reto, lo que aprenderemos y lo que vamos a usar
 
@@ -99,7 +99,7 @@ En el bloque elegimos:
 
 <!-- _class: seccion -->
 
-## 2. Programamos
+## **2** Programamos
 
 Construimos el programa y vemos cómo funciona
 
@@ -152,7 +152,7 @@ Errores típicos:
 
 <!-- _class: seccion -->
 
-## 3. Mejóralo
+## **3** Mejóralo
 
 Tres retos, de menos a más difícil
 
@@ -240,7 +240,7 @@ IMAGEN DISFRACES LED
 
 <!-- _class: seccion -->
 
-## 4. Evaluación
+## **4** Evaluación
 
 Comprueba lo que has conseguido
 

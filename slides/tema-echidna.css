@@ -190,7 +190,10 @@ section.portada footer {
   font-weight: 600;
 }
 
-/* Separador de apartado: fondo naranja, texto blanco. */
+/* Separador de apartado: fondo naranja; el título va en una banda blanca de
+   lado a lado, con el número de la fase en negrita (`## **1** Título`)
+   grande y en naranja; debajo, el texto en blanco y tres franjas con los
+   colores del logotipo, la amarilla la más larga. */
 section.seccion {
   justify-content: center;
   background: var(--echidna-orange);
@@ -198,14 +201,46 @@ section.seccion {
 }
 
 section.seccion h1, section.seccion h2 {
-  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  box-sizing: border-box;
+  min-height: 140px;
+  margin: 0 -72px 30px;
+  padding: 0 72px;
+  background: #fff;
+  color: #000;
   border: 0;
   font-size: 72px;
+  line-height: 1.1;
+}
+
+section.seccion h2:has(strong) { padding-left: 22px; }
+
+section.seccion h2 strong {
+  color: var(--echidna-orange);
+  font-size: 140px;
+  line-height: 1;
 }
 
 section.seccion p { font-size: 34px; }
 section.seccion strong { color: #fff; }
 section.seccion footer, section.seccion::after { color: #fff; }
+
+section.seccion p:last-of-type::after {
+  content: "";
+  display: block;
+  width: 887px;
+  height: 40px;
+  margin: 10px 0 0 -72px;
+  background-image:
+    linear-gradient(#fca62b, #fca62b),
+    linear-gradient(#7d7372, #7d7372),
+    linear-gradient(#7bbe6e, #7bbe6e);
+  background-repeat: no-repeat;
+  background-position: left 0 top 0, left 0 top 15px, left 0 top 30px;
+  background-size: 887px 10px, 643px 10px, 403px 10px;
+}
 
 /* Texto a la izquierda e imagen a la derecha (o al revés). */
 .dos-columnas {
