@@ -110,7 +110,8 @@ alumnado que empiezan con la placa.
   plantilla:
     - **Portada** (`_class: portada`, `_footer: "Echidna Educación"`):
       «Proyectos de inicio con EchidnaML», `# N.M Título` e imagen de
-      cabecera; el tema pone el logo de EchidnaML y la franja naranja.
+      cabecera; el tema pone el logo de EchidnaML, debajo tres franjas con
+      sus colores (naranja, gris y verde) y la franja naranja de la autoría.
     - **Pantallas naranjas** (`_class: seccion`) para cada fase:
       `1. Qué vamos a hacer`, `2. Programamos`, `3. Mejóralo` y
       `4. Evaluación`.

@@ -131,9 +131,23 @@ section.portada {
   grid-template-rows: 1fr auto auto 1fr;
   column-gap: 48px;
   padding: 190px 72px 110px;
-  background-image: url("../assets/images/pegataechidnaml.png");
-  background-position: left 60px top 24px;
-  background-size: auto 160px;
+  /* Logotipo y, debajo, tres franjas con los colores del logotipo que
+     salen del borde izquierdo, cada una más larga que la anterior. */
+  background-image:
+    url("../assets/images/pegataechidnaml.png"),
+    linear-gradient(#fca62b, #fca62b),
+    linear-gradient(#7d7372, #7d7372),
+    linear-gradient(#7bbe6e, #7bbe6e);
+  background-position:
+    left 60px top 24px,
+    left 0 top 196px,
+    left 0 top 211px,
+    left 0 top 226px;
+  background-size:
+    auto 160px,
+    266px 10px,
+    424px 10px,
+    585px 10px;
 }
 
 section.portada > p:not(:has(img)) {
