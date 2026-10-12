@@ -308,4 +308,5 @@ img.img-bloque { zoom: 1.6; }
   border-radius: 10px;
 }
 
-.pendiente + .pendiente { margin-top: .8em; }
+.pendiente + .pendiente,
+.pista + .pendiente { margin-top: .8em; }
