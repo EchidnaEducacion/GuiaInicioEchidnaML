@@ -172,14 +172,16 @@ Haz que, al mantener pulsado **SL**, el sonido no sea continuo, sino **pitidos i
 
 ## Mejóralo 2: Emisor de código Morse
 
-Programa el pulsador **SR** para emitir un **tono más agudo** que el pulsador **SL**.
+Programa los dos pulsadores para que emitan pitidos de **distinta duración**:
 
-Combina pulsaciones cortas y largas para enviar **mensajes secretos** en código Morse a tus compañeros.
+- **SL:** pitido corto (punto, `0.2` segundos).
+- **SR:** pitido largo (raya, `0.6` segundos).
+
+Combina puntos y rayas para enviar **mensajes secretos** en código Morse a tus compañeros.
 
 <!--
-El zumbador de la placa tiene un solo tono (2300 Hz), así que el tono
-agudo de SR tiene que salir por el ordenador, con los bloques de música
-que se usan en 2.6 Piano de frutas.
+En Morse, la raya dura tres veces el punto. Por ejemplo, SOS es
+· · · — — — · · ·
 -->
 
 ---
@@ -188,7 +190,7 @@ que se usan en 2.6 Piano de frutas.
 
 <div class="pista">
 
-**Pista:** el zumbador siempre suena con el mismo tono. Para el tono agudo de SR, usa el sonido del ordenador con el bloque `tocar nota`, como en el Piano de frutas.
+**Pista:** usa un `si` para cada pulsador. Dentro de cada uno, enciende el zumbador, espera el tiempo del pitido y apágalo.
 
 </div>
 
@@ -255,7 +257,7 @@ Respuestas:
 
 - Hacer sonar el zumbador solo mientras pulso SL.
 - Convertir el timbre en una alarma intermitente (Mejóralo 1).
-- Emitir dos tonos distintos para enviar Morse (Mejóralo 2).
+- Emitir pitidos cortos y largos para enviar Morse (Mejóralo 2).
 - Hacer que un objeto vibre en pantalla mientras suena (Mejóralo 3).
 
 </div>
