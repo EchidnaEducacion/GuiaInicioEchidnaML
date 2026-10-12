@@ -97,6 +97,10 @@ code {
   padding: .05em .3em;
 }
 
+/* Un bloque no se corta entre dos líneas: si no cabe, pasa entero a la
+   siguiente. Solo en el texto, no en el pseudocódigo. */
+:not(pre) > code { white-space: nowrap; }
+
 img { background: transparent; }
 
 a { color: var(--echidna-orange-dark); }

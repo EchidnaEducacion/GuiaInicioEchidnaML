@@ -208,13 +208,16 @@ Haz que **cambie de tamaño** o **gire** de un lado a otro, como si vibrara, mie
 
 <div class="pista">
 
-**Ayuda:** en el objeto, usa un `por siempre` con un `si ¿botón SL pulsado?`: dentro, gira unos grados a un lado y luego al otro; en el `si no`, déjalo recto.
+**Ayuda:** en el objeto, usa `al hacer clic en` y `por siempre` con un `si ¿botón SL pulsado? entonces`:
+
+- en el `si`: `girar 15 grados` a un lado, `esperar 0.1 segundos`, `girar 15 grados` al otro y `esperar 0.1 segundos`;
+- en el `si no`: `apuntar en dirección 90`, para dejarlo recto.
 
 </div>
 
-<div class="pendiente">
+<div class="centro">
 
-IMAGEN AYUDA TIMBRE MEJORA 3
+![width:700px Bloques girar 15 grados a un lado y al otro](../assets/images/AyudaTimbre.png)
 
 </div>
 

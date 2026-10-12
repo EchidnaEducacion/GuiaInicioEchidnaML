@@ -138,6 +138,10 @@ alumnado que empiezan con la placa.
     - **Clases del tema**: `dos-columnas` (y `arriba`), `centro`,
       `img-bloque`, `pista`, `logros`, `licencia` y `pendiente` para los
       marcadores `IMAGEN ...` (las mismas reglas que en la guía).
+    - **Bloques en el texto**: un bloque escrito entre comillas
+      invertidas (`si ¿botón SL pulsado? entonces`) no se corta entre dos
+      líneas; el tema lo pasa entero a la siguiente. Si así queda mal,
+      reescribe la frase en lugar de partir el bloque.
 
 ## Estructura del repositorio
 
