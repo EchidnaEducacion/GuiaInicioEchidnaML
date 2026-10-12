@@ -226,10 +226,8 @@ de empezar si hay muchas placas sonando en el aula.
 
 </div>
 
-<div class="pendiente">
-
+<div class="centro">
 <img class="img-bloque" src="../assets/images/Bloque_zumbador.png" alt="Bloque encender zumbador">
-
 </div>
 
 ---

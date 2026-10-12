@@ -310,3 +310,7 @@ img.img-bloque { zoom: 1.6; }
 
 .pendiente + .pendiente,
 .pista + .pendiente { margin-top: .8em; }
+
+/* Imagen de bloque bajo el recuadro de Pista o Ayuda (sin párrafo que
+   ponga margen). */
+.pista + .centro:has(> img) { margin-top: .8em; }

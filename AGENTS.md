@@ -125,6 +125,8 @@ alumnado que empiezan con la placa.
       «Mejóralo 3: Ayuda», con el recuadro `.pista` encabezado
       «**Ayuda:** …» y debajo un único marcador `.pendiente`
       (`IMAGEN AYUDA <PROYECTO> MEJORA 3`), que se concreta en cada proyecto.
+      Cuando llega la imagen, sustituye al marcador centrada y sin el
+      recuadro de puntos, que es solo para lo pendiente.
       Las Pistas pueden ampliar las de la guía sin llevarlas a ella.
       **4**: Comprueba lo que sabes, He conseguido… y Qué he aprendido
       (objetivos del 1.1), las dos últimas con casillas (`.logros`).
