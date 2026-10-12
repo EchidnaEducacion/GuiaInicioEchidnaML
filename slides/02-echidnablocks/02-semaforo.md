@@ -199,18 +199,6 @@ Prográmalo para que cambie de disfraz en la pantalla **al mismo tiempo** que ca
 
 </div>
 
-<div class="pendiente">
-
-IMAGEN AYUDA SEMÁFORO MEJORA 2
-
-</div>
-
-<div class="pendiente">
-
-IMAGEN DISFRACES SEMÁFORO
-
-</div>
-
 ---
 
 ## Mejóralo 3: Semáforo sonoro adaptado
@@ -230,11 +218,11 @@ de empezar si hay muchas placas sonando en el aula.
 
 ---
 
-## Mejóralo 3: Pista
+## Mejóralo 3: Ayuda
 
 <div class="pista">
 
-**Pista:** cambia el `esperar 5 segundos` del verde por un `repetir` que encienda y apague el zumbador con el bloque `encender zumbador`.
+**Ayuda:** cambia el `esperar 5 segundos` del verde por un `repetir` que encienda y apague el zumbador con el bloque `encender zumbador`.
 
 </div>
 

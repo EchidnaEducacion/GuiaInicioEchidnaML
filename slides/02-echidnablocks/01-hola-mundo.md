@@ -165,12 +165,6 @@ Cambia el tiempo de espera a `0.2` segundos.
 - ¿Qué le ocurre al parpadeo?
 - ¿Qué ocurre si sigues bajando el tiempo de espera?
 
-<div class="pista">
-
-**Pista:** cambia el valor de los dos bloques `esperar`.
-
-</div>
-
 <!--
 Con tiempos muy pequeños el ojo deja de ver el parpadeo y parece que el
 LED está siempre encendido (persistencia de la visión).
@@ -178,11 +172,11 @@ LED está siempre encendido (persistencia de la visión).
 
 ---
 
-## Mejóralo 1: Ayuda
+## Mejóralo 1: Pista
 
-<div class="pendiente">
+<div class="pista">
 
-IMAGEN AYUDA HOLA MUNDO MEJORA 1
+**Pista:** cambia el valor de los dos bloques `esperar`.
 
 </div>
 
@@ -192,19 +186,13 @@ IMAGEN AYUDA HOLA MUNDO MEJORA 1
 
 Haz que el LED esté **encendido mucho tiempo** (`2` segundos) y **apagado muy poco** (`0.1` segundos).
 
+---
+
+## Mejóralo 2: Pista
+
 <div class="pista">
 
 **Pista:** cada bloque `esperar` controla una parte del ciclo: el primero, el tiempo encendido; el segundo, el tiempo apagado.
-
-</div>
-
----
-
-## Mejóralo 2: Ayuda
-
-<div class="pendiente">
-
-IMAGEN AYUDA HOLA MUNDO MEJORA 2
 
 </div>
 
@@ -214,25 +202,19 @@ IMAGEN AYUDA HOLA MUNDO MEJORA 2
 
 Crea un **objeto** en EchidnaML que cambie de **disfraz** para simular en la pantalla el mismo parpadeo que ocurre en la placa.
 
-<div class="pista">
-
-**Pista:** para sincronizar el objeto LED, lo podemos hacer mediante **mensajes**.
-
-</div>
-
 ---
 
 ## Mejóralo 3: Ayuda
 
-<div class="pendiente">
+<div class="pista">
 
-IMAGEN AYUDA HOLA MUNDO MEJORA 3
+**Ayuda:** para sincronizar el objeto LED, lo podemos hacer mediante **mensajes**.
 
 </div>
 
 <div class="pendiente">
 
-IMAGEN DISFRACES LED
+IMAGEN AYUDA HOLA MUNDO MEJORA 3
 
 </div>
 

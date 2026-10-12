@@ -119,8 +119,13 @@ alumnado que empiezan con la placa.
       `3 Mejóralo` y `4 Evaluación`.
     - **1**: El reto, Qué vamos a aprender, Componentes y Programación (el
       único bloque del 1.2, con `.img-bloque`). **2**: El programa y Cómo
-      funciona. **3**: una diapositiva por reto con su `.pista` y otra de
-      Ayuda; las Pistas pueden ampliar las de la guía sin llevarlas a ella.
+      funciona. **3**: dos diapositivas por reto, la propuesta (solo el
+      enunciado) y otra con la ayuda. En los retos 1 y 2 es «Mejóralo N:
+      Pista», solo con el recuadro `.pista` («**Pista:** …»). En el 3 es
+      «Mejóralo 3: Ayuda», con el recuadro `.pista` encabezado
+      «**Ayuda:** …» y debajo un único marcador `.pendiente`
+      (`IMAGEN AYUDA <PROYECTO> MEJORA 3`), que se concreta en cada proyecto.
+      Las Pistas pueden ampliar las de la guía sin llevarlas a ella.
       **4**: Comprueba lo que sabes, He conseguido… y Qué he aprendido
       (objetivos del 1.1), las dos últimas con casillas (`.logros`).
     - **Cierre** (`_class: seccion`): ¡Enhorabuena! y el siguiente proyecto.
