@@ -105,7 +105,12 @@ alumnado que empiezan con la placa.
 - **Diapositivas para el docente** (`slides/`, Marp, tema `echidna`): una
   presentación por proyecto, `slides/<sección>/NN-nombre.md` con el mismo
   nombre que el proyecto y `footer` «N.M Título · Proyectos de inicio con
-  EchidnaML». Se publican solo en PDF (sin GIF ni «Paso a paso»). Estructura
+  EchidnaML». Se publican solo en PDF (sin GIF ni «Paso a paso»): el CI los
+  genera en `diapositivas/<sección>/NN-nombre.pdf` de GitHub Pages y la web
+  de Echidna los enlaza con una miniatura de la portada en
+  <https://echidnaeducacion.github.io/docentes/proyectos-inicio-echidnaml/diapositivas/>
+  (repo `EchidnaEducacion.github.io`). Al añadir una presentación, añade
+  también allí su tarjeta y su miniatura. Estructura
   fija, tomando el piloto `slides/02-echidnablocks/01-hola-mundo.md` como
   plantilla:
     - **Portada** (`_class: portada`, `_footer: "Echidna Educación"`):
@@ -158,8 +163,9 @@ alumnado que empiezan con la placa.
   en un único documento (portada maquetada en HTML, índice con página real
   de secciones y proyectos, un salto de página por sección y por proyecto).
   Requiere `zensical build --clean` previo.
-- `.github/workflows/docs.yml`: publicación en GitHub Pages (web + PDF) al
-  hacer push a `main`. `.gitlab-ci.yml`: GitLab Pages (sin PDF).
+- `.github/workflows/docs.yml`: publicación en GitHub Pages (web, PDF y
+  diapositivas en `diapositivas/`) al hacer push a `main`. `.gitlab-ci.yml`:
+  GitLab Pages (sin PDF ni diapositivas).
 
 ## Al empezar a trabajar
 
