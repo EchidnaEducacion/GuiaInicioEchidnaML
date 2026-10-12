@@ -212,9 +212,9 @@ Crea un **objeto** en EchidnaML que cambie de **disfraz** para simular en la pan
 
 </div>
 
-<div class="pendiente">
+<div class="centro">
 
-IMAGEN AYUDA HOLA MUNDO MEJORA 3
+![width:1136px Bloques para sincronizar el LED virtual con mensajes](../assets/images/AyudaHolaMundo.png)
 
 </div>
 
