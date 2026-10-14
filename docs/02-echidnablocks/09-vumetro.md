@@ -52,7 +52,7 @@ SI NO:
         --> Se encienden los tres LED.
 ```
 
-Es probable que veas que los LED **parpadean** aunque el ruido sea constante. Esto ocurre porque la señal del sonido cambia muy deprisa: el micrófono capta las vibraciones de la onda sonora y cada lectura da un valor distinto. En la segunda propuesta de Mejóralo aprenderás a solucionarlo.
+Es probable que veas que los LED **parpadean** aunque el ruido sea constante. Esto ocurre porque la señal del sonido cambia muy deprisa: el micrófono capta las vibraciones de la onda sonora y cada lectura da un valor distinto. En la primera propuesta de Mejóralo aprenderás a solucionarlo.
 
 ## 3. Mejóralo
 
