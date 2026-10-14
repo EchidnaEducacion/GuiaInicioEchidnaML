@@ -143,6 +143,14 @@ alumnado que empiezan con la placa.
       entrenar), `3 Programamos`, `4 Mejóralo` y `5 Evaluación`. En
       Programación va el bloque de LearningML del 1.2 y en Cómo funciona,
       la comprobación de confianza.
+    - **Introducciones** (`00-introduccion.md`, la primera de cada
+      sección): `2. Introducción a EchidnaBlocks` (con EchidnaML y
+      EchidnaBlack2, de `docs/01-introduccion.md` y
+      `docs/02-echidnablocks/index.md`) y `3. Introducción a LearningML`
+      (de `docs/03-ia/index.md`). Misma portada, pantallas naranjas,
+      cierre y licencia que los proyectos, pero sin Mejóralo: fases de
+      contenido y una `Evaluación` corta (Comprueba lo que sabes y Qué he
+      aprendido). El cierre lleva al primer proyecto de la sección.
     - **Cierre** (`_class: seccion`): ¡Enhorabuena! y el siguiente proyecto.
     - **Licencia**: la última diapositiva, tras el cierre y sin pantalla
       naranja (`.licencia` con la autoría y el resumen de la CC BY-SA).
