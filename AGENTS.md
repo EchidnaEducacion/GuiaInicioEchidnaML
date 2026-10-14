@@ -135,6 +135,14 @@ alumnado que empiezan con la placa.
       Las Pistas pueden ampliar las de la guía sin llevarlas a ella.
       **4**: Comprueba lo que sabes, He conseguido… y Qué he aprendido
       (objetivos del 1.1), las dos últimas con casillas (`.logros`).
+    - **Proyectos con IA** (`slides/03-ia/`, plantilla
+      `slides/03-ia/01-asistente-virtual.md`): cinco fases, con una nueva
+      tras la 1 que sigue el apartado 2 de la guía: `1 Qué vamos a hacer`,
+      `2 Entrenamos el modelo` (una diapositiva por fase de LearningML:
+      Entrenar: clases y ejemplos, Aprender y Probar, que incluye volver a
+      entrenar), `3 Programamos`, `4 Mejóralo` y `5 Evaluación`. En
+      Programación va el bloque de LearningML del 1.2 y en Cómo funciona,
+      la comprobación de confianza.
     - **Cierre** (`_class: seccion`): ¡Enhorabuena! y el siguiente proyecto.
     - **Licencia**: la última diapositiva, tras el cierre y sin pantalla
       naranja (`.licencia` con la autoría y el resumen de la CC BY-SA).
