@@ -206,6 +206,23 @@ Las zonas se comprueban de la más fría a la más caliente: < 10, < 20,
 
 ---
 
+## Mejóralo 2: Ayuda
+
+<div class="dos-columnas">
+<div class="pista">
+
+**Ayuda:** en la web podemos usar un selector de colores y copiar su código RGB. En la imagen hemos elegido el naranja Echidna, que tiene los valores R = `254`, G = `109` y B = `4`.
+
+</div>
+<div class="centro">
+
+![Selector de colores con el naranja Echidna](../assets/images/Selector_colores_RGB.png)
+
+</div>
+</div>
+
+---
+
 ## Mejóralo 3: Arcoíris
 
 Crea una **variable** y usa un bucle `repetir` para que el LED RGB pase **poco a poco del azul al rojo**.
