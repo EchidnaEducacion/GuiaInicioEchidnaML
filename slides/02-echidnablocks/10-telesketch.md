@@ -243,17 +243,11 @@ Haz que el lápiz avance **más o menos pasos** según **cuánto** muevas la pal
 
 ---
 
-## Mejóralo 3: Ayuda
+## Mejóralo 3: Pista
 
 <div class="pista">
 
-**Ayuda:** usa los bloques `cambiar x en` y `cambiar y en` con el valor de cada eje **menos 512** (para que en reposo valga 0) y divídelo, por ejemplo, **entre 50**.
-
-</div>
-
-<div class="pendiente">
-
-IMAGEN AYUDA TELESKETCH MEJORA 3
+**Pista:** usa los bloques `cambiar x en` y `cambiar y en` con el valor de cada eje **menos 512** (para que en reposo valga 0) y divídelo, por ejemplo, **entre 50**.
 
 </div>
 
