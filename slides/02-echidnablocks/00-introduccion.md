@@ -52,10 +52,19 @@ Una **placa** con muchos componentes y un **entorno de programación** hecho a s
 
 ## Las herramientas de EchidnaML
 
+<div class="centro">
+
+![EchidnaML = EchidnaBlocks + LearningML w:780](../assets/images/EchidnaML.png)
+
+</div>
+
 - **EchidnaBlocks:** el entorno de programación por **bloques**, basado en **Scratch**, con el que programamos la placa.
 - **LearningML:** la herramienta para crear modelos de **machine learning** que después usamos en nuestros programas. La veremos en los proyectos con IA.
 
-No necesitas saber programar, aunque te resultará más fácil si ya conoces **Scratch**.
+<!--
+Decir al alumnado: no necesitas saber programar, aunque te resultará más
+fácil si ya conoces Scratch.
+-->
 
 ---
 
@@ -126,6 +135,26 @@ Los componentes se clasifican en cuatro grupos según su función:
 
 ---
 
+## El microcontrolador
+
+<div class="dos-columnas" style="grid-template-columns: 3fr 2fr;">
+<div>
+
+- Es un **circuito integrado** formado por millones de circuitos.
+- Realiza **operaciones matemáticas** a gran velocidad.
+- Es **programable** con lenguajes de alto nivel.
+- Es el **«cerebro»** de muchas máquinas.
+
+</div>
+<div class="centro">
+
+![h:340px Microcontrolador](../assets/images/Microcontrolador.png)
+
+</div>
+</div>
+
+---
+
 <!-- _class: seccion -->
 
 ## **3** EchidnaBlocks
@@ -152,11 +181,9 @@ echidna y, arriba, el tipo de placa conectada y el puerto.
 
 ## Cómo se comunica con la placa
 
-Por el **puerto serie** (cable USB), la placa **envía** sus **sensores** y el programa le **devuelve** sus **actuadores**.
-
 <div class="centro">
 
-![h:380px Comunicación entre EchidnaBlocks y la placa](../assets/images/StandarFirmata-EchidnaBlocks.png)
+![h:500px Comunicación entre EchidnaBlocks y la placa](../assets/images/StandarFirmata-EchidnaBlocks.png)
 
 </div>
 
@@ -261,18 +288,24 @@ Comprueba lo que has aprendido
 
 ## Comprueba lo que sabes
 
-1. ¿Son **sensores** o **actuadores**: el zumbador, el micrófono, el LED RGB y el acelerómetro?
-2. ¿Qué hay que hacer **antes** de abrir EchidnaML?
-3. ¿Cómo se comunican EchidnaBlocks y la placa?
+1. Coge la placa e intenta recordar qué **componentes** lleva. ¿De cuántos te acuerdas? Completa la lista con tus compañeros.
+2. Clasifica los componentes según su **función**: **entrada** o **salida**.
+3. ¿Cómo se comunican EchidnaBlocks y la placa? ¿Cuál es la función del **microcontrolador**?
 4. ¿Dónde están los programas de los proyectos?
 
 <!--
 Respuestas:
-1. Actuadores: el zumbador y el LED RGB. Sensores: el micrófono y el
-   acelerómetro.
-2. Conectar la placa al ordenador con el cable USB.
+1. LEDs (rojo, amarillo y verde), pulsadores (SL y SR), zumbador, sensor
+   de luz (LDR), joystick, acelerómetro, sensor de temperatura, LED RGB,
+   micrófono y entrada MkMk.
+2. Entrada (sensores): pulsadores, LDR, joystick, acelerómetro, sensor de
+   temperatura, micrófono y entrada MkMk. Salida (actuadores): LEDs,
+   LED RGB y zumbador.
 3. Por el puerto serie, a través del cable USB: la placa envía los
    sensores y el programa le devuelve los actuadores.
+   El microcontrolador es el «cerebro» de la placa: recibe los datos de
+   las entradas, ejecuta las instrucciones del programa y envía las órdenes
+   a las salidas.
 4. En el menú Archivo → Ejemplos de EchidnaBlocks.
 -->
 
