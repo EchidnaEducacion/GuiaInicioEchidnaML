@@ -231,17 +231,11 @@ En cada vuelta, **suma 1 al rojo** y **resta 1 al azul**.
 
 ---
 
-## Mejóralo 3: Ayuda
+## Mejóralo 3: Pista
 
 <div class="pista">
 
-**Ayuda:** crea la variable `rojo` y fíjala a `0`. Dentro de `repetir 255`, pon `LED R G B` con R = `rojo`, G = `0` y B = `255 - rojo`, y después `cambiar rojo por 1`.
-
-</div>
-
-<div class="pendiente">
-
-IMAGEN AYUDA TERMÓMETRO DE COLORES MEJORA 3
+**Pista:** crea la variable `rojo` y fíjala a `0`. Dentro de `repetir 255`, pon `LED R G B` con R = `rojo`, G = `0` y B = `255 - rojo`, y después `cambiar rojo por 1`.
 
 </div>
 
