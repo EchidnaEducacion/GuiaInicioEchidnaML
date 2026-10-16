@@ -89,7 +89,7 @@ Entrenar, aprender y probar en LearningML
 
 ## Entrenar: clases y ejemplos
 
-<div class="dos-columnas">
+<div class="dos-columnas" style="grid-template-columns: 3fr 2fr;">
 <div>
 
 Abrimos LearningML, elegimos un modelo de **texto** y creamos dos **clases** con ejemplos de frases:
@@ -115,7 +115,7 @@ clasificará el modelo: la calidad del modelo depende de los datos.
 
 ## Aprender
 
-<div class="dos-columnas">
+<div class="dos-columnas" style="grid-template-columns: 3fr 2fr;">
 <div>
 
 Pulsamos **Aprender a reconocer textos**.
@@ -263,17 +263,11 @@ Añade las clases **Rojo**, **Verde** y **Azul** para que, además de encender y
 
 ---
 
-## Mejóralo 3: Ayuda
+## Mejóralo 3: Pista
 
 <div class="pista">
 
-**Ayuda:** cada clase nueva necesita sus ejemplos en LearningML y su propio `si` en el programa con el color del LED RGB.
-
-</div>
-
-<div class="pendiente">
-
-IMAGEN AYUDA ASISTENTE VIRTUAL MEJORA 3
+**Pista:** cada clase nueva necesita sus ejemplos en LearningML y su propio `si` en el programa con el color del LED RGB.
 
 </div>
 
