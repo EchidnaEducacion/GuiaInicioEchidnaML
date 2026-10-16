@@ -117,7 +117,7 @@ se escriben con punto (0.3).
 
 ## Aprender
 
-<div class="dos-columnas">
+<div class="dos-columnas" style="grid-template-columns: 3fr 2fr;">
 <div>
 
 Pulsamos **Aprender a reconocer números**.
@@ -263,17 +263,11 @@ Añade las clases **Adelante** y **Atrás** (inclinando la placa en el eje Y) pa
 
 ---
 
-## Mejóralo 3: Ayuda
+## Mejóralo 3: Pista
 
 <div class="pista">
 
-**Ayuda:** entrena las dos clases nuevas en LearningML y añade dos `si` más con `sumar a y 20` (Adelante) y `sumar a y -20` (Atrás).
-
-</div>
-
-<div class="pendiente">
-
-IMAGEN AYUDA MANDO DE INCLINACIÓN MEJORA 3
+**Pista:** entrena las dos clases nuevas en LearningML y añade dos `si` más con `sumar a y 20` (Adelante) y `sumar a y -20` (Atrás).
 
 </div>
 
