@@ -129,7 +129,7 @@ clases: si no, el modelo puede aprender el fondo en lugar del residuo.
 
 ## Aprender
 
-<div class="dos-columnas">
+<div class="dos-columnas" style="grid-template-columns: 3fr 2fr;">
 <div>
 
 Pulsamos **Aprender a reconocer imágenes**.
@@ -150,7 +150,7 @@ Con imágenes tarda **varios segundos**, y más cuantas más imágenes haya.
 
 ## Probar
 
-<div class="dos-columnas">
+<div class="dos-columnas" style="grid-template-columns: 3fr 2fr;">
 <div>
 
 Enseñamos a la cámara residuos **nuevos** y vemos su clase y su **confianza**.
@@ -262,17 +262,11 @@ Añade la clase **verde** (vidrio) con imágenes de botellas y tarros, un tercer
 
 ---
 
-## Mejóralo 3: Ayuda
+## Mejóralo 3: Pista
 
 <div class="pista">
 
-**Ayuda:** entrena la clase **verde** en LearningML, coloca el servo D4 a 90° al empezar y añade un tercer `si` con el servo D4 y el LED RGB en verde (R 0, G 255, B 0).
-
-</div>
-
-<div class="pendiente">
-
-IMAGEN AYUDA CLASIFICADOR DE RESIDUOS MEJORA 3
+**Pista:** entrena la clase **verde** en LearningML, coloca el servo D4 a 90° al empezar y añade un tercer `si` con el servo D4 y el LED RGB en verde (R 0, G 255, B 0).
 
 </div>
 
