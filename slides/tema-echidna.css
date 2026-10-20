@@ -135,23 +135,9 @@ section.portada {
   grid-template-rows: 1fr auto auto 1fr;
   column-gap: 48px;
   padding: 190px 72px 110px;
-  /* Logotipo y, debajo, tres franjas con los colores del logotipo que
-     salen del borde izquierdo, cada una más larga que la anterior. */
-  background-image:
-    url("../assets/images/pegataechidnaml.png"),
-    linear-gradient(#fca62b, #fca62b),
-    linear-gradient(#7d7372, #7d7372),
-    linear-gradient(#7bbe6e, #7bbe6e);
-  background-position:
-    left 60px top 24px,
-    left 0 top 196px,
-    left 0 top 211px,
-    left 0 top 226px;
-  background-size:
-    auto 160px,
-    266px 10px,
-    424px 10px,
-    585px 10px;
+  background-image: url("../assets/images/pegataechidnaml.png");
+  background-position: left 60px top 24px;
+  background-size: auto 160px;
 }
 
 section.portada > p:not(:has(img)) {
@@ -196,8 +182,7 @@ section.portada footer {
 
 /* Separador de apartado: fondo naranja; el título va en una banda blanca de
    lado a lado, con el número de la fase en negrita (`## **1** Título`)
-   grande y en naranja; debajo, el texto en blanco y tres franjas con los
-   colores del logotipo, la amarilla la más larga. */
+   grande y en naranja; debajo, el texto en blanco. */
 section.seccion {
   justify-content: center;
   background: var(--echidna-orange);
@@ -230,21 +215,6 @@ section.seccion h2 strong {
 section.seccion p { font-size: 34px; }
 section.seccion strong { color: #fff; }
 section.seccion footer, section.seccion::after { color: #fff; }
-
-section.seccion p:last-of-type::after {
-  content: "";
-  display: block;
-  width: 887px;
-  height: 40px;
-  margin: 10px 0 0 -72px;
-  background-image:
-    linear-gradient(#fca62b, #fca62b),
-    linear-gradient(#7d7372, #7d7372),
-    linear-gradient(#7bbe6e, #7bbe6e);
-  background-repeat: no-repeat;
-  background-position: left 0 top 0, left 0 top 15px, left 0 top 30px;
-  background-size: 887px 10px, 643px 10px, 403px 10px;
-}
 
 /* Texto a la izquierda e imagen a la derecha (o al revés). */
 .dos-columnas {
